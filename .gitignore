@@ -1,0 +1,5 @@
+bin/insoluble
+obj/*.o
+tmp
+.d
+*swp
