@@ -3,3 +3,4 @@ obj/*.o
 tmp
 .d
 *swp
+gutenberg
