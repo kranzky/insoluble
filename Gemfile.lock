@@ -3,6 +3,9 @@ GEM
   specs:
     awesome_print (1.8.0)
     byebug (10.0.2)
+    pragmatic_segmenter (0.3.22)
+      unicode
+    unicode (0.4.4.4)
 
 PLATFORMS
   ruby
@@ -10,6 +13,7 @@ PLATFORMS
 DEPENDENCIES
   awesome_print (~> 1.8)
   byebug (~> 10.0)
+  pragmatic_segmenter (~> 0.3)
 
 RUBY VERSION
    ruby 2.5.3p105
