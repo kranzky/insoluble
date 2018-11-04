@@ -7,12 +7,14 @@ require 'pragmatic_segmenter'
 def _each_sentence(lines)
   lines.map!(&:strip!)
   blob = lines.join(' ')
+  blob.gsub!(/\s*\[([^\[\]]+)\]\s*/, ' ')
+  blob.gsub!(/\s*\[([^\[\]]+)\]\s*/, ' ')
   ps = PragmaticSegmenter::Segmenter.new(text: blob)
   ps.segment.each do |line|
-    # remove text within square brackets from line
-    # ignore if all punctuation or empty
-    # tag as dialogue or exposition
-    yield line
+    next if line.strip.empty?
+    next if line !~ /[a-z]/
+    type = line[0] == '"' ? :dialogue : :exposition
+    yield [type, line]
   end
 end
 
@@ -35,7 +37,7 @@ def _each_chapter(lines)
   in_chapter = false
   in_preamble = false
   lines.each do |line|
-    if line =~ /^CHAPTER\s/ || line =~ /^[IVX]+(\s\.-)/ || line.strip =~ /^[IXV]+$/ || line =~ /^_Chapter/ || line =~ /Chapter/
+    if line =~ /^CHAPTER\s/ || line =~ /^[IVX]+(\s\.-)/ || line.strip =~ /^[IXV]+$/ || line =~ /^_Chapter/ || line =~ /^Chapter/
       yield chapter if chapter.length > 49
       chapter = []
       preamble = []
@@ -66,13 +68,13 @@ end
 
 def _process(filename)
   lines = File.readlines(filename)
-  count = 0
   _each_chapter(lines) do |chapter|
+    puts "CHAPTER"
     _each_paragraph(chapter) do |paragraph|
+      puts "PARAGRAPH"
       _each_sentence(paragraph) do |sentence|
-        # puts sentence
+        puts sentence.join(':')
       end
-      puts "==="
     end
   end
 end
