@@ -5,6 +5,8 @@ GEM
     byebug (10.0.2)
     pragmatic_segmenter (0.3.22)
       unicode
+    ruby-progressbar (1.10.0)
+    sooth (2.2.0)
     unicode (0.4.4.4)
 
 PLATFORMS
@@ -14,6 +16,8 @@ DEPENDENCIES
   awesome_print (~> 1.8)
   byebug (~> 10.0)
   pragmatic_segmenter (~> 0.3)
+  ruby-progressbar (~> 1.10)
+  sooth (~> 2.2)
 
 RUBY VERSION
    ruby 2.5.3p105
