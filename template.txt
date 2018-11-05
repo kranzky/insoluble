@@ -4995,3 +4995,5 @@ exposition:His creator, another version of Jay, compels him to act from a greate
 exposition:A name hovers on the tip of his tongue.
 exposition:Was it Jay's son?
 exposition:Something like that; he couldn't quite remember.
+PARAGRAPH
+exposition:Mike tightens the belt around his neck and steps up onto the wooden chair, knowing what he must do.
