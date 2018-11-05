@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require "awesome_print"
+require 'awesome_print'
 require 'byebug'
 require 'pragmatic_segmenter'
 require 'sooth'
@@ -124,7 +124,7 @@ dictionary = { "<error>" => 0, "<blank>" => 1 }
 next_predictor = Sooth::Predictor.new(0)
 prev_predictor = Sooth::Predictor.new(0)
 files = Dir.glob('gutenberg/*.txt').shuffle
-files = files[0..1]
+files = files[0..9]
 bar = ProgressBar.create(total: files.count)
 count = 0
 files.each do |filename|
