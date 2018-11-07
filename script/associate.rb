@@ -157,7 +157,7 @@ def _infomagnetism(predictor, observer, event, action)
   if p_action == 0 || p_event == 0 || p_action_given_event == 0 || p_action_and_event == 0
     return 0
   end
-  (Math.log2(p_action_given_event) - Math.log2(p_action)) / -Math.log2(p_action_and_event)
+  p_action_and_event * (Math.log2(p_action_given_event) - Math.log2(p_action)) / -Math.log2(p_action_and_event)
 end
 
 def _keywords(sentences, next_predictor, scan_predictor, observer, dictionary, decode, exposition_norms, dialogue_norms)
@@ -182,7 +182,7 @@ def _keywords(sentences, next_predictor, scan_predictor, observer, dictionary, d
     end
   end
   keywords = []
-  candidates = results.to_a.sort { |a, b| b[1] <=> a[1] }[0..4]
+  candidates = results.to_a.shuffle.sort { |a, b| b[1] <=> a[1] }[0..2]
   candidates.each do |v|
     keywords << v[0] if v[1] > 0
   end
