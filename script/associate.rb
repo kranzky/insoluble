@@ -14,12 +14,19 @@ def _each_sentence(lines)
   blob.gsub!(/[_]/, '')
   blob.gsub!(/\.\.\.+/, '…')
   ps = PragmaticSegmenter::Segmenter.new(text: blob)
+  results = []
   ps.segment.each do |line|
     next if line.strip.empty?
     next if line !~ /[a-z]/
     type = line[0] == '"' ? 'dialogue' : 'exposition'
+    if type == 'dialogue' && line.count('"') % 2 == 1
+      return
+    end
     puncs, norms, words = _decompose(line)
-    yield [type, norms]
+    results << [type, norms]
+  end
+  results.each do |result|
+    yield result
   end
 end
 
@@ -80,19 +87,16 @@ def _learn(predictor, prev_sentence, sentence, skip=false)
   end
 end
 
-def _process(filename, next_predictor, prev_predictor, scan_predictor, observer, dictionary, exposition_norms, dialogue_norms, dict=true)
+$count = 0
+def _process(filename, next_predictor, prev_predictor, scan_predictor, observer, dictionary, exposition_norms, dialogue_norms)
   lines = File.readlines(filename)
   _each_chapter(lines) do |chapter|
     _each_paragraph(chapter) do |paragraph|
       prev_sentence = [1]
       _each_sentence(paragraph) do |sentence|
         type = sentence.shift
-        sentence =
-          if dict
-            sentence.first.map { |word| dictionary[word] ||= dictionary.length }
-          else
-            sentence.first.map { |word| dictionary[word] }.compact
-          end
+        sentence = sentence.first.map { |word| dictionary[word] }.compact
+        $count += 1 if sentence.length > 0
         sentence.each do |norm|
           if type == 'exposition'
             exposition_norms << norm
@@ -155,13 +159,12 @@ def _infomagnetism(predictor, observer, event, action)
   if p_action == 0 || p_event == 0 || p_action_given_event == 0 || p_action_and_event == 0
     return 0
   end
-  confidence = p_action_and_event * predictor.uncertainty(event) / Math.log2(total)
-  confidence * (Math.log2(p_action_given_event) - Math.log2(p_action)) / -Math.log2(p_action_and_event)
+  (Math.log2(p_action_given_event) - Math.log2(p_action)) / -Math.log2(p_action_and_event)
 end
 
 def _keywords(sentences, next_predictor, prev_predictor, scan_predictor, observer, dictionary, decode, exposition_norms, dialogue_norms)
   return unless sentences.length == 3
-  results = Hash.new { |h, k| h[k] = 0 }
+  results = Hash.new { |h, k| h[k] = -1 }
   type = sentences[1].first
   limit =
     if type == 'exposition'
@@ -172,85 +175,69 @@ def _keywords(sentences, next_predictor, prev_predictor, scan_predictor, observe
   limit.each do |id|
     sentences[0].last.each do |word|
       force = _infomagnetism(next_predictor, observer, word, id)
-      results[id] += force
+      results[id] = force if force > results[id] && force < 1
     end
     sentences[1].last.each do |word|
       next if id == word
       force = _infomagnetism(scan_predictor, observer, word, id)
-      results[id] += force
+      results[id] = force if force > results[id] && force < 1
     end
     sentences[2].last.each do |word|
       force = _infomagnetism(prev_predictor, observer, word, id)
-      results[id] += force
+      results[id] = force if force > results[id] && force < 1
     end
   end
   keywords = []
-  candidates = results.to_a.sort { |a, b| b[1] <=> a[1] }[0..2]
+  candidates = results.to_a.sort { |a, b| b[1] <=> a[1] }[0..4]
   candidates.each do |v|
     keywords << v[0] if v[1] > 0
   end
+  keywords << candidates.first[0] if keywords.empty?
   [[sentences[1].first,sentences[1].last.length], keywords.map { |w| decode[w] }]
 end
 
 dictionary = { "<error>" => 0, "<blank>" => 1 }
+
+lines = File.readlines("template.txt")
+lines.each do |line|
+  line.strip!
+  next if ['CHAPTER','PARAGRAPH', 'SECTION'].include?(line) 
+  type, line = line.split(':')
+  puncs, norms, words = _decompose(line)
+  next if norms.nil? || norms.empty?
+  norms.each { |norm| dictionary[norm] ||= dictionary.length }
+end
+
+decode = Hash[dictionary.to_a.map(&:reverse)]
+
 next_predictor = Sooth::Predictor.new(0)
 prev_predictor = Sooth::Predictor.new(0)
 scan_predictor = Sooth::Predictor.new(0)
-template_norms = Set.new
+observer = Sooth::Predictor.new(0)
 exposition_norms = Set.new
 dialogue_norms = Set.new
-observer = Sooth::Predictor.new(0)
+
 files = Dir.glob('gutenberg/*.txt').shuffle
-files = files[0..99]
 bar = ProgressBar.create(total: files.count)
 files.each do |filename|
   _process(filename, next_predictor, prev_predictor, scan_predictor, observer, dictionary, exposition_norms, dialogue_norms)
   bar.increment
 end
 
-_process("insoluble.txt", next_predictor, prev_predictor, scan_predictor, observer, dictionary, exposition_norms, dialogue_norms, false)
-
-decode = Hash[dictionary.to_a.map(&:reverse)]
+puts $count
 
 lines = File.readlines("template.txt")
 sentences = []
 sentences << [:control, [1]]
 lines.each do |line|
   line.strip!
-  if ['CHAPTER','PARAGRAPH'].include?(line) 
-    next
-  end
-  type, line = line.split(':')
-  puncs, norms, words = _decompose(line)
-  next if norms.nil? || norms.empty?
-  norms.each do |norm|
-    template_norms << dictionary[norm]
-  end
-end
-
-if false
-  max = 0
-  dictionary.values.each do |event|
-    next if event < 2
-    dictionary.values.each do |action|
-      next if action < 2
-      next if event == action
-      force = _infomagnetism(scan_predictor, observer, event, action)
-      next if force <= max
-      max = force
-      puts "#{decode[event]}~#{decode[action]}:#{force}"
-    end
-  end
-end
-
-lines.each do |line|
-  line.strip!
-  if ['CHAPTER','PARAGRAPH'].include?(line) 
+  if ['CHAPTER','PARAGRAPH', 'SECTION'].include?(line) 
     sentences << [:control, [1]]
     sentences.shift while sentences.length > 3
     if sentences.length == 3
       keywords = _keywords(sentences, next_predictor, prev_predictor, scan_predictor, observer, dictionary, decode, exposition_norms, dialogue_norms)
-      puts "#{keywords.first.join(';')}:#{keywords.last.join(' ')}:#{sentences[1].last.map { |id| decode[id] }.join(' ')}"
+      puts "#{keywords.first.join(';')}:#{keywords.last.join(' ')}"
+      STDOUT.flush
     end
     sentences = []
     sentences << [:control, [1]]
@@ -265,13 +252,15 @@ lines.each do |line|
   sentences.shift while sentences.length > 3
   if sentences.length == 3
     keywords = _keywords(sentences, next_predictor, prev_predictor, scan_predictor, observer, dictionary, decode, exposition_norms, dialogue_norms)
-    puts "#{keywords.first.join(';')}:#{keywords.last.join(' ')}:#{sentences[1].last.map { |id| decode[id] }.join(' ')}"
-    sentences[1] = [sentences[1][0], sentences[1][1] | keywords.last.map { |id| dictionary[id] }]
+    puts "#{keywords.first.join(';')}:#{keywords.last.join(' ')}"
+    STDOUT.flush
+    # sentences[1] = [sentences[1].first, sentences[1].last | keywords.last.map { |word| dictionary[word] }]
   end
 end
 sentences << [:control, [1]]
 sentences.shift while sentences.length > 3
-  if sentences.length == 3
+if sentences.length == 3
   keywords = _keywords(sentences, next_predictor, prev_predictor, scan_predictor, observer, dictionary, decode, exposition_norms, dialogue_norms)
-  puts "#{keywords.first.join(';')}:#{keywords.last.join(' ')}:#{sentences[1].last.map { |id| decode[id] }.join(' ')}"
+  puts "#{keywords.first.join(';')}:#{keywords.last.join(' ')}"
+  STDOUT.flush
 end
