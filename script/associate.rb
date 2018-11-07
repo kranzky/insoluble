@@ -88,7 +88,7 @@ def _learn(predictor, prev_sentence, sentence, skip=false)
 end
 
 $count = 0
-def _process(filename, next_predictor, prev_predictor, scan_predictor, observer, dictionary, exposition_norms, dialogue_norms)
+def _process(filename, next_predictor, scan_predictor, observer, dictionary, exposition_norms, dialogue_norms)
   lines = File.readlines(filename)
   _each_chapter(lines) do |chapter|
     _each_paragraph(chapter) do |paragraph|
@@ -105,23 +105,21 @@ def _process(filename, next_predictor, prev_predictor, scan_predictor, observer,
           end
         end
         _learn(next_predictor, prev_sentence, sentence)
-        _learn(prev_predictor, sentence, prev_sentence)
         _learn(scan_predictor, sentence, sentence, true)
         unless sentence.first == 1
-          observer.observe(1, 1) # count number of sentences
+          observer.observe(1, 1)
           sentence.sort.uniq.each do |action|
-            observer.observe(action, 1) # count number of sentences action appears in
+            observer.observe(action, 1)
           end
         end
         prev_sentence = sentence
       end
       _learn(next_predictor, prev_sentence, [1])
-      _learn(prev_predictor, [1], prev_sentence)
       _learn(scan_predictor, prev_sentence, prev_sentence, true)
       unless prev_sentence.first == 1
-        observer.observe(1, 1) # count number of sentences
+        observer.observe(1, 1)
         prev_sentence.sort.uniq.each do |action|
-          observer.observe(action, 1) # count number of sentences action appears in
+          observer.observe(action, 1)
         end
       end
     end
@@ -162,7 +160,7 @@ def _infomagnetism(predictor, observer, event, action)
   (Math.log2(p_action_given_event) - Math.log2(p_action)) / -Math.log2(p_action_and_event)
 end
 
-def _keywords(sentences, next_predictor, prev_predictor, scan_predictor, observer, dictionary, decode, exposition_norms, dialogue_norms)
+def _keywords(sentences, next_predictor, scan_predictor, observer, dictionary, decode, exposition_norms, dialogue_norms)
   return unless sentences.length == 3
   results = Hash.new { |h, k| h[k] = -1 }
   type = sentences[1].first
@@ -175,16 +173,12 @@ def _keywords(sentences, next_predictor, prev_predictor, scan_predictor, observe
   limit.each do |id|
     sentences[0].last.each do |word|
       force = _infomagnetism(next_predictor, observer, word, id)
-      results[id] = force if force > results[id] && force < 1
+      results[id] = force if force > results[id]
     end
     sentences[1].last.each do |word|
       next if id == word
       force = _infomagnetism(scan_predictor, observer, word, id)
-      results[id] = force if force > results[id] && force < 1
-    end
-    sentences[2].last.each do |word|
-      force = _infomagnetism(prev_predictor, observer, word, id)
-      results[id] = force if force > results[id] && force < 1
+      results[id] = force if force > results[id]
     end
   end
   keywords = []
@@ -211,7 +205,6 @@ end
 decode = Hash[dictionary.to_a.map(&:reverse)]
 
 next_predictor = Sooth::Predictor.new(0)
-prev_predictor = Sooth::Predictor.new(0)
 scan_predictor = Sooth::Predictor.new(0)
 observer = Sooth::Predictor.new(0)
 exposition_norms = Set.new
@@ -220,7 +213,7 @@ dialogue_norms = Set.new
 files = Dir.glob('gutenberg/*.txt').shuffle
 bar = ProgressBar.create(total: files.count)
 files.each do |filename|
-  _process(filename, next_predictor, prev_predictor, scan_predictor, observer, dictionary, exposition_norms, dialogue_norms)
+  _process(filename, next_predictor, scan_predictor, observer, dictionary, exposition_norms, dialogue_norms)
   bar.increment
 end
 
@@ -235,7 +228,7 @@ lines.each do |line|
     sentences << [:control, [1]]
     sentences.shift while sentences.length > 3
     if sentences.length == 3
-      keywords = _keywords(sentences, next_predictor, prev_predictor, scan_predictor, observer, dictionary, decode, exposition_norms, dialogue_norms)
+      keywords = _keywords(sentences, next_predictor, scan_predictor, observer, dictionary, decode, exposition_norms, dialogue_norms)
       puts "#{keywords.first.join(';')}:#{keywords.last.join(' ')}"
       STDOUT.flush
     end
@@ -251,16 +244,16 @@ lines.each do |line|
   sentences << [type, sentence]
   sentences.shift while sentences.length > 3
   if sentences.length == 3
-    keywords = _keywords(sentences, next_predictor, prev_predictor, scan_predictor, observer, dictionary, decode, exposition_norms, dialogue_norms)
+    keywords = _keywords(sentences, next_predictor, scan_predictor, observer, dictionary, decode, exposition_norms, dialogue_norms)
     puts "#{keywords.first.join(';')}:#{keywords.last.join(' ')}"
+    sentences[1] = [sentences[1].first, keywords.last.map { |word| dictionary[word] }]
     STDOUT.flush
-    # sentences[1] = [sentences[1].first, sentences[1].last | keywords.last.map { |word| dictionary[word] }]
   end
 end
 sentences << [:control, [1]]
 sentences.shift while sentences.length > 3
 if sentences.length == 3
-  keywords = _keywords(sentences, next_predictor, prev_predictor, scan_predictor, observer, dictionary, decode, exposition_norms, dialogue_norms)
+  keywords = _keywords(sentences, next_predictor, scan_predictor, observer, dictionary, decode, exposition_norms, dialogue_norms)
   puts "#{keywords.first.join(';')}:#{keywords.last.join(' ')}"
   STDOUT.flush
 end
