@@ -96,28 +96,32 @@ def _process(filename, scan_predictor, observer, dictionary, exposition_norms, d
       _each_sentence(paragraph) do |sentence|
         type = sentence.shift
         sentence = sentence.first.map { |word| dictionary[word] }.compact
-        $count += 1 if sentence.length > 0
-        sentence.each do |norm|
-          if type == 'exposition'
-            exposition_norms << norm
-          elsif type == 'dialogue'
-            dialogue_norms << norm
+        if sentence.length > 0
+          $count += 1
+          sentence.each do |norm|
+            if type == 'exposition'
+              exposition_norms << norm
+            elsif type == 'dialogue'
+              dialogue_norms << norm
+            end
           end
-        end
-        _learn(scan_predictor, sentence, sentence, true)
-        unless sentence.first == 1
-          observer.observe(1, 1)
-          sentence.sort.uniq.each do |action|
-            observer.observe(action, 1)
+          _learn(scan_predictor, sentence, sentence, true)
+          unless sentence.first == 1
+            observer.observe(1, 1)
+            sentence.sort.uniq.each do |action|
+              observer.observe(action, 1)
+            end
           end
         end
         prev_sentence = sentence
       end
-      _learn(scan_predictor, prev_sentence, prev_sentence, true)
-      unless prev_sentence.first == 1
-        observer.observe(1, 1)
-        prev_sentence.sort.uniq.each do |action|
-          observer.observe(action, 1)
+      if prev_sentence.length > 0
+        _learn(scan_predictor, prev_sentence, prev_sentence, true)
+        unless prev_sentence.first == 1
+          observer.observe(1, 1)
+          prev_sentence.sort.uniq.each do |action|
+            observer.observe(action, 1)
+          end
         end
       end
     end
@@ -196,6 +200,8 @@ lines.each do |line|
   norms.each { |norm| dictionary[norm] ||= dictionary.length }
 end
 
+decode = Hash[dictionary.to_a.map(&:reverse)]
+
 scan_predictor = Sooth::Predictor.new(0)
 observer = Sooth::Predictor.new(0)
 exposition_norms = Set.new
@@ -210,15 +216,13 @@ end
 
 puts $count
 
-decode = Hash[dictionary.to_a.map(&:reverse)]
-
 lines = File.readlines("template.txt")
 sentences = []
-sentences << [:control, []]
+sentences << [:control, [1]]
 lines.each do |line|
   line.strip!
   if ['CHAPTER','PARAGRAPH', 'SECTION'].include?(line) 
-    sentences << [:control, []]
+    sentences << [:control, [1]]
     sentences.shift while sentences.length > 3
     if sentences.length == 3
       keywords = _keywords(sentences, scan_predictor, observer, dictionary, decode, exposition_norms, dialogue_norms)
@@ -226,7 +230,7 @@ lines.each do |line|
       STDOUT.flush
     end
     sentences = []
-    sentences << [:control, []]
+    sentences << [:control, [1]]
     puts line
     next
   end
@@ -242,7 +246,7 @@ lines.each do |line|
     STDOUT.flush
   end
 end
-sentences << [:control, []]
+sentences << [:control, [1]]
 sentences.shift while sentences.length > 3
 if sentences.length == 3
   keywords = _keywords(sentences, scan_predictor, observer, dictionary, decode, exposition_norms, dialogue_norms)
