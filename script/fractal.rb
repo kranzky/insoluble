@@ -78,19 +78,33 @@ def _each_chapter(lines)
   yield chapter if chapter.length > 49
 end
 
-def _learn(predictor, sentence, keywords)
+def _learn(predictor, sentence, keywords, universe)
   sentence << 1
   sentence.unshift(1)
   index = []
   sentence.each.with_index { |id, i| index << i if keywords.include?(id) }
   index.combination(2).each do |i, j|
-    context = [sentence[i], sentence[j]]
-    # TBD
+    context = (sentence[i]..sentence[j])
+    k = j-1
+    while k != i
+      event = universe[context] ||= universe.length
+      action = sentence[k]
+      predictor.observe(event, action)
+      context = (sentence[i]..sentence[k])
+      k -= 1
+    end
+    event = universe[context] ||= universe.length
+    action = 1
+    predictor.observe(event, action)
   end
 end
 
+def _generate(predictor, keywords)
+  return keywords
+end
+
 $count = 0
-def _process(filename, predictor, keywords, dictionary)
+def _process(filename, predictor, keywords, dictionary, universe)
   lines = File.readlines(filename)
   _each_chapter(lines) do |chapter|
     _each_paragraph(chapter) do |paragraph|
@@ -99,7 +113,7 @@ def _process(filename, predictor, keywords, dictionary)
         sentence = sentence.first.map { |word| dictionary[word] ||= dictionary.length }.compact
         next unless sentence.any? { |id| keywords.include?(id) }
         $count += 1
-        _learn(predictor, sentence, found)
+        _learn(predictor, sentence, keywords, universe)
       end
     end
   end
@@ -160,10 +174,16 @@ predictor = Sooth::Predictor.new(0)
 files = Dir.glob('gutenberg/*.txt').shuffle
 files = files[0..9]
 bar = ProgressBar.create(total: files.count)
+universe = {}
 files.each do |filename|
-  _process(filename, predictor, keywords, dictionary)
+  _process(filename, predictor, keywords, dictionary, universe)
   bar.increment
 end
 
 puts $count
 decode = Hash[dictionary.to_a.map(&:reverse)]
+
+10.times do
+  sentence = _generate(predictor, keywords.to_a.shuffle[0..2])
+  puts sentence.map { |id| decode[id] }.join(' ')
+end
