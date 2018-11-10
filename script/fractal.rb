@@ -84,6 +84,7 @@ def _learn(predictor, sentence, keywords, universe)
   index = []
   sentence.each.with_index { |id, i| index << i if keywords.include?(id) }
   index.combination(2).each do |i, j|
+    # TODO: skip blacklisted words
     context = (sentence[i]..sentence[j])
     k = j-1
     while k != i
@@ -142,16 +143,22 @@ def _generate_all(predictor, keywords, universe)
   sentences = []
   while length > 0
     keywords.combination(length).each do |index|
-      sentence = _generate(predictor, index, universe)
-      sentences << sentence unless sentence.nil?
+      100.times do
+        sentence = _generate(predictor, index.clone, universe)
+        sentences << sentence unless sentence.nil?
+      end
     end
     length -= 1
+  end
+  100.times do
+    sentence = _generate(predictor, [], universe)
+    sentences << sentence unless sentence.nil?
   end
   return sentences
 end
 
 $count = 0
-def _process(filename, predictor, keywords, dictionary, universe)
+def _process(filename, exposition_predictor, dialogue_predictor, keywords, dictionary, universe)
   lines = File.readlines(filename)
   _each_chapter(lines) do |chapter|
     _each_paragraph(chapter) do |paragraph|
@@ -160,7 +167,11 @@ def _process(filename, predictor, keywords, dictionary, universe)
         sentence = sentence.first.map { |word| dictionary[word] ||= dictionary.length }.compact
         next unless sentence.any? { |id| keywords.include?(id) }
         $count += 1
-        _learn(predictor, sentence, keywords, universe)
+        if type == "exposition"
+          _learn(exposition_predictor, sentence, keywords, universe)
+        elsif type == "dialogue"
+          _learn(dialogue_predictor, sentence, keywords, universe)
+        end
       end
     end
   end
@@ -188,13 +199,30 @@ def _decompose(line, maximum_length=1024)
   [puncs, norms, words]
 end
 
+def _choose_best(sentences, keywords, length)
+  sentence = nil
+  best_score = -1
+  best_diff = 1000
+  sentences.each do |candidate|
+    score = (candidate & keywords).count
+    diff = (candidate.length - length).abs
+    if diff < (best_diff - best_score * 5)
+      best_score = score
+      best_diff = diff
+      sentence = candidate
+    end
+  end
+  sentence
+end
+
 dictionary = { "<error>" => 0, "<blank>" => 1 }
 
 lines = File.readlines("keywords.txt")
 lines.each do |line|
   line.strip!
   next if ['CHAPTER','PARAGRAPH', 'SECTION'].include?(line)
-  type, line = line.split(':')
+  tmp, line = line.split(':')
+  type, length = tmp.split(';')
   puncs, norms, words = _decompose(line)
   next if norms.nil? || norms.empty?
   norms.each { |norm| dictionary[norm] ||= dictionary.length }
@@ -206,15 +234,14 @@ dictionary.values.each do |id|
   keywords << id
 end
 
-# TODO: two predictors; one for dialogue and one for exposition
-predictor = Sooth::Predictor.new(0)
+exposition_predictor = Sooth::Predictor.new(0)
+dialogue_predictor = Sooth::Predictor.new(0)
 
 files = Dir.glob('gutenberg/*.txt').shuffle
-files = files[0..99]
 bar = ProgressBar.create(total: files.count)
 universe = {}
 files.each do |filename|
-  _process(filename, predictor, keywords, dictionary, universe)
+  _process(filename, exposition_predictor, dialogue_predictor, keywords, dictionary, universe)
   bar.increment
 end
 
@@ -228,17 +255,21 @@ lines.each do |line|
     puts line
     next
   end
-  type, line = line.split(':')
+  tmp, line = line.split(':')
+  type, length = tmp.split(';')
   puncs, norms, words = _decompose(line)
   next if norms.nil? || norms.empty?
   keywords = norms.map { |norm| dictionary[norm] }
-  sentences = _generate_all(predictor, keywords, universe)
-  # TODO: heuristic to select best generation
-  # TODO: repair generated text to insert punctuation and correct case
-  sentence = sentences.sample
+  sentences =
+    if type == "exposition"
+      _generate_all(exposition_predictor, keywords, universe)
+    elsif type == "dialogue"
+      _generate_all(dialogue_predictor, keywords, universe)
+    end
+  sentence = _choose_best(sentences, keywords, length.to_i)
   if sentence.nil?
-    puts "..."
+    puts "#{type}:..."
   else
-    puts sentence.map { |id| decode[id] }.join(' ')
+    puts "#{type}:#{sentence.map { |id| decode[id] }.join(' ')}"
   end
 end
