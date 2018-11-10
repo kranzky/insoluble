@@ -190,19 +190,15 @@ end
 
 dictionary = { "<error>" => 0, "<blank>" => 1 }
 
-# lines = File.readlines("keywords.txt")
-# lines.each do |line|
-#   line.strip!
-#   next if ['CHAPTER','PARAGRAPH', 'SECTION'].include?(line) 
-#   type, line = line.split(':')
-#   puncs, norms, words = _decompose(line)
-#   next if norms.nil? || norms.empty?
-#   norms.each { |norm| dictionary[norm] ||= dictionary.length }
-# end
-dictionary["TELEPHONE"] ||= dictionary.length
-dictionary["BENT"] ||= dictionary.length
-dictionary["SCREAMED"] ||= dictionary.length
-dictionary["LIPS"] ||= dictionary.length
+lines = File.readlines("keywords.txt")
+lines.each do |line|
+  line.strip!
+  next if ['CHAPTER','PARAGRAPH', 'SECTION'].include?(line)
+  type, line = line.split(':')
+  puncs, norms, words = _decompose(line)
+  next if norms.nil? || norms.empty?
+  norms.each { |norm| dictionary[norm] ||= dictionary.length }
+end
 
 keywords = Set.new
 dictionary.values.each do |id|
@@ -210,6 +206,7 @@ dictionary.values.each do |id|
   keywords << id
 end
 
+# TODO: two predictors; one for dialogue and one for exposition
 predictor = Sooth::Predictor.new(0)
 
 files = Dir.glob('gutenberg/*.txt').shuffle
@@ -224,9 +221,24 @@ end
 puts $count
 decode = Hash[dictionary.to_a.map(&:reverse)]
 
-10.times do
-  sentences = _generate_all(predictor, keywords.to_a[1..-1].shuffle[0..2], universe)
-  sentences.each do |sentence|
+lines = File.readlines("keywords.txt")
+lines.each do |line|
+  line.strip!
+  if ['CHAPTER','PARAGRAPH', 'SECTION'].include?(line)
+    puts line
+    next
+  end
+  type, line = line.split(':')
+  puncs, norms, words = _decompose(line)
+  next if norms.nil? || norms.empty?
+  keywords = norms.map { |norm| dictionary[norm] }
+  sentences = _generate_all(predictor, keywords, universe)
+  # TODO: heuristic to select best generation
+  # TODO: repair generated text to insert punctuation and correct case
+  sentence = sentences.sample
+  if sentence.nil?
+    puts "..."
+  else
     puts sentence.map { |id| decode[id] }.join(' ')
   end
 end
