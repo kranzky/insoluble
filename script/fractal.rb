@@ -99,8 +99,55 @@ def _learn(predictor, sentence, keywords, universe)
   end
 end
 
-def _generate(predictor, keywords)
-  return keywords
+def _generate_segment(predictor, context, universe)
+  segment = []
+  final = context.last
+  while true
+    event = universe[context]
+    if event.nil? || predictor.count(event) == 0
+      event = universe[(1..context.last)]
+    end
+    return if event.nil?
+    count = predictor.count(event)
+    return if count == 0
+    limit = rand(1..count)
+    action = predictor.select(event, limit)
+    return if action.nil?
+    break if action == 1
+    segment << action
+    context = (context.first..action)
+  end
+  segment.reverse!
+  segment << final unless final == 1
+  return segment
+end
+
+def _generate(predictor, keywords, universe)
+  segments = []
+  sentence = []
+  keywords << 1
+  context = (1..keywords.shift)
+  while true
+    segment = _generate_segment(predictor, context, universe)
+    return if segment.nil?
+    segments << segment
+    break if keywords.empty?
+    context = (context.last..keywords.shift)
+  end
+  return segments.flatten
+end
+
+def _generate_all(predictor, keywords, universe)
+  length = keywords.length
+  sentences = []
+  while length > 0
+    keywords.combination(length).each do |index|
+      sentence = _generate(predictor, index, universe)
+      sentences << sentence unless sentence.nil?
+    end
+    length -= 1
+  end
+  return sentences
 end
 
 $count = 0
@@ -153,14 +200,8 @@ dictionary = { "<error>" => 0, "<blank>" => 1 }
 #   norms.each { |norm| dictionary[norm] ||= dictionary.length }
 # end
 dictionary["TELEPHONE"] ||= dictionary.length
-dictionary["PURPLE"] ||= dictionary.length
-dictionary["LOUNGE"] ||= dictionary.length
-dictionary["BANANA"] ||= dictionary.length
-dictionary["ANGRY"] ||= dictionary.length
-dictionary["SCREAMED"] ||= dictionary.length
-dictionary["WALKED"] ||= dictionary.length
 dictionary["BENT"] ||= dictionary.length
-dictionary["WAVE"] ||= dictionary.length
+dictionary["SCREAMED"] ||= dictionary.length
 dictionary["LIPS"] ||= dictionary.length
 
 keywords = Set.new
@@ -172,7 +213,7 @@ end
 predictor = Sooth::Predictor.new(0)
 
 files = Dir.glob('gutenberg/*.txt').shuffle
-files = files[0..9]
+files = files[0..99]
 bar = ProgressBar.create(total: files.count)
 universe = {}
 files.each do |filename|
@@ -184,6 +225,8 @@ puts $count
 decode = Hash[dictionary.to_a.map(&:reverse)]
 
 10.times do
-  sentence = _generate(predictor, keywords.to_a.shuffle[0..2])
-  puts sentence.map { |id| decode[id] }.join(' ')
+  sentences = _generate_all(predictor, keywords.to_a[1..-1].shuffle[0..2], universe)
+  sentences.each do |sentence|
+    puts sentence.map { |id| decode[id] }.join(' ')
+  end
 end
