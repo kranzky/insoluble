@@ -18,6 +18,7 @@ def _each_sentence(lines)
   ps.segment.each do |line|
     next if line.strip.empty?
     next if line !~ /[a-z]/
+    next if line =~ /[0-9]/
     type = line[0] == '"' ? 'dialogue' : 'exposition'
     if type == 'dialogue' && line.count('"') % 2 == 1
       return
@@ -78,18 +79,18 @@ def _each_chapter(lines)
   yield chapter if chapter.length > 49
 end
 
-def _learn(predictor, sentence, keywords, universe)
+def _learn(predictor, sentence, keywords, universe, blacklist)
+  return false if sentence.any? { |id| blacklist.include?(id) }
   sentence << 1
   sentence.unshift(1)
   index = []
   sentence.each.with_index { |id, i| index << i if keywords.include?(id) }
   index.combination(2).each do |i, j|
-    # TODO: skip blacklisted words
     context = (sentence[i]..sentence[j])
     k = j-1
     while k != i
-      event = universe[context] ||= universe.length
       action = sentence[k]
+      event = universe[context] ||= universe.length
       predictor.observe(event, action)
       context = (sentence[i]..sentence[k])
       k -= 1
@@ -98,10 +99,12 @@ def _learn(predictor, sentence, keywords, universe)
     action = 1
     predictor.observe(event, action)
   end
+  true
 end
 
 def _generate_segment(predictor, context, universe)
   segment = []
+  first = context.first
   final = context.last
   while true
     event = universe[context]
@@ -116,7 +119,7 @@ def _generate_segment(predictor, context, universe)
     return if action.nil?
     break if action == 1
     segment << action
-    context = (context.first..action)
+    context = (first..action)
   end
   segment.reverse!
   segment << final unless final == 1
@@ -150,15 +153,17 @@ def _generate_all(predictor, keywords, universe)
     end
     length -= 1
   end
-  100.times do
-    sentence = _generate(predictor, [], universe)
-    sentences << sentence unless sentence.nil?
+  if sentences.empty?
+    100.times do
+      sentence = _generate(predictor, [], universe)
+      sentences << sentence unless sentence.nil?
+    end
   end
   return sentences
 end
 
 $count = 0
-def _process(filename, exposition_predictor, dialogue_predictor, keywords, dictionary, universe)
+def _process(filename, exposition_predictor, dialogue_predictor, keywords, dictionary, universe, blacklist)
   lines = File.readlines(filename)
   _each_chapter(lines) do |chapter|
     _each_paragraph(chapter) do |paragraph|
@@ -166,11 +171,10 @@ def _process(filename, exposition_predictor, dialogue_predictor, keywords, dicti
         type = sentence.shift
         sentence = sentence.first.map { |word| dictionary[word] ||= dictionary.length }.compact
         next unless sentence.any? { |id| keywords.include?(id) }
-        $count += 1
         if type == "exposition"
-          _learn(exposition_predictor, sentence, keywords, universe)
+          $count += 1 if _learn(exposition_predictor, sentence, keywords, universe, blacklist)
         elsif type == "dialogue"
-          _learn(dialogue_predictor, sentence, keywords, universe)
+          $count +=1 if _learn(dialogue_predictor, sentence, keywords, universe, blacklist)
         end
       end
     end
@@ -206,7 +210,7 @@ def _choose_best(sentences, keywords, length)
   sentences.each do |candidate|
     score = (candidate & keywords).count
     diff = (candidate.length - length).abs
-    if diff < (best_diff - best_score * 5)
+    if diff < (best_diff - best_score * 2)
       best_score = score
       best_diff = diff
       sentence = candidate
@@ -234,6 +238,14 @@ dictionary.values.each do |id|
   keywords << id
 end
 
+blacklist = Set.new
+words = File.readlines("blacklist.txt")
+words.each do |word|
+  word.strip!
+  dictionary[word] ||= dictionary.length
+  blacklist << dictionary[word]
+end
+
 exposition_predictor = Sooth::Predictor.new(0)
 dialogue_predictor = Sooth::Predictor.new(0)
 
@@ -241,7 +253,7 @@ files = Dir.glob('gutenberg/*.txt').shuffle
 bar = ProgressBar.create(total: files.count)
 universe = {}
 files.each do |filename|
-  _process(filename, exposition_predictor, dialogue_predictor, keywords, dictionary, universe)
+  _process(filename, exposition_predictor, dialogue_predictor, keywords, dictionary, universe, blacklist)
   bar.increment
 end
 
