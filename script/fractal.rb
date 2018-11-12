@@ -146,7 +146,7 @@ def _generate_all(predictor, keywords, universe)
   sentences = []
   while length > 0
     keywords.combination(length).each do |index|
-      100.times do
+      1000.times do
         sentence = _generate(predictor, index.clone, universe)
         sentences << sentence unless sentence.nil?
       end
