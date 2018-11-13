@@ -210,7 +210,7 @@ def _choose_best(sentences, keywords, length)
   sentences.each do |candidate|
     score = (candidate & keywords).count
     diff = (candidate.length - length).abs
-    if diff < (best_diff - best_score * 2)
+    if diff < (best_diff - best_score)
       best_score = score
       best_diff = diff
       sentence = candidate
