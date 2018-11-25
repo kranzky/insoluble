@@ -219,71 +219,62 @@ def _choose_best(sentences, keywords, length)
   [[best_score, best_diff], sentence]
 end
 
+title = nil
+author = nil
+chapters = []
+format = File.readlines("format.txt")
+format.each do |line|
+  line.strip!
+  if title.nil?
+    title = line
+  elsif author.nil?
+    author = line
+  else
+    chapters << line
+  end
+end
+
+novel = []
+novel << "# #{title}"
+novel << "### by #{author}"
+novel << ""
+
 dictionary = { "<error>" => 0, "<blank>" => 1 }
 
-lines = File.readlines("keywords.txt")
+paragraph = []
+lines = File.readlines("generated.txt")
 lines.each do |line|
   line.strip!
-  next if ['CHAPTER','PARAGRAPH', 'SECTION'].include?(line)
-  next unless line =~ /[;]/
-  tmp, line = line.split(':')
-  type, length = tmp.split(';')
-  puncs, norms, words = _decompose(line)
-  next if norms.nil? || norms.empty?
-  norms.each { |norm| dictionary[norm] ||= dictionary.length }
-end
-
-keywords = Set.new
-dictionary.values.each do |id|
-  next if id < 1
-  keywords << id
-end
-
-blacklist = Set.new
-words = File.readlines("blacklist.txt")
-words.each do |word|
-  word.strip!
-  dictionary[word] ||= dictionary.length
-  blacklist << dictionary[word]
-end
-
-exposition_predictor = Sooth::Predictor.new(0)
-dialogue_predictor = Sooth::Predictor.new(0)
-
-files = Dir.glob('gutenberg/*.txt').shuffle
-bar = ProgressBar.create(total: files.count)
-universe = {}
-files.each do |filename|
-  _process(filename, exposition_predictor, dialogue_predictor, keywords, dictionary, universe, blacklist)
-  bar.increment
-end
-
-puts $count
-decode = Hash[dictionary.to_a.map(&:reverse)]
-
-lines = File.readlines("keywords.txt")
-lines.each do |line|
-  line.strip!
-  if ['CHAPTER','PARAGRAPH', 'SECTION'].include?(line)
-    puts line
-    next
-  end
-  next unless line =~ /[;]/
-  tmp, line = line.split(':')
-  type, length = tmp.split(';')
-  puncs, norms, words = _decompose(line)
-  next if norms.nil? || norms.empty?
-  keywords = norms.map { |norm| dictionary[norm] }
-  sentences =
-    if type == "exposition"
-      _generate_all(exposition_predictor, keywords, universe)
-    elsif type == "dialogue"
-      _generate_all(dialogue_predictor, keywords, universe)
+  if line == "CHAPTER"
+    unless paragraph.empty?
+      novel << paragraph.join(" ")
+      paragraph = []
+      novel << ""
     end
-  score, sentence = _choose_best(sentences, keywords, length.to_i)
-  if sentence.nil?
-    puts "#{type}:..."
+    novel << "## #{chapters.shift}"
+    novel << ""
+  elsif line == "SECTION"
+    novel << paragraph.join(" ")
+    paragraph = []
+    novel << ""
+    novel << "---"
+    novel << ""
+  elsif line == "PARAGRAPH"
+    novel << paragraph.join(" ")
+    paragraph = []
+    novel << ""
   else
-    puts "#{type};#{score.join(',')}:#{sentence.map { |id| decode[id] }.join(' ')}"
+    tmp, line = line.split(':')
+    type, length = tmp.split(';')
+    if type == 'exposition'
+      paragraph << "#{line.capitalize}."
+    elsif type == 'dialogue'
+      paragraph << "\"#{line.capitalize}.\""
+    end
   end
+end
+novel << paragraph.join(" ")
+
+novel.each do |line|
+  puts line
 end
