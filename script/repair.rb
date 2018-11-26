@@ -142,7 +142,7 @@ def _generate(predictor, keywords, universe)
 end
 
 def _generate_all(predictor, keywords, universe)
-  length = [keywords.length, 4].max
+  length = [keywords.length, 5].max
   sentences = []
   while length > 0
     keywords.permutation(length).each do |index|
@@ -210,7 +210,7 @@ def _choose_best(sentences, keywords, length)
   sentences.each do |candidate|
     score = (candidate & keywords).count
     diff = candidate.length - length
-    if diff >= 0 && (diff - score * 2) < (best_diff - best_score * 2)
+    if diff >= 0 && (diff - score * 3) < (best_diff - best_score * 3)
       best_score = score
       best_diff = diff
       sentence = candidate

@@ -86,14 +86,21 @@ def _learn(predictor, sentence, keywords, universe, blacklist)
   index = []
   sentence.each.with_index { |id, i| index << i if keywords.include?(id) }
   index.combination(2).each do |i, j|
-    context = (sentence[i]..sentence[j])
-    k = j-1
-    while k != i
+    h = i - 1
+    prev =
+      if h < 0
+        1
+      else
+        sentence[h]
+      end
+    context = [prev, sentence[i], sentence[j]]
+    k = i + 1
+    while k != j
       action = sentence[k]
       event = universe[context] ||= universe.length
       predictor.observe(event, action)
-      context = (sentence[i]..sentence[k])
-      k -= 1
+      context = [sentence[k-1], sentence[k], sentence[j]]
+      k += 1
     end
     event = universe[context] ||= universe.length
     action = 1
@@ -104,12 +111,10 @@ end
 
 def _generate_segment(predictor, context, universe)
   segment = []
-  first = context.first
-  final = context.last
   while true
     event = universe[context]
     if event.nil? || predictor.count(event) == 0
-      event = universe[(1..context.last)]
+      event = universe[[1,context[1],context[2]]]
     end
     return if event.nil?
     count = predictor.count(event)
@@ -118,11 +123,11 @@ def _generate_segment(predictor, context, universe)
     action = predictor.select(event, limit)
     return if action.nil?
     break if action == 1
+    prev = segment.last || 1
     segment << action
-    context = (first..action)
+    context = [prev, action, context.last]
   end
-  segment.reverse!
-  segment << final unless final == 1
+  segment << context.last unless context.last == 1
   return segment
 end
 
@@ -130,19 +135,25 @@ def _generate(predictor, keywords, universe)
   segments = []
   sentence = []
   keywords << 1
-  context = (1..keywords.shift)
+  context = [1, 1, keywords.shift]
   while true
     segment = _generate_segment(predictor, context, universe)
     return if segment.nil?
     segments << segment
     break if keywords.empty?
-    context = (context.last..keywords.shift)
+    prev =
+      if segment.length > 1
+        segment[-2]
+      else
+        1
+      end
+    context = [prev, segment.last, keywords.shift]
   end
   return segments.flatten
 end
 
 def _generate_all(predictor, keywords, universe)
-  length = [keywords.length, 4].max
+  length = [keywords.length, 3].max
   sentences = []
   while length > 0
     keywords.permutation(length).each do |index|
@@ -210,7 +221,7 @@ def _choose_best(sentences, keywords, length)
   sentences.each do |candidate|
     score = (candidate & keywords).count
     diff = candidate.length - length
-    if diff >= 0 && (diff - score * 2) < (best_diff - best_score * 2)
+    if diff >= 0 && (diff - score * 6) < (best_diff - best_score * 6)
       best_score = score
       best_diff = diff
       sentence = candidate
