@@ -24,7 +24,7 @@ def _each_sentence(lines)
       return
     end
     puncs, norms, words = _decompose(line)
-    results << [type, norms]
+    results << [type, [puncs, norms, words]]
   end
   results.each do |result|
     yield result
@@ -79,102 +79,45 @@ def _each_chapter(lines)
   yield chapter if chapter.length > 49
 end
 
-def _learn(predictor, sentence, keywords, universe, blacklist)
-  return false if sentence.any? { |id| blacklist.include?(id) }
-  sentence << 1
-  sentence.unshift(1)
-  index = []
-  sentence.each.with_index { |id, i| index << i if keywords.include?(id) }
-  index.combination(2).each do |i, j|
-    context = (sentence[i]..sentence[j])
-    k = j-1
-    while k != i
-      action = sentence[k]
-      event = universe[context] ||= universe.length
-      predictor.observe(event, action)
-      context = (sentence[i]..sentence[k])
-      k -= 1
-    end
+def _learn(case_predictor, punc_predictor, puncs, norms, words, universe, max)
+  return if norms.empty?
+  prev_norm = 1
+  norms.each.with_index do |norm, i|
+    next if norm > max
+    context = [prev_norm, norm]
     event = universe[context] ||= universe.length
-    action = 1
-    predictor.observe(event, action)
+    action = puncs[i]
+    punc_predictor.observe(event, action)
+    context = [prev_norm, action, norm]
+    event = universe[context] ||= universe.length
+    action = words[i]
+    case_predictor.observe(event, action)
+    prev_norm = norm
+  end
+  if norms.last <= max
+    context = [norms.last, 1]
+    event = universe[context] ||= universe.length
+    action = puncs.last
+    punc_predictor.observe(event, action)
   end
   true
 end
 
-def _generate_segment(predictor, context, universe)
-  segment = []
-  first = context.first
-  final = context.last
-  while true
-    event = universe[context]
-    if event.nil? || predictor.count(event) == 0
-      event = universe[(1..context.last)]
-    end
-    return if event.nil?
-    count = predictor.count(event)
-    return if count == 0
-    limit = rand(1..count)
-    action = predictor.select(event, limit)
-    return if action.nil?
-    break if action == 1
-    segment << action
-    context = (first..action)
-  end
-  segment.reverse!
-  segment << final unless final == 1
-  return segment
-end
-
-def _generate(predictor, keywords, universe)
-  segments = []
-  sentence = []
-  keywords << 1
-  context = (1..keywords.shift)
-  while true
-    segment = _generate_segment(predictor, context, universe)
-    return if segment.nil?
-    segments << segment
-    break if keywords.empty?
-    context = (context.last..keywords.shift)
-  end
-  return segments.flatten
-end
-
-def _generate_all(predictor, keywords, universe)
-  length = [keywords.length, 5].max
-  sentences = []
-  while length > 0
-    keywords.permutation(length).each do |index|
-      100.times do
-        sentence = _generate(predictor, index.clone, universe)
-        sentences << sentence unless sentence.nil?
-      end
-    end
-    length -= 1
-  end
-  if sentences.empty?
-    100.times do
-      sentence = _generate(predictor, [], universe)
-      sentences << sentence unless sentence.nil?
-    end
-  end
-  return sentences
-end
-
 $count = 0
-def _process(filename, exposition_predictor, dialogue_predictor, keywords, dictionary, universe, blacklist)
+def _process(filename, exposition_case_predictor, exposition_punc_predictor, dialogue_case_predictor, dialogue_punc_predictor, dictionary, universe, max)
   lines = File.readlines(filename)
   _each_chapter(lines) do |chapter|
     _each_paragraph(chapter) do |paragraph|
       _each_sentence(paragraph) do |sentence|
         type = sentence.shift
-        sentence = sentence.first.map { |word| dictionary[word] ||= dictionary.length }.compact
-        next unless sentence.any? { |id| keywords.include?(id) }
+        puncs, norms, words = sentence.first
+        puncs.map! { |word| dictionary[word] ||= dictionary.length }.compact
+        norms.map! { |word| dictionary[word] ||= dictionary.length }.compact
+        words.map! { |word| dictionary[word] ||= dictionary.length }.compact
         if type == "exposition"
-          $count += 1 if _learn(exposition_predictor, sentence, keywords, universe, blacklist)
+          $count += 1 if _learn(exposition_case_predictor, exposition_punc_predictor, puncs, norms, words, universe, max)
         elsif type == "dialogue"
-          $count +=1 if _learn(dialogue_predictor, sentence, keywords, universe, blacklist)
+          $count +=1 if _learn(dialogue_case_predictor, dialogue_punc_predictor, puncs, norms, words, universe, max)
         end
       end
     end
@@ -203,21 +146,77 @@ def _decompose(line, maximum_length=1024)
   [puncs, norms, words]
 end
 
-def _choose_best(sentences, keywords, length)
-  sentence = nil
-  best_score = -1
-  best_diff = 1000
-  sentences.each do |candidate|
-    score = (candidate & keywords).count
-    diff = candidate.length - length
-    if diff >= 0 && (diff - score * 3) < (best_diff - best_score * 3)
-      best_score = score
-      best_diff = diff
-      sentence = candidate
-    end
+def _repair(norms, case_predictor, punc_predictor, universe, decode)
+  puncs = []
+  words = []
+  prev_norm = 1
+  norms.each do |norm|
+    context = [prev_norm, norm]
+    event = universe[context] ||= universe.length
+    count = punc_predictor.count(event)
+    action =
+      if count == 0
+        0
+      else
+        limit = rand(1..count)
+        action = punc_predictor.select(event, limit)
+      end
+    puncs << action
+    context = [prev_norm, action, norm]
+    event = universe[context] ||= universe.length
+    count = case_predictor.count(event)
+    action =
+      if count == 0
+        0
+      else
+        limit = rand(1..count)
+        action = case_predictor.select(event, limit)
+      end
+    words << action
+    prev_norm = norm
   end
-  [[best_score, best_diff], sentence]
+  context = [norms.last, 1]
+  event = universe[context] ||= universe.length
+  count = punc_predictor.count(event)
+  action =
+    if count == 0
+      0
+    else
+      limit = rand(1..count)
+      action = punc_predictor.select(event, limit)
+    end
+  puncs << action
+  puncs.zip(words).flatten.compact.map { |id| decode[id] }.join
 end
+
+dictionary = { "<error>" => 0, "<blank>" => 1 }
+lines = File.readlines("generated.txt")
+lines.each do |line|
+  line.strip!
+  next if ['CHAPTER','PARAGRAPH', 'SECTION'].include?(line)
+  type, line = line.split(':')
+  puncs, norms, words = _decompose(line)
+  next if norms.nil? || norms.empty?
+  norms.each do |norm|
+    dictionary[norm] ||= dictionary.length
+  end
+end
+max = dictionary.length
+
+universe = {}
+exposition_case_predictor = Sooth::Predictor.new(0)
+exposition_punc_predictor = Sooth::Predictor.new(0)
+dialogue_case_predictor = Sooth::Predictor.new(0)
+dialogue_punc_predictor = Sooth::Predictor.new(0)
+files = Dir.glob('gutenberg/*.txt').shuffle
+bar = ProgressBar.create(total: files.count)
+files.each do |filename|
+  _process(filename, exposition_case_predictor, exposition_punc_predictor, dialogue_case_predictor, dialogue_punc_predictor, dictionary, universe, max)
+  bar.increment
+end
+
+puts $count
+decode = Hash[dictionary.to_a.map(&:reverse)]
 
 title = nil
 author = nil
@@ -239,8 +238,7 @@ novel << "# #{title}"
 novel << "### by #{author}"
 novel << ""
 
-dictionary = { "<error>" => 0, "<blank>" => 1 }
-
+count = 0
 paragraph = []
 lines = File.readlines("generated.txt")
 lines.each do |line|
@@ -251,7 +249,8 @@ lines.each do |line|
       paragraph = []
       novel << ""
     end
-    novel << "## #{chapters.shift}"
+    count += 1
+    novel << "## Chapter #{count}: #{chapters.shift}"
     novel << ""
   elsif line == "SECTION"
     novel << paragraph.join(" ")
@@ -266,10 +265,11 @@ lines.each do |line|
   else
     tmp, line = line.split(':')
     type, length = tmp.split(';')
+    norms = line.split(' ').map { |word| dictionary[word] || 0 }
     if type == 'exposition'
-      paragraph << "#{line.capitalize}."
+      paragraph << _repair(norms, exposition_case_predictor, exposition_punc_predictor, universe, decode)
     elsif type == 'dialogue'
-      paragraph << "\"#{line.capitalize}.\""
+      paragraph << _repair(norms, dialogue_case_predictor, dialogue_punc_predictor, universe, decode)
     end
   end
 end
