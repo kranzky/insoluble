@@ -99,28 +99,20 @@ def _learn(predictor, sentence, keywords, universe, blacklist)
     k = i + 1
     while k != j
       action = sentence[k]
-      $mutex.synchronize do
-        event = universe[context] ||= universe.length
-        predictor.observe(event, action)
-      end
+      event = universe[context] ||= universe.length
+      predictor.observe(event, action)
       context = [2, context[1], context[2]]
-      $mutex.synchronize do
-        event = universe[context] ||= universe.length
-        predictor.observe(event, action)
-      end
+      event = universe[context] ||= universe.length
+      predictor.observe(event, action)
       context = [sentence[k-1], sentence[k], sentence[j]]
       k += 1
     end
     action = 1
-    $mutex.synchronize do
-      event = universe[context] ||= universe.length
-      predictor.observe(event, action)
-    end
+    event = universe[context] ||= universe.length
+    predictor.observe(event, action)
     context = [2, context[1], context[2]]
-    $mutex.synchronize do
-      event = universe[context] ||= universe.length
-      predictor.observe(event, action)
-    end
+    event = universe[context] ||= universe.length
+    predictor.observe(event, action)
   end
   true
 end
@@ -197,7 +189,7 @@ def _process(filename, exposition_predictor, dialogue_predictor, keywords, dicti
       _each_sentence(paragraph) do |sentence|
         type = sentence.shift
         sentence = sentence.first.map do |word|
-          $mutex.synchronize { dictionary[word] ||= dictionary.length }
+          dictionary[word] ||= dictionary.length
         end
         sentence.compact!
         next unless sentence.any? { |id| keywords.include?(id) }
