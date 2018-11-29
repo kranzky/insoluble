@@ -239,7 +239,7 @@ exposition_case_predictor = Sooth::Predictor.new(0)
 exposition_punc_predictor = Sooth::Predictor.new(0)
 dialogue_case_predictor = Sooth::Predictor.new(0)
 dialogue_punc_predictor = Sooth::Predictor.new(0)
-files = Dir.glob('gutenberg/*.txt')#.shuffle
+files = Dir.glob('gutenberg/*.txt').shuffle
 bar = ProgressBar.create(total: files.count)
 files.each do |filename|
   _process(filename, exposition_case_predictor, exposition_punc_predictor, dialogue_case_predictor, dialogue_punc_predictor, dictionary, universe, max)

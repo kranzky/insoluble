@@ -284,7 +284,7 @@ end
 exposition_predictor = Sooth::Predictor.new(0)
 dialogue_predictor = Sooth::Predictor.new(0)
 
-files = Dir.glob('gutenberg/*.txt')
+files = Dir.glob('gutenberg/*.txt').shuffle
 bar = ProgressBar.create(total: files.count)
 universe = {}
 thread_files = Hash.new { |h, k| h[k] = [] }
