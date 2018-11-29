@@ -6,6 +6,8 @@ require 'pragmatic_segmenter'
 require 'sooth'
 require 'ruby-progressbar'
 
+THREADS = 32
+
 def _each_sentence(lines)
   lines.map!(&:strip!)
   blob = lines.join(' ')
@@ -97,14 +99,28 @@ def _learn(predictor, sentence, keywords, universe, blacklist)
     k = i + 1
     while k != j
       action = sentence[k]
-      event = universe[context] ||= universe.length
-      predictor.observe(event, action)
+      $mutex.synchronize do
+        event = universe[context] ||= universe.length
+        predictor.observe(event, action)
+      end
+      context = [2, context[1], context[2]]
+      $mutex.synchronize do
+        event = universe[context] ||= universe.length
+        predictor.observe(event, action)
+      end
       context = [sentence[k-1], sentence[k], sentence[j]]
       k += 1
     end
-    event = universe[context] ||= universe.length
     action = 1
-    predictor.observe(event, action)
+    $mutex.synchronize do
+      event = universe[context] ||= universe.length
+      predictor.observe(event, action)
+    end
+    context = [2, context[1], context[2]]
+    $mutex.synchronize do
+      event = universe[context] ||= universe.length
+      predictor.observe(event, action)
+    end
   end
   true
 end
@@ -114,7 +130,7 @@ def _generate_segment(predictor, context, universe)
   while true
     event = universe[context]
     if event.nil? || predictor.count(event) == 0
-      event = universe[[1,context[1],context[2]]]
+      event = universe[[2,context[1],context[2]]]
     end
     return if event.nil?
     count = predictor.count(event)
@@ -180,12 +196,19 @@ def _process(filename, exposition_predictor, dialogue_predictor, keywords, dicti
     _each_paragraph(chapter) do |paragraph|
       _each_sentence(paragraph) do |sentence|
         type = sentence.shift
-        sentence = sentence.first.map { |word| dictionary[word] ||= dictionary.length }.compact
+        sentence = sentence.first.map do |word|
+          $mutex.synchronize { dictionary[word] ||= dictionary.length }
+        end
+        sentence.compact!
         next unless sentence.any? { |id| keywords.include?(id) }
         if type == "exposition"
-          $count += 1 if _learn(exposition_predictor, sentence, keywords, universe, blacklist)
+          if _learn(exposition_predictor, sentence, keywords, universe, blacklist)
+            $mutex.synchronize { $count += 1 }
+          end
         elsif type == "dialogue"
-          $count +=1 if _learn(dialogue_predictor, sentence, keywords, universe, blacklist)
+          if _learn(dialogue_predictor, sentence, keywords, universe, blacklist)
+            $mutex.synchronize { $count += 1 }
+          end
         end
       end
     end
@@ -230,7 +253,7 @@ def _choose_best(sentences, keywords, length)
   [[best_score, best_diff], sentence]
 end
 
-dictionary = { "<error>" => 0, "<blank>" => 1 }
+dictionary = { "<error>" => 0, "<blank>" => 1, "<star>" => 2 }
 
 lines = File.readlines("keywords.txt")
 lines.each do |line|
@@ -261,13 +284,29 @@ end
 exposition_predictor = Sooth::Predictor.new(0)
 dialogue_predictor = Sooth::Predictor.new(0)
 
-files = Dir.glob('gutenberg/*.txt').shuffle
+files = Dir.glob('gutenberg/*.txt')
 bar = ProgressBar.create(total: files.count)
 universe = {}
+thread_files = Hash.new { |h, k| h[k] = [] }
+id = 0
 files.each do |filename|
-  _process(filename, exposition_predictor, dialogue_predictor, keywords, dictionary, universe, blacklist)
-  bar.increment
+  thread_files[id] << filename
+  id += 1
+  id %= THREADS
 end
+
+$mutex = Mutex.new
+threads = []
+thread_files.each do |id, files|
+  threads <<
+    Thread.new do
+      files.each do |filename|
+        _process(filename, exposition_predictor, dialogue_predictor, keywords, dictionary, universe, blacklist)
+        $mutex.synchronize { bar.increment }
+      end
+    end
+end
+threads.each { |thread| thread.join }
 
 puts $count
 decode = Hash[dictionary.to_a.map(&:reverse)]

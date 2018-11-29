@@ -83,15 +83,16 @@ def _learn(case_predictor, punc_predictor, puncs, norms, words, universe, max)
   return if norms.empty?
   prev_norm = 1
   norms.each.with_index do |norm, i|
-    next if norm > max
-    context = [prev_norm, norm]
-    event = universe[context] ||= universe.length
-    action = puncs[i]
-    punc_predictor.observe(event, action)
-    context = [prev_norm, action, norm]
-    event = universe[context] ||= universe.length
-    action = words[i]
-    case_predictor.observe(event, action)
+    if norm < max
+      context = [prev_norm, norm]
+      event = universe[context] ||= universe.length
+      action = puncs[i]
+      punc_predictor.observe(event, action)
+      context = [prev_norm, action, norm]
+      event = universe[context] ||= universe.length
+      action = words[i]
+      case_predictor.observe(event, action)
+    end
     prev_norm = norm
   end
   if norms.last <= max
@@ -146,47 +147,78 @@ def _decompose(line, maximum_length=1024)
   [puncs, norms, words]
 end
 
-def _repair(norms, case_predictor, punc_predictor, universe, decode)
+
+def _try_repair(norms, case_predictor, punc_predictor, universe)
   puncs = []
   words = []
   prev_norm = 1
   norms.each do |norm|
     context = [prev_norm, norm]
-    event = universe[context] ||= universe.length
-    count = punc_predictor.count(event)
+    event = universe[context]
     action =
-      if count == 0
-        0
+      if event.nil?
+        1
       else
-        limit = rand(1..count)
-        action = punc_predictor.select(event, limit)
+        count = punc_predictor.count(event)
+        if count == 0
+          0
+        else
+          limit = rand(1..count)
+          punc_predictor.select(event, limit)
+        end
       end
     puncs << action
     context = [prev_norm, action, norm]
-    event = universe[context] ||= universe.length
-    count = case_predictor.count(event)
+    event = universe[context]
     action =
-      if count == 0
-        0
+      if event.nil?
+        1
       else
-        limit = rand(1..count)
-        action = case_predictor.select(event, limit)
+        count = case_predictor.count(event)
+        if count == 0
+          0
+        else
+          limit = rand(1..count)
+          case_predictor.select(event, limit)
+        end
       end
     words << action
     prev_norm = norm
   end
   context = [norms.last, 1]
-  event = universe[context] ||= universe.length
-  count = punc_predictor.count(event)
+  event = universe[context]
   action =
-    if count == 0
-      0
+    if event.nil?
+      1
     else
-      limit = rand(1..count)
-      action = punc_predictor.select(event, limit)
+      count = punc_predictor.count(event)
+      if count == 0
+        0
+      else
+        limit = rand(1..count)
+        punc_predictor.select(event, limit)
+      end
     end
   puncs << action
-  puncs.zip(words).flatten.compact.map { |id| decode[id] }.join
+  [puncs, words]
+end
+
+def _evaluate(puncs)
+  line = puncs.join
+  return false if line.count('"') % 2 == 1
+  return false if line.count("'") % 2 == 1
+  return false if line.count("(") != line.count(")")
+  true
+end
+
+def _repair(norms, case_predictor, punc_predictor, universe, decode)
+  attempt = 0
+  while true
+    attempt += 1
+    puncs, words = _try_repair(norms, case_predictor, punc_predictor, universe)
+    next unless _evaluate(puncs.map { |punc| decode[punc] }) || attempt >= 100
+    return puncs.zip(words).flatten.compact.map { |id| decode[id] }.join
+  end
 end
 
 dictionary = { "<error>" => 0, "<blank>" => 1 }
@@ -195,8 +227,7 @@ lines.each do |line|
   line.strip!
   next if ['CHAPTER','PARAGRAPH', 'SECTION'].include?(line)
   type, line = line.split(':')
-  puncs, norms, words = _decompose(line)
-  next if norms.nil? || norms.empty?
+  norms = line.split(' ')
   norms.each do |norm|
     dictionary[norm] ||= dictionary.length
   end
@@ -208,7 +239,7 @@ exposition_case_predictor = Sooth::Predictor.new(0)
 exposition_punc_predictor = Sooth::Predictor.new(0)
 dialogue_case_predictor = Sooth::Predictor.new(0)
 dialogue_punc_predictor = Sooth::Predictor.new(0)
-files = Dir.glob('gutenberg/*.txt').shuffle
+files = Dir.glob('gutenberg/*.txt')#.shuffle
 bar = ProgressBar.create(total: files.count)
 files.each do |filename|
   _process(filename, exposition_case_predictor, exposition_punc_predictor, dialogue_case_predictor, dialogue_punc_predictor, dictionary, universe, max)
