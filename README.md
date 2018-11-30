@@ -47,19 +47,19 @@ but of a different kind). The final algorithm works like this:
 So, for example, this sentence in the template:
 
 ```
-dialogue:"Well, you have a binary tree, and you want to efficiently delete one its nodes while keeping it balanced, you know how to do that, right?"
+exposition:My wife burst out of bed and entered the bathroom, barely looking my way in the rush.
 ```
 
 Would be turned into the following three keywords, based on associations inferred from the _Gutenberg Dataset_:
 
 ```
-TBD
+PILOSA CONGLOMERATUS WHITE-RIMMED
 ```
 
 And these would be used to generate the final keywords, using the same associations:
 
 ```
-dialogue;23:TREE BREEZE SIGHED DROP SOFT
+exposition;15:RUSH WOOD LAUGHTER BURST FOLLOWING
 ```
 
 This is kinda-sorta like "translating" the sentence from _Insoluble_ to
@@ -102,13 +102,13 @@ as follows:
 For instance, for these keywords:
 
 ```
-dialogue;23:TREE BREEZE SIGHED DROP SOFT
+exposition;15:RUSH WOOD LAUGHTER BURST FOLLOWING
 ```
 
 The resulting generation is:
 
 ```
-dialogue;5,0:ONE DOESN'T QUITE IMPASSABLE FALLS EVERY TREE AND TAKE A SIGHT THAT SIGHED MAKES A SOFT BREEZE BLOWING REALLY DROP ON HIS HIDING-PLACE
+exposition;5,0:THEIR LAUGHTER OF WOOD OF THE SILENT LAUGHTER BUT THE RUSH BURST AWAY NORTHWARDS FOLLOWING
 ```
 
 This generation contains all five keywords, and is exactly the same word length as
@@ -131,13 +131,13 @@ language models from _Gutenberg_:
 For example, this generation:
 
 ```
-dialogue;5,0:ONE DOESN'T QUITE IMPASSABLE FALLS EVERY TREE AND TAKE A SIGHT THAT SIGHED MAKES A SOFT BREEZE BLOWING REALLY DROP ON HIS HIDING-PLACE
+exposition;5,0:THEIR LAUGHTER OF WOOD OF THE SILENT LAUGHTER BUT THE RUSH BURST AWAY NORTHWARDS FOLLOWING
 ```
 
 is repaired to:
 
 ```
-"One doesn't quite, impassable falls every tree and take a sight, that," sighed, "makes a soft breeze blowing really drop on his hiding-place."
+Their laughter of wood of the silent laughter, but the rush burst away northwards, following.
 ```
 
 ### Final Generation
