@@ -268,6 +268,8 @@ novel = []
 novel << "# #{title}"
 novel << "### by #{author}"
 novel << ""
+novel << "![lorenz](https://github.com/kranzky/insoluble/blob/master/lorenz.png)"
+novel << ""
 
 count = 0
 paragraph = []
@@ -305,6 +307,8 @@ lines.each do |line|
   end
 end
 novel << paragraph.join(" ")
+novel << ""
+novel << "## THE END"
 
 novel.each do |line|
   puts line
