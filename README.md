@@ -1,6 +1,7 @@
 # 🌀Insoluble
 
-This is my entry for NaNoGenMo 2018. You can read the generated novel here:
+This is my entry for [NaNoGenMo 2018](https://github.com/NaNoGenMo/2018).
+You can read the generated novel here:
 [Angela's Claustrum](https://github.com/kranzky/insoluble/blob/master/claustrum.md)
 
 ## How It Works
@@ -8,7 +9,7 @@ This is my entry for NaNoGenMo 2018. You can read the generated novel here:
 The general idea was to write some language modelling software, in C and Ruby,
 to generate a new novel using
 [Insoluble](https://github.com/kranzky/insoluble/blob/master/insoluble.md),
-the novel I wrote for NaNoWriMo 2016, as a template.
+the novel I wrote for NaNoWriMo 2015, as a template.
 
 ### Segmentation
 
@@ -46,7 +47,7 @@ but of a different kind). The final algorithm works like this:
 So, for example, this sentence in the template:
 
 ```
-exposition:I left soon after daybreak, bursting out into the fresh morning air, full of the sounds of a city awakening.
+dialogue:"Well, you have a binary tree, and you want to efficiently delete one its nodes while keeping it balanced, you know how to do that, right?"
 ```
 
 Would be turned into the following three keywords, based on associations inferred from the _Gutenberg Dataset_:
@@ -58,14 +59,14 @@ TBD
 And these would be used to generate the final keywords, using the same associations:
 
 ```
-exposition;18:AWAKENING THROBBING HOARSE BURSTING BLAZING
+dialogue;23:TREE BREEZE SIGHED DROP SOFT
 ```
 
 This is kinda-sorta like "translating" the sentence from _Insoluble_ to
 _Gutenberg_ and back again, using only statistics inferred from _Gutenberg_,
 yielding some keywords that we can then use to constrain sentence generation,
 along with a target word count that can be used to choose between multiple
-generations.
+generations (the `18` in the example above).
 
 Initially I only performed the process once, always ending up with lists of
 keywords that included a character names and _hapax legomena_ from _Gutenberg_,
@@ -101,13 +102,13 @@ as follows:
 For instance, for these keywords:
 
 ```
-exposition;18:AWAKENING THROBBING HOARSE BURSTING BLAZING
+dialogue;23:TREE BREEZE SIGHED DROP SOFT
 ```
 
 The resulting generation is:
 
 ```
-exposition;5,0:SUBSEQUENTLY LOST SIX AWAKENING AND HOARSE CHAFING OF THE BURSTING RENDING THROBBING SOUNDS AS THOUGH THE BLAZING SUN
+dialogue;5,0:ONE DOESN'T QUITE IMPASSABLE FALLS EVERY TREE AND TAKE A SIGHT THAT SIGHED MAKES A SOFT BREEZE BLOWING REALLY DROP ON HIS HIDING-PLACE
 ```
 
 This generation contains all five keywords, and is exactly the same word length as
@@ -130,13 +131,13 @@ language models from _Gutenberg_:
 For example, this generation:
 
 ```
-exposition;5,0:SUBSEQUENTLY LOST SIX AWAKENING AND HOARSE CHAFING OF THE BURSTING RENDING THROBBING SOUNDS AS THOUGH THE BLAZING SUN
+dialogue;5,0:ONE DOESN'T QUITE IMPASSABLE FALLS EVERY TREE AND TAKE A SIGHT THAT SIGHED MAKES A SOFT BREEZE BLOWING REALLY DROP ON HIS HIDING-PLACE
 ```
 
 is repaired to:
 
 ```
-TBD
+"One doesn't quite, impassable falls every tree and take a sight, that," sighed, "makes a soft breeze blowing really drop on his hiding-place."
 ```
 
 ### Final Generation
