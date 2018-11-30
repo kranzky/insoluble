@@ -6,8 +6,6 @@ require 'pragmatic_segmenter'
 require 'sooth'
 require 'ruby-progressbar'
 
-THREADS = 32
-
 def _each_sentence(lines)
   lines.map!(&:strip!)
   blob = lines.join(' ')
@@ -88,29 +86,16 @@ def _learn(predictor, sentence, keywords, universe, blacklist)
   index = []
   sentence.each.with_index { |id, i| index << i if keywords.include?(id) }
   index.combination(2).each do |i, j|
-    h = i - 1
-    prev =
-      if h < 0
-        1
-      else
-        sentence[h]
-      end
-    context = [prev, sentence[i], sentence[j]]
+    context = [sentence[i], sentence[j]]
     k = i + 1
     while k != j
       action = sentence[k]
       event = universe[context] ||= universe.length
       predictor.observe(event, action)
-      context = [2, context[1], context[2]]
-      event = universe[context] ||= universe.length
-      predictor.observe(event, action)
-      context = [sentence[k-1], sentence[k], sentence[j]]
+      context = [sentence[k], sentence[j]]
       k += 1
     end
     action = 1
-    event = universe[context] ||= universe.length
-    predictor.observe(event, action)
-    context = [2, context[1], context[2]]
     event = universe[context] ||= universe.length
     predictor.observe(event, action)
   end
@@ -121,9 +106,6 @@ def _generate_segment(predictor, context, universe)
   segment = []
   while true
     event = universe[context]
-    if event.nil? || predictor.count(event) == 0
-      event = universe[[2,context[1],context[2]]]
-    end
     return if event.nil?
     count = predictor.count(event)
     return if count == 0
@@ -131,9 +113,8 @@ def _generate_segment(predictor, context, universe)
     action = predictor.select(event, limit)
     return if action.nil?
     break if action == 1
-    prev = segment.last || 1
     segment << action
-    context = [prev, action, context.last]
+    context = [action, context.last]
   end
   segment << context.last unless context.last == 1
   return segment
@@ -143,7 +124,7 @@ def _generate(predictor, keywords, universe)
   segments = []
   sentence = []
   keywords << 1
-  context = [1, 1, keywords.shift]
+  context = [1, keywords.shift]
   while true
     segment = _generate_segment(predictor, context, universe)
     return if segment.nil?
@@ -161,7 +142,7 @@ def _generate(predictor, keywords, universe)
 end
 
 def _generate_all(predictor, keywords, universe)
-  length = [keywords.length, 3].max
+  length = [keywords.length, 5].max
   sentences = []
   while length > 0
     keywords.permutation(length).each do |index|
@@ -188,19 +169,12 @@ def _process(filename, exposition_predictor, dialogue_predictor, keywords, dicti
     _each_paragraph(chapter) do |paragraph|
       _each_sentence(paragraph) do |sentence|
         type = sentence.shift
-        sentence = sentence.first.map do |word|
-          dictionary[word] ||= dictionary.length
-        end
-        sentence.compact!
+        sentence = sentence.first.map { |word| dictionary[word] ||= dictionary.length }.compact
         next unless sentence.any? { |id| keywords.include?(id) }
         if type == "exposition"
-          if _learn(exposition_predictor, sentence, keywords, universe, blacklist)
-            $mutex.synchronize { $count += 1 }
-          end
+          $count += 1 if _learn(exposition_predictor, sentence, keywords, universe, blacklist)
         elsif type == "dialogue"
-          if _learn(dialogue_predictor, sentence, keywords, universe, blacklist)
-            $mutex.synchronize { $count += 1 }
-          end
+          $count +=1 if _learn(dialogue_predictor, sentence, keywords, universe, blacklist)
         end
       end
     end
@@ -245,7 +219,7 @@ def _choose_best(sentences, keywords, length)
   [[best_score, best_diff], sentence]
 end
 
-dictionary = { "<error>" => 0, "<blank>" => 1, "<star>" => 2 }
+dictionary = { "<error>" => 0, "<blank>" => 1 }
 
 lines = File.readlines("keywords.txt")
 lines.each do |line|
@@ -279,26 +253,10 @@ dialogue_predictor = Sooth::Predictor.new(0)
 files = Dir.glob('gutenberg/*.txt').shuffle
 bar = ProgressBar.create(total: files.count)
 universe = {}
-thread_files = Hash.new { |h, k| h[k] = [] }
-id = 0
 files.each do |filename|
-  thread_files[id] << filename
-  id += 1
-  id %= THREADS
+  _process(filename, exposition_predictor, dialogue_predictor, keywords, dictionary, universe, blacklist)
+  bar.increment
 end
-
-$mutex = Mutex.new
-threads = []
-thread_files.each do |id, files|
-  threads <<
-    Thread.new do
-      files.each do |filename|
-        _process(filename, exposition_predictor, dialogue_predictor, keywords, dictionary, universe, blacklist)
-        $mutex.synchronize { bar.increment }
-      end
-    end
-end
-threads.each { |thread| thread.join }
 
 puts $count
 decode = Hash[dictionary.to_a.map(&:reverse)]
