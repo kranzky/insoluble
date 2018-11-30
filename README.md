@@ -66,7 +66,7 @@ This is kinda-sorta like "translating" the sentence from _Insoluble_ to
 _Gutenberg_ and back again, using only statistics inferred from _Gutenberg_,
 yielding some keywords that we can then use to constrain sentence generation,
 along with a target word count that can be used to choose between multiple
-generations (the `18` in the example above).
+generations (the `15` in the example above).
 
 Initially I only performed the process once, always ending up with lists of
 keywords that included a character names and _hapax legomena_ from _Gutenberg_,
