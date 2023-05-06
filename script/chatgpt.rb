@@ -38,6 +38,7 @@ unless book[:summary].empty?
 end
 
 chapter_count = book[:chapters].count
+done = false
 book[:chapters].each.with_index do |chapter, chapter_index|
   section_count = chapter[:sections].count
   chapter[:sections].each.with_index do |section, section_index|
@@ -58,11 +59,12 @@ book[:chapters].each.with_index do |chapter, chapter_index|
       exit if summary.nil?
       section[:generated] << response
       book[:summary] = summary
+      done = true
       break
     end
-    break
+    break if done
   end
-  break
+  break if done
 end
 
 File.write("book.json", JSON.pretty_generate(book))

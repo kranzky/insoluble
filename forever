@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+while :
+do
+  ./script/chatgpt.rb
+	sleep 30
+done
