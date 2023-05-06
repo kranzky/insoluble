@@ -6,28 +6,23 @@ require 'ruby-progressbar'
 require 'openai'
 require 'json'
 
-def get_response(prompt)
+def get_response(messages)
   OpenAI.configure do |config|
     config.access_token = ENV.fetch("OPENAI_SECRET_KEY")
   end
 
   client = OpenAI::Client.new
 
-  ap prompt
+  request =
+    {
+      model: "gpt-4",
+      temperature: 0.7,
+      messages: messages
+    }
 
-  response =
-    client.chat(
-      parameters: {
-        model: "gpt-4",
-        temperature: 0.7,
-        messages: prompt.map do |content|
-          {
-            role: "user",
-            content: content
-          }
-        end
-      }
-    )
+  ap request
+
+  response = client.chat(parameters: request)
 
   ap response
 
@@ -51,10 +46,15 @@ book[:chapters].each.with_index do |chapter, chapter_index|
     section[:templates].each.with_index do |template, paragraph_index|
       next unless section[:generated][paragraph_index].nil?
       prompt << "Here's the template for paragraph #{paragraph_index+1} of #{paragraph_count} in section #{section_index+1} of #{section_count} in chapter #{chapter_index+1} of #{chapter_count}, which is named \"#{chapter[:name]}\", and which should be written in #{chapter[:mode]}:"
-      response = get_response([prompt.join(" "), ""] + template)
+      messages = [prompt.join(" "), ""] + template
+      messages.map! { |message| { role: "user", content: message } }
+      response = get_response(messages)
       exit if response.nil?
       sleep 15
-      summary = get_response(["Briefly summarise what we've achieved so far, in a single paragraph, which I will use to continue this writing session at another time. Include enough detail so that you will be able to continue from where you left off."])
+      summary_prompt = "Briefly summarise what we've achieved so far, in a single paragraph, which I will use to continue this writing session at another time. Include enough detail so that you will be able to continue from where you left off."
+      messages << { role: "assistant", content: response }
+      messages << { role: "user", content: summary_prompt }
+      summary = get_response(messages)
       exit if summary.nil?
       section[:generated] << response
       book[:summary] = summary
