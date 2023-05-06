@@ -103,14 +103,12 @@ pans. I quickly grabbed a cream cheese sandwich, ate it in haste, and creaked my
 way out, feeling utterly overwhelmed by the chaotic atmosphere.
 
 As I continued on, I noticed the sound of properly arranged rhythms echoing from
-a primitive instrument, reminiscent of a cat's purring. Dialogue;9:MEOW HISSING
-CURIOSITY FELINE. \"Is that a meow, or is it hissing?\" I wondered aloud, my
-curiosity piqued by the feline-like noise. Exposition;8:CLASSIC ARTWALLS
-DISTURBINGLY. The walls around me, adorned with classic art, gave off a
-disturbingly eerie vibe. Dialogue;4:ENTERING FRIGHTENED. \"I shouldn't be
-entering,\" I whispered to myself, my courage faltering. Exposition;10:FOOTSTEPS
-ECHO DECISION FATE. My footsteps echoed through the halls, each step bringing me
-closer to an unknown decision and fate.
+a primitive instrument, reminiscent of a cat's purring. \"Is that a meow, or is
+it hissing?\" I wondered aloud, my curiosity piqued by the feline-like noise.
+The walls around me, adorned with classic art, gave off a disturbingly eerie
+vibe. \"I shouldn't be entering,\" I whispered to myself, my courage faltering.
+My footsteps echoed through the halls, each step bringing me closer to an
+unknown decision and fate.
 
 ***
 
@@ -137,23 +135,20 @@ As the drafts blackened, the clock screeched.
 the parchment to my fellow worker. As we stood in the dimly lit hallway, I
 couldn't help but feel a shiver run down my spine, the atmosphere of the White
 Palace ever-present. The cold stone walls seemed to whisper secrets as the draft
-from the windows brushed past us.\n\n\"Thanks,\" my coworker replied, examining
+from the windows brushed past us. "Thanks,\" my coworker replied, examining
 the list with a furrowed brow. \"Looks like we've got a lot of work ahead of
 us.\" The weight of our responsibilities within the palace weighed heavily on
-our shoulders, but we knew we had no choice but to carry
-on.\n\nexposition;8:CREAKING DOORS FOOTSTEPS ECHOED AIR\nThe creaking of doors
-and the echoing footsteps in the distance filled the air, reminding us that we
-were not alone in this vast, mysterious place. As we went about our tasks, I
-couldn't shake the feeling that something was watching us, waiting for the
-perfect moment to strike.\n\nexposition;5:UNEASE FELT PALPABLE SHADOWS\nThe
-unease I felt was palpable, as though the very shadows themselves were reaching
-out to grab hold of me. I tried to push these thoughts away and focus on the
-tasks at hand, but the White Palace had a way of seeping into your very
-soul.\n\nexposition;9:WEDNESDAY WORKER LIFE MONOTONOUS ROUTINE\nDespite the
-eerie atmosphere, Wednesday was just another day in the life of a palace worker,
-filled with the monotony of routine tasks. The work was hard, but we all knew
-that it was necessary to maintain the delicate balance of power within the White
-Palace's walls.
+our shoulders, but we knew we had no choice but to carry on. The creaking of
+doors and the echoing footsteps in the distance filled the air, reminding us
+that we were not alone in this vast, mysterious place. As we went about our
+tasks, I couldn't shake the feeling that something was watching us, waiting for
+the perfect moment to strike. The unease I felt was palpable, as though the very
+shadows themselves were reaching out to grab hold of me. I tried to push these
+thoughts away and focus on the tasks at hand, but the White Palace had a way of
+seeping into your very soul. Despite the eerie atmosphere, Wednesday was just
+another day in the life of a palace worker, filled with the monotony of routine
+tasks. The work was hard, but we all knew that it was necessary to maintain the
+delicate balance of power within the White Palace's walls.
 
 As I rushed through the wood-panelled hallway, a burst of laughter followed me.
 The sound hissed like a cold shower on a mourning student during their morning
