@@ -3297,11 +3297,161 @@ I nodded and shrugged my head, feeling like I had learned a valuable lesson from
 
 "Angela, I never intended to pity Angela's grasp," I said.
 
----
+"Jay delivers parts, but he never hangs with anybody," I told Angela, trying to make sense of our current situation.
 
 ---
+
+As I obediently entered the somber apartment, I could hear faint music playing. Feeling hungry, I awaited the arrival of the Canadian, who carried a basket and a belt. Two inscrutable and wary cats studied me as I stood alert. Overwhelmed, I contemplated the natural tragedy of the situation, and decided that this would become my final destination.
+
+In the kitchen, writings on a small sofa ceased. I had eaten in rich, purple-covered places before. Noodles and eggs hovered. I searched for ham, laughing, as I observed the window. Peas rolled in a half-full sugar bowl like bees. Symbolic physics data danced in mirrors and on dice. A device with weird tricks created a modern atmosphere. Filling my bowl, I felt the trickle of hot steam on my scalp. The soup was like a blaring symphony housed within a tall building.
+
+---
+
+In the room, campers' pans and pots were arranged in neat rows alongside a quilt. I opened my bag and deposited my burden on the small sofa like a baby. A sudden jolt sent me departing downwards, as if a summoning shrill called for my attention. The phantom haze roared in a procession-like style, surrounding me. Mirror frames seemed to be collecting, while other items went missing or scattered about.
+
+Lying supine on the floor, I felt like Lloyd, a prayer in the shape of a star.
+
+"Wow!" I exclaimed, floating in mid-air. I felt an amazing sensation, as if I was dangling and defending myself from invisible forces. "This is incredible! I've never experienced anything like this before!" With every word, the energy seemed to grow stronger, pulling me in different directions like a puppet on strings.
+
+As my cheek felt like it was slicing and succumbing to the poking of invisible fingers, I couldn't help but panic. The sensation of a bolt remained within me, a shock that sent me flying through the air. My vision flashed with impenetrable pitch darkness, leaving me with a wondering glance at my surroundings. It was as if I was stuck in a thunderstorm forever, convinced that the air would remain moist and terrifying.
 
 ## Chapter 12: The Awakening
+
+"I can't believe this," he muttered, as he felt his strength being sucked away and his body hanging in mid-air, seemingly gathering the weight of the Earth. "I'm soaked, and I feel like a mug of beer with sticks poking me all over."
+
+In the midst of the raging thunder factory, the protagonist stumbled, feeling like he needed to regain control. He found himself in a position akin to a driver's diving seat, stooping forward through a tunnel. So many splendid pins, each representing a different sensation, poked forth from all directions.
+
+As if someone had neatly popped a caring thought into his mind, the protagonist regarded his surroundings like a curious pupil. The scene resembled a chaotic car journey, smitten with a sense of contained destination. It was as if he were a passenger on a liner, slipping through the air, being deposited and wheeled about in a strange dance. Suddenly, the sensation shifted and felt more like an aeroplane with an adjusted engine, gliding effortlessly, slender and smooth through the skies.
+
+"Laughing simply doesn't do my cheek any favors, let's be honest," the protagonist remarked, feeling a sense of levity amidst the peculiar sensations.
+
+"Tea or beer, they've cost positive," he said. "Life's licking leads gives one strange dreams," he continued, as the protagonist attempted to make sense of the bizarre events that had transpired in his recent experiences. The strange room with shifting items and the connection to Lloyd seemed to be a part of a larger puzzle, with each piece revealing itself in its own peculiar way.
+
+
+
+Floating in mid-air, feeling like a puppet on strings, and being poked by invisible fingers were just the tip of the iceberg. As the intense, dark visions continued to unfold, the protagonist felt as though he was being taken on a chaotic, yet contained adventure; one that felt at times like a car ride, a passenger liner, and a smoothly gliding aeroplane.
+
+
+
+Through it all, the protagonist found solace in humor, recognizing that laughter might not do his cheek any favors but could help him navigate the strange and sometimes frightening world he found himself in. It was in these moments of levity that he found the strength to continue, pressing onward in search of answers to the questions that plagued him.
+
+Jenny, who had been whistling, stopped and looked worried. "Amazing how things change around here, isn't it?" she asked. "You know, it's nice to have a mixed bar like this, where you can chew on some built-in wisdom," he replied with a hint of sarcasm.
+
+As they delved deeper into Lloyd's realm, the volume of sensible intelligence seemed to shrink with every page turned.
+
+Jenny smiled and said, "Your praise means a lot to me, considering the strange works we've been through and the value of our shared experiences."
+
+
+
+exposition;12:PROTAGONIST APPRECIATIVE SMILE
+
+The protagonist returned her smile, feeling genuinely appreciative of Jenny's support and presence.
+
+
+
+dialogue;9:BELIEVE LLOYD MYSTERY
+
+"Do you think we'll ever truly understand what's going on with Lloyd and this bizarre mystery?" he asked.
+
+
+
+exposition;10:JENNY UNKNOWABLE NOD
+
+Jenny contemplated the question, nodding slightly as she considered the possibility of the unknowable.
+
+
+
+dialogue;13:UNKNOWN PART ACCEPT
+
+"I suppose not knowing might just be a part of it all that we have to accept," she acknowledged.
+
+
+
+exposition;9:PROTAGONIST AGREEMENT
+
+He nodded in agreement, realizing that sometimes answers were not always available.
+
+"Rob, wad bowl maybe?" he asked.
+
+Jenny shook her head and replied, "Tonight, I can't believe you'll be climbing that broken ladder."
+
+
+
+exposition;14:WORRIES SAFETY CONCERNS PROTAGONIST
+
+exposition;8:CAUTIOUS STRANGE
+
+dialogue;15:STAY TOGETHER ENSURE SAFETY
+
+exposition;21:RELUCTANTLY AGREED PROTAGONIST PLAN
+
+
+
+The protagonist expressed his worries and safety concerns about the upcoming climb. He felt cautious due to the strange nature of their current situation. "We should stay together to ensure our safety," Jenny suggested. Reluctantly, the protagonist agreed to her plan, hoping it would be the best course of action.
+
+dialogue;11: "Hey, Dan Steer opens up the stirring," Jenny said.
+
+"Rob, here's the biggest of the stays in our world," the protagonist said, a hint of sarcasm in his voice. Jenny rolled her eyes and replied, "We need to catch a fresh break and depart from what's happening here." The protagonist nodded, sensing Jenny's urgency and understanding that staying in this strange place any longer would only bring more danger and confusion. They both knew that they had to leave behind the world of Lloyd's Folly and face the unknown that awaited them beyond the broken ladder.
+
+"Yeah, recovering this steam machine angers me," he muttered to himself. "Well, grinning girl reflected in the mirror makes me feel better," Jenny murmured as she caught a glimpse of her reflection.
+
+As they climbed, a star-studded purple sky stretched out above them, with a yellow wheel-like formation that seemed to guide their ascent. Suddenly, beamed headlights violently illuminated their path, revealing a dangling driver suspended in mid-air.
+
+Exposition;4:PROTAGONIST ACKNOWLEDGED HEADLIGHTS
+
+Exposition;7:JENNY CLUTCHED PROTAGONIST HAND TIGHTER
+
+Exposition;8:TRAVERSING OMINOUS TERRAIN, BEWILDERED
+
+Exposition;6:GAZED UPON DANGLING DRIVER
+
+Dialogue;5:"This place is insane!"
+
+Exposition;8:SUDDENLY, VEHICLE DISAPPEARED, GONE
+
+Exposition;6:EXCHANGE CONFUSED, FEARFUL GLANCES
+
+Exposition;7:PROTAGONIST, JENNY, CONTINUED CLIMB
+
+Exposition;6:YELLOW WHEEL PULLED FORWARD
+
+As they continued climbing, the pounding in their hearts raced in sync with the spinning yellow wheel, while unusual fruit-like objects dotted the landscape around them.
+
+Exposition;5:GUIDING WHEEL SPED UP
+
+Dialogue;5:JENNY HURRY FOLLOW
+
+Exposition;6:PURPLE SKY DARKENING DRASTICALLY
+
+Exposition;6:ODD FRUIT-LIKE OBJECTS GLOW
+
+Dialogue;4:"Dude, canned plays?"
+
+
+
+As the guiding wheel sped up, Jenny urged, "Hurry, follow!" The purple sky was darkening drastically, while the odd fruit-like objects started to glow. The protagonist replied, "Dude, canned plays?"
+
+Jenny, casting a forgiving glance at the clouds, said, "Pause for a moment." "Oh, it's a nice story about my father," she continued, her voice tinged with nostalgia.
+
+"Yeah," he said sarcastically, "I'm just recovering from the anger I observed." 
+
+
+
+She replied, "Well, at least we solved the problem and can now dissolve into the fabric of the winner's circle."
+
+"Maybe we can blame the gate," Jenny suggested.
+
+
+
+"Our world's puzzle has a tailor's touch," the protagonist mused.
+
+"Remember when you tried to yank biscuits from someone else's plate? That vivid phrase has stayed with me!" the protagonist exclaimed, chuckling at the memory.
+
+"Lucid yet discreetly lunatic, that madman is striving," he muttered. Jenny, wide-eyed, responded, "They're insane, like a blast of colour in an evil painting."
+
+"Maybe if Jenny hits him, he'll wake up," the protagonist suggested. "In some worlds, writers create artificial smells using lids," he added, attempting to change the topic.
+
+As they approached the campus, a trolley was flanking a gushing fountain where a man reclined. The cloudless sky above them reflected in puddles, casting a lifeless glare upon the scene.
 
 ---
 
