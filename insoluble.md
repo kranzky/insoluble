@@ -5,7 +5,7 @@ author: Jason L. Hutchens
 publisher: Kranzky Press
 rights: Unlicensed
 date: 2015-11-30
-cover-image: lorenz.png
+cover-image: insoluble.png
 ---
 
 _For Jenny_
@@ -23,6 +23,7 @@ _For Jenny_
 
 • • •
 
+\newpage
 ## Chapter 1
 
 I toiled away, the work monotonous. How long had I been here? Hard to say. The nights bled into one another. Sixteen-hour shifts of drudgery, shuffling sequences of symbols into attempts at optimal orderings, processions of expressionless faces passing me by. The factory was drab and monotone, my colleagues nothing but blur and shadow. This was my penance.
@@ -111,6 +112,7 @@ The lady turned to address me.
 
 I started backing away, but two gorilla-men rushed out from where they had been cowering behind her, bundling me to the ground. Blackness descended.
 
+\newpage
 ## Chapter 2
 
 I awoke. It was far too dark. It occurred to me that I'd forgotten to set the alarm, and Julie had neglected to wake me from oversleeping. The television was blaring. One of the shopping channels judging by the cadence of the presenter's voice. I wandered from the bedroom to the kitchen. A mess of pots and pans, a half-empty glass of wine, the smell of cooking.
@@ -245,6 +247,7 @@ I held up Julie’s book in front of me.
 
 She held the door open for me. I walked toward her slowly, offering her the book as I approached. She accepted it gratefully, taking it into her stewardship, and beckoned me inside.
 
+\newpage
 ## Chapter 3
 
 The library was empty. Shelves of leather-bound books rimmed its interior walls, the golden writing printed on their spines indecipherable to me. A circle of bean-bags lay in a far-off corner. The lady of the library stopped to deposit Julie’s book in the returns bin behind the door, which lay waiting to accept items dropped through the slot. It fell noisily to the empty bottom of the bin, and I felt a weight lift from my shoulders as it did so. She then motioned me to follow her.
@@ -337,6 +340,7 @@ What had she said to me? That I was delusional? That I knew what I had to do? Th
 
 I returned to my writing desk in the kitchen, admitting to myself that I had been wasting time, determined now to forge ahead as Angela had recommended. Suppose that Julie was right, and that I had to dredge up some painful memory to allow myself to move on with my life? There was only one way to find out. I picked up the pen, and decided to begin by describing a day in the life of my alter-ego, in boring, excruciating detail if I had to. Only by telling his story could I hope to find and follow the path to a satisfying resolution, as Angela had put it. I began to write.
 
+\newpage
 ## Chapter 4
 
 Lloyd awoke, his head throbbing. The room was dull and grey. He glanced at the clock. Ten-thirty. He closed his eyes and rubbed his temples with his fingers. Then, reluctantly, he swung his legs out of the bed, his feet feeling for the floor. The room swayed and span around him; he felt it heaving and lurching in the pit of his stomach.
@@ -483,6 +487,7 @@ Rob looked at Dan slyly. “If only we could harness that power! Bwahaha!”
 
 The three of them spent the next half-an-hour at the whiteboard, sketching out the design of a massively-parallel granny computer, milking the situation for every last skerrick of comedic value. They then broke for lunch.
 
+\newpage
 ## Chapter 5
 
 I leaned back in the kitchen chair, papers scattered, my hand cramped, and laughed out loud at what I had written. I had forgotten about the crossword puzzle competition that the three of us had attempted, and failed, to win. We had been so certain that we’d found our cash cow, a way of generating a regular passive income to finance our lazy postgraduate lifestyle.
@@ -601,6 +606,7 @@ I walked slowly, desperately missing Julie, hoping that she would make contact, 
 
 Eventually I returned to my apartment, exhausted and hungry and ready for bed. But my mind was still buzzing, and I was eager to tell the story of the mid-semester presentation. Besides, it would be good to establish a healthy daily word count early on in the writing process. So I brewed myself a coffee, sat down at the kitchen table, and arranged pens and paper before me. I planned to do what Angela had advised; to seize control of my story, twisting the reality of my former life in the direction I wished it had gone. I cracked my knuckles, uncapped a pen, and started to write once more.
 
+\newpage
 ## Chapter 6
 
 Faculty members filed into the room, shuffling awkwardly between the rows of desks. The overhead projector had been switched on, its misshapen square of light uncentered on the vanilla screen, its constant buzz on the edge of hearing. It smelled warm. No longer nervous, Lloyd stood patiently as the audience entered and took their seats. Mike rose to speak.
@@ -707,6 +713,7 @@ Mike stood grinning at Lloyd as people filed out of the lecture room, a proud fa
 
 A loud electronic screech suddenly rang out. Lloyd jumped in surprise, Mike returning his puzzled gaze.
 
+\newpage
 ## Chapter 7
 
 I slowly raised my head, my mouth dry, a stream of drool dripping down my chin. I had fallen asleep at the kitchen table, the pen still held in my hand. An alarm was screeching from somewhere. I fumbled around in my pocket for my phone and silenced it. My wakeup call for the night shift.
@@ -849,6 +856,7 @@ I approached the apartment as night was falling, wary of the shadowy figures tha
 
 Shivering and exhausted, I entered my apartment and walked through its rooms, locking windows and bolting doors. I then had a long, hot shower. I removed the battery from my phone; I wanted no more alarms, no more interruptions. I poured myself a mug of hot coffee and sat at the small kitchen table. I looked down. An empty page waited for me. I slid a new pen out of the packet, removed its cap, and threw it towards the pile of mess near the bin, not caring where it landed. I began to write furiously, my mind churning with images of Mike and Julie, conspiring together, discussing some fateful plan without my knowledge.
 
+\newpage
 ## Chapter 8
 
 Lloyd realised that his phone was ringing. Rolling his eyes at Mike, embarrassed that it sudden noise made him jump, he fished it out of his pocket and silenced the call. He noticed that notifications were streaming down the screen. A thunderstorm of trite snippets of text, all of them filled with excitement and praise for what they had achieved.
@@ -1122,6 +1130,7 @@ The guys left in a hurry, leaving Lloyd and Jenny alone in the coffee shop. She 
 
 “So then,” she said. “Here we are.”
 
+\newpage
 ## Chapter 9
 
 I placed the pen down and cried. I was desperately in love with Julie, and yearned to have her back. Reliving the moment of our first meeting had brought so many painful memories to the surface. I needed to calm down, to gather myself. I decided to break for the day, and thought I would take a leisurely stroll to the library for another meeting with Angela’s little writer's group. I had much to discuss with them.
@@ -1192,6 +1201,7 @@ I had several hours to spare before I needed to leave the apartment to follow Je
 
 I thought about Julie, and of her embodiment in my story as the character of Jenny. She and Lloyd were about to go on their first date; camping out in the wilderness, far away from civilisation, just as Julie and I had done. And Rob, Dan and Sal were experimenting with Angela, the machine. How was I going to tie all of that together? And how was Mike going to re-enter the story? I didn’t have the answers to those questions, but knew that they would come with time and effort. I pushed my empty plate aside, and started to write with gusto.
 
+\newpage
 ## Chapter 10
 
 Lloyd and Jenny stood at the door to his room, hand-in-hand. It was ajar. Cautiously, Lloyd pushed it slowly inwards, Jenny falling back to follow along behind.
@@ -1398,6 +1408,7 @@ Jenny sat up at this.
 
 She lay back down to gaze at the stars with the others. Nobody spoke again for a long while, all of them thinking back on their lives, recalling moments of coincidence and happenstance and good fortune.
 
+\newpage
 ## Chapter 11
 
 I threw my pen across the room in disgust. My story was growing increasingly unbelievable, and my characters were getting out of control! I had done my utmost to resolve the difficult situation I’d placed them in, and they’d somehow contrived to dig themselves in deeper, taking events from bad to worse. How was I going to deal with this new, drug-fuelled world of dreamscapes and stories-within-stories? My characters seemed to be waking up to the fact that they were living in a constructed world; that they were the stuff of imagination. I had fashioned a rod for my own back. I felt deeply disappointed at my predicament.
@@ -1498,6 +1509,7 @@ Lloyd reached up from his supine position, stretching his hand toward me, a look
 
 I felt his fingers brush my cheek. When they did, I sat up in shock, as if I’d been struck with a bolt of lightening. The sky flashed and the rain poured around me. The thunderstorm had returned.
 
+\newpage
 ## Chapter 12
 
 “Oh shit, this sucks,” yelled Salvatore. “I’m soaked, man!”
@@ -1658,6 +1670,7 @@ She gave him a peck on the cheek and dashed out of his world, leaving her mug of
 
 Lloyd watched her leave, then rose and crossed to the bed. He smoothed down the white sheets, now stained with black droplets of hair dye from their frantic lovemaking, and lifted the pillows to plump them up and lay them out again neatly. He then opened the windows to give the stale air a passage of escape, rinsed out the mugs of tea, wiped down the bathroom, hung up the wet towels. Erasing all the evidence of her existence; everything except the black-spotted bedsheets.
 
+\newpage
 ## Chapter 13
 
 I hovered out of the room, through the open window, and across the treetops, white concrete paths zig-zagging beneath me. The sun, moon and stars wheeled overhead. Birds chirped around me, waking up to greet the dawn. I spotted a lone figure in the distance; I zoomed down toward them, slowing as I neared, then matched their pace so that I might follow them.
@@ -1768,6 +1781,7 @@ When the fish were done, I gently lifted them from the pan and placed them on a 
 
 I needed to write with a firmer hand, with a determined purpose. I knew what Lloyd must do, and I was intent on guiding him to the proper conclusion. I was fully prepared to accept the consequences of his actions; I knew that I was but a stepping stone along his greater path. I flaked some fish with a fork, lifting it to my mouth. Flavour exploded in my mouth; it was delicious. I swapped the fork for a pen, and began to write the final chapters of Lloyd’s life, planning to bring him closer to me, knowing that if I managed to finish my manuscript then I would never get a chance to bask in the glory of its success.
 
+\newpage
 ## Chapter 14
 
 Lloyd sat on the sofa, watching the afternoon deepen through the open window. A smell of cooking fish wafted up from one of the other rooms, his stomach growling in response. He gradually grew aware of faint scratching noises nearby, and was suddenly struck with a strong sensation of another presence.
@@ -1928,6 +1942,7 @@ Edith regarded him with equal parts of both interest and puzzlement, then return
 
 Lloyd found himself standing in a crowded citrus plantation, beneath a majestic orange tree. This place was familiar to him; he had travelled her before. He climbed the tree and pushed himself upwards into the air, hovering above the landscape before gliding off in search of his supervisor.
 
+\newpage
 ## Chapter 15
 
 A white house looms at the crest of a hill, its extensive grounds bordered with a low hedge, dense natural bushland laying beyond. Grassy pathways meander between raised planters. A rose garden frames a copy of Michelangelo’s David, an orange grove is resplendent in blossom, a black swan floats silently across a small lake. Closer to the residence a fountain glistens in the sunlight, a gravel track leading from there down to a blooming display of native flora, where a lone figure stands in thought.
@@ -2129,6 +2144,7 @@ Mike stares at the display, reaching a decision.
 
 “I must go there.”
 
+\newpage
 ## Chapter 16
 
 Lloyd walked through the wet and crowded streets, puddles of dank water reflecting the gaudy fluorescent light above him. Scooters whizzed by in a constant mayhem of noise. He pushed through the thick crowds of people, past food vendors and street performers, searching for a place to stay the night.
@@ -2225,6 +2241,7 @@ Although he was unable to read the printed words across the top of each page of 
 
 He walked back into the front room of the apartment. Evening was fast approaching, and the room was much darker than it had been when he had first entered. He imagined that he could see the shadowy form of Christopher waiting for him there, twisting above him, arms outstretched in a gesture of reconciliation. He panicked and fled out into the growing dusk, running through the streets, plotting his escape.
 
+\newpage
 ## Chapter 17
 
 Mike fidgets uncomfortably in his seat. Arthur is safely stowed for the journey in the space above him. Hours had already passed, hours more are yet to pass. The drone of the cabin is relentless in its monotony.
@@ -2371,6 +2388,7 @@ He glances back at the entrance where he and the _tuk-tuk_ had so recently parte
 
 She repeats the bow. Mike nods in return, then heads up to his room, lugging Arthur along beside him.
 
+\newpage
 ## Chapter 18
 
 The taxi drove throughout the night. Lloyd dozed in the back seat, laying down with his head on the manuscript. He felt unsure about his destination; he had thought the library was nearby. But, as dawn approached, his concerns were put to rest, as the taxi pulled up to a stop outside a familiar rust-stained pathway. Lloyd exited, throwing a handful of scrunched-up notes at the driver as he did so, and walked down the path toward the slotted door at the building’s entrance, the manuscript clutched tightly to his chest.
@@ -2513,6 +2531,7 @@ The ecstatic face of his alter-ego stared back at him from within its frame, bec
 
 Lloyd took a deep breath and stepped forward into empty space.
 
+\newpage
 ## Chapter 19
 
 Onward he plunges through the endless mist. Grey clouds of every shade whorl and eddy around him. He tumbles into the monochromatic vortex, the wind rushing against his cheeks, his stomach churning. Endlessly he is drawn along a tunnel, strange shapes morphing along its ephemeral walls, his brain scrambling to find meaning in its fractal edges, as it would were he standing in his garden looking up at the passing clouds.
@@ -2643,6 +2662,7 @@ Mike recalls his final message to Christopher with genuine remorse. Referring to
 
 “Take me to Jay.”
 
+\newpage
 ## Chapter 20
 
 The scooter screams around the bends, Julie piloting with ease, Mike holding on for dear life with Arthur clinging to his back. They weave between crowds of slower-moving conveyances, skilfully avoiding the occasional pedestrian who steps onto the  roadway with an unwavering gait, determined to cross to the other side despite the chaos. It all struck Mike with a certain beauty. An emergent system of countless individual agents, each optimising for their own goals, filling a shared space in harmony.

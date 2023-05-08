@@ -12,7 +12,7 @@ end
 
 client = OpenAI::Client.new
 
-message = "Creepy hotel lobby with patterns in the wood that contain hidden messages and shelved of books with a mysterious manuscript sitting on a table."
+message = "Lorenz attractor symbolizing multiple universes with an author on one side and a reader on the other."
 
 response = client.images.generate(parameters: { prompt: message, size: "1024x1024" })
 
