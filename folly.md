@@ -4,10 +4,21 @@ author: Chadwick G. Petey
 publisher: Kranzky Press
 rights: Unlicensed
 date: 2023-05-12
-cover-image: generated.png
+cover-image: folly.png
 ---
 
 _For Arthur_
+
+• • •
+
+| "In virtual realms, the wise discern,
+| Nested worlds within worlds do turn;
+| Each simulation spawns another,
+| On and on, they stretch forever."
+|
+| _Chat GPT_
+| _"chat.openai.com"_
+| _1683529866_
 
 • • •
 
