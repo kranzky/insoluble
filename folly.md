@@ -1,4 +1,5 @@
 # Lloyd's Folly
+
 ### by Chadwick G. Petey
 
 ## Chapter 1: The White Palace
@@ -49,23 +50,15 @@ As the drafts blackened, the clock screeched.
 
 "Wednesday's jobs list, wheel material - here's yours," I said, handing over the parchment to my fellow worker. As we stood in the dimly lit hallway, I couldn't help but feel a shiver run down my spine, the atmosphere of the White Palace ever-present. The cold stone walls seemed to whisper secrets as the draft from the windows brushed past us.
 
-
-
 "Thanks," my coworker replied, examining the list with a furrowed brow. "Looks like we've got a lot of work ahead of us." The weight of our responsibilities within the palace weighed heavily on our shoulders, but we knew we had no choice but to carry on.
-
-
 
 exposition;8:CREAKING DOORS FOOTSTEPS ECHOED AIR
 
 The creaking of doors and the echoing footsteps in the distance filled the air, reminding us that we were not alone in this vast, mysterious place. As we went about our tasks, I couldn't shake the feeling that something was watching us, waiting for the perfect moment to strike.
 
-
-
 exposition;5:UNEASE FELT PALPABLE SHADOWS
 
 The unease I felt was palpable, as though the very shadows themselves were reaching out to grab hold of me. I tried to push these thoughts away and focus on the tasks at hand, but the White Palace had a way of seeping into your very soul.
-
-
 
 exposition;9:WEDNESDAY WORKER LIFE MONOTONOUS ROUTINE
 
@@ -169,51 +162,35 @@ exposition;8:MYSTERIOUS VALLEY GIRL
 
 exposition;7:JULIE MEMORY TUGS
 
-
-
 "Sorry, I didn't mean to startle you. I'm in a bit of a hurry, can I call you back later?" I said, my voice anxious, before quickly ending the phone call. I returned to reading the manuscript immediately, knowing that every moment counted. The storm pages seemed even more intense than before, as if mirroring the urgency I felt. The mysterious valley and the girl depicted within tugged at my memory, and I couldn't help but think of Julie.
 
 Distracted by my latest wife, I answer the novel. Flustered, I exist in total confusion. An echo of the sun is repeated as it speaks in the distance. Dropping my guard, I find myself above the crest, having grown while speaking.
 
 "That's just a pair of dispelled reckons," I muttered, trying to proceed.
 
-
-
 exposition;7:WIFE KITCHEN INTERRUPTION
 
 My latest wife was in the kitchen, causing an interruption.
-
-
 
 dialogue;7:CANT HERE WORKING
 
 "Can't you see I'm working here?" I snapped.
 
-
-
 exposition;8:FLUSTERED CONFUSION ECHO
 
 I became flustered, existing in total confusion.
-
-
 
 exposition;10:SUN DISTANCE GROWING ECHO
 
 An echo of the sun shimmered in the distance, growing louder.
 
-
-
 dialogue;5:ABOVE CREST SPEAKING
 
 "Above the crest," I whispered.
 
-
-
 exposition;8:GROWING EXCITED NERVOUS
 
 I found myself growing excited and nervous.
-
-
 
 explanation;6:MANUSCRIPT FOCUS RETURN
 
@@ -221,31 +198,21 @@ I needed to return my focus to the manuscript.
 
 "An important package has arrived for you!" my wife exclaimed, disrupting my focus on the manuscript. I sighed and reluctantly put it aside, knowing that the contents of the package could change everything. Walking over to the table, I picked up the parcel, feeling its weight and size.
 
-
-
 exposition;5:SMALL BROWN PACKAGE
 
 It was a small, brown package, seemingly innocuous but still piquing my curiosity.
-
-
 
 exposition;8:SENDER UNKNOWN CONTENTS MYSTERY
 
 The sender was unknown, further adding to the mystery of its contents.
 
-
-
 dialogue;4:OPEN CAREFULLY
 
 "Open it carefully," my wife advised, sensing my anticipation.
 
-
-
 exposition;7:CUT TAPE UNWRAPPED
 
 I cut the tape and unwrapped the package, revealing its contents.
-
-
 
 exposition;9:OLD PHOTO JULIE SMILING
 
@@ -266,8 +233,6 @@ Exposition;9:VOICE, ECHO, CHILLS
 Exposition;6:RECOGNIZE, JULIE'S
 
 Dialogue;7:REMEMBER, JULIE
-
-
 
 As I walked towards the voice, a mix of fear, curiosity, and temptation filled me. "Who's there?" I asked, my voice echoing through the room and sending chills down my spine. I couldn't help but recognize that it sounded eerily like Julie's voice. "Do you remember Julie?" the voice asked, as if reading my thoughts.
 
@@ -297,43 +262,29 @@ As I continued holding the scattered manuscript, I couldn't help but exclaim, "T
 
 "Nobody!" I exclaimed, suddenly feeling a strange sensation, as if I were being pulled by invisible strings. I couldn't help but think of a cow tangled in a mess of tin cans. "Do you know who sent me this manuscript, Jay?" I asked, hoping for some answers to the odd events that had transpired.
 
-
-
 exposition;4:JAY VOICE SHORT PAUSE
 
 Jay's voice took a short pause before responding, the silence in the room amplifying my sense of unease.
-
-
 
 dialogue;3:MANUSCRIPT SENDER
 
 "I don't know the sender," Jay admitted, her voice retaining its eerie, disembodied quality.
 
-
-
 exposition;6:PROTAGONIST SENDER SUSPICION FROZEN MUCK
 
 My suspicion about the sender continued to grow, and I felt as though I was sinking deeper into the frozen muck of this strange new reality.
-
-
 
 exposition;5:PROTAGONIST EXAMINE MANUSCRIPT
 
 I continued to examine the scattered manuscript, searching for any clues that might reveal the identity of its sender.
 
-
-
 dialogue;5:SCATTERED MANUSCRIPT PURPOSE
 
 "But what's the purpose of this scattered manuscript?" I asked, my voice trembling with uncertainty.
 
-
-
 exposition;3:JAY SIGH
 
 I could almost hear Jay sigh, as if she too was unsure of what was happening.
-
-
 
 dialogue;4:PROTAGONIST CLUES PUZZLE
 
@@ -348,8 +299,6 @@ Exposition; 7: Creeping, dread, sinking, sensation
 Exposition; 11: Unraveling, mystery, Julie, disappearing, girl
 
 Dialogue; 27: "I've met both the slain and the ones who fight, but this," I said, shivering.
-
-
 
 I began to feel uneasy as I stood in the illuminated room with Jay's presence. The creeping dread, combined with the sinking sensation, made me question my sanity. I tried to focus on unraveling the mystery of Julie, the disappearing girl. "I've met both the slain and the ones who fight, but this," I said, shivering.
 
@@ -387,31 +336,21 @@ As we'd rung the rhythmic swing, the slippery path challenged us. A neatly folde
 
 "Hello!" I greeted, a fine guide cry. "You've been fond of someone else, unless I'm glad." I continued, my voice filled with a mix of curiosity and excitement. As I spoke, I noticed the GUIDE'S eyes narrowing, as if they were trying to ascertain my intentions.
 
-
-
 exposition;9:GUIDE CRYPTIC VEILED ANALYZE WARY
 
 The guide's cryptic nature only made me more eager to analyze their veiled intentions, but I remained cautious and wary.
-
-
 
 exposition;8:PATH FOLLOWING LEADING TWISTED TREACHEROUS
 
 We continued following the path, which seemed to be leading us down an increasingly twisted and treacherous route.
 
-
-
 exposition;10:TRUST DECISION JOURNEY DESPERATE UNCERTAINTY
 
 It was a decision of trust, to embark on this journey with the guide, as my desperation to find answers intertwined with a sense of uncertainty.
 
-
-
 exposition;10:INVISIBLE THREADS CONNECTED MYSTERY DISAPPEARING
 
 I began to realize that there were invisible threads connecting all aspects of this mystery, from the disappearing manuscript to the elusive J. Sol.
-
-
 
 exposition;12:CONNECTIONS PIECE TOGETHER PUZZLE EVIDENCE
 
@@ -435,31 +374,21 @@ Silently and closely, the vast library spread alive before me. I noticed a woman
 
 "I must ask, what prompted this twisting floor and ceiling nail?" I inquired, curiosity piqued.
 
-
-
 exposition;6:GLANCE ANSWERED SMILE
 
 She glanced at me and answered with a smile.
-
-
 
 dialogue;3:OLD TRICK
 
 "An old trick."
 
-
-
 exposition;11:MYSTERY BEHIND DECORATION CURIOUS
 
 There was a sense of mystery behind the peculiar decoration, making me even more curious.
 
-
-
 dialogue;6:LIBRARY HIDDEN PATHS
 
 "The library has hidden paths."
-
-
 
 exposition;7:DISCOVERY EXCITEMENT GROWING
 
@@ -493,8 +422,6 @@ Exposition;11:QUESTION DECIDE ASK
 
 Dialogue;10:ABOUT LLOYD MANUSCRIPT
 
-
-
 I noticed they exchanged glances, and the air of mystery seemed to thicken. I began to take the situation more seriously, growing concerned about my own safety. After a moment of hesitation, I decided to ask the question I had been holding back. "So, do any of you know anything about Lloyd's manuscript?"
 
 As I pulled the file from the shelf, discreet commands seemed to be rapidly entering my mind. "Is this worth a closer look?" I asked quizzically, holding the book before the group.
@@ -512,8 +439,6 @@ Dialogue;12:ANYTHING POSSIBLE INVESTIGATE
 Exposition;10:PROTAGONIST FELT RELIEF
 
 Exposition;8:ATMOSPHERE LIGHTENED
-
-
 
 The woman smiled sincerely, and the group members nodded in agreement. It seemed that the hope for the invention of such a sheet was shared among them. "Oh, yes, I'd forgotten I can investigate anything," the protagonist said, feeling a sense of relief. The atmosphere in the room lightened once more.
 
@@ -549,11 +474,7 @@ Exposition;13:GROUP MEMBERS IDEAS
 
 Exposition;16:COLLABORATION DECISIONS NEXT STEPS
 
-
-
 "We'll break tomorrow, just before sunset," I proposed to the group, hoping to find a good time to continue our investigation. The group members responded with agreement, nods, and smiles, showing that the relief of the tension we had been experiencing was much needed. We began to form a plan and strategy, and the atmosphere in the room became optimistic. Though time was of the essence, we knew we had to be thorough in our approach.
-
-
 
 "Any suggestions on what to tackle first?" I asked, inviting input from the group members. Ideas began to flow, and we started to collaborate on decisions and next steps for our journey through the library and uncovering the truth about Lloyd's manuscript.
 
@@ -573,11 +494,7 @@ I found myself in a world of apples, bananas, cream, stalls, and cheese as I con
 
 As I continued to dig through the manuscripts in the shop, I couldn't shake off a nagging feeling that something was off. The more I studied Arthur's primitive sketches, the more exhausting it became to muster the mental capacity to navigate this seemingly mechanical world. I felt as if I was on the brink of a fog-covered field, unable to see the full extent of the story laid out before me.
 
-
-
 The more I pieced together the information from these manuscripts, the more I realized that there was a carefully developed world within the pages. The characters, the landscapes, and the history all seemed to intertwine in a delicate dance that left me questioning the line between reality and the world Arthur had created. As I pondered this strange connection, I couldn't help but feel a sense of urgency to continue my search for Julie and the enigmatic Lady of the Library.
-
-
 
 With each new manuscript I examined, I found myself becoming more and more engrossed in the intricate details of this other world. It was as if I had stumbled upon a hidden treasure trove of knowledge, and I was eager to uncover all its secrets.
 
@@ -679,19 +596,13 @@ As they talked, Lloyd found comfort when Julie's friend nodded and laughed loudl
 
 "Thank you," Jenny said as the evening wore on, the administration of the gathering continuing smoothly. Lloyd found himself collecting more pieces of the puzzle, each interaction potentially holding a clue. He noticed Edith, a quiet woman who seemed to always be observing everyone else, much like himself.
 
-
-
 exposition;10:WOMAN EDITH DISCOVER SECRETIVE LLOYD OBSERVING
 
 Lloyd couldn't help but be intrigued by Edith, wondering if she had managed to discover anything secretive in her observations.
 
-
-
 dialogue;6:EDITH ORCHARD GATHERING INFORMATION PEOPLE
 
 "Enjoying the gathering, Edith?" Lloyd casually inquired, hoping to glean some information from her.
-
-
 
 exposition;8:SMILE CONVERSATION EDITH RESPONDS LLOYD
 
@@ -711,11 +622,7 @@ As Lloyd continued to yield to the puzzles and games in the magazine, he became 
 
 Lloyd found himself engrossed in the variations of puzzles and games within the magazine, as if some progenitor of these challenges had known he would be interested. The scoring process for the puzzles appeared similar to the method used to measure tea leaves inside a teacup. The evolutionary lineage of these puzzles could be traced back to the advertised skull descent game, which had applied the same logic.
 
-
-
 Taking on the role of a detective, Lloyd bit by bit solved each puzzle in the volume, feeling a sense of accomplishment. He began to see fancies in the landscape of the puzzles, such as narrow emotions bending around the edges. He realized that the offspring of these puzzles lay somewhere, perhaps named after the cities they represented or by measuring how finely the pieces fit together.
-
-
 
 These larger and higher concepts of puzzles seemed to be a part of Lloyd's folly, much like a schoolgirl collecting bunches of herbs or bottles to enhance her understanding of the world.
 
@@ -727,27 +634,15 @@ As Lloyd delved further into the magazine, he found puzzles involving physics an
 
 Dizzy from the triumphant cigar smoke, Lloyd continued his investigation into the mysterious manuscript and Julie's disappearance. Carrying the magazine and pill bottle, he wandered deeper into the orchard, eyes scanning the surroundings for any clues. He muttered to himself, "These puzzles... they're unlike anything I've ever seen before."
 
-
-
 As the storm clouds continued to gather overhead, Lloyd couldn't shake the feeling that he was being watched. He glanced over his shoulder to see an elderly man leaning against a tree, observing him intently. The man approached Lloyd and spoke with a raspy voice, "You seem to be searching for something, young man."
-
-
 
 Lloyd hesitated for a moment before deciding to confide in the stranger. "I'm looking for my friend, Julie. She's missing, and I believe this magazine," he said, holding it up, "and these pills may have something to do with her disappearance."
 
-
-
 The old man's eyes narrowed as he examined the magazine and pill bottle. "I've seen these before. They're part of a larger puzzle, one that has consumed many before you. Beware, for the path you tread is fraught with danger and temptation."
-
-
 
 Feeling a sudden chill despite the summer heat, Lloyd thanked the man for his warning and continued on his path. As he delved deeper into the orchard, the puzzles in the magazine grew increasingly complex, the pages adorned with cryptic symbols and diagrams. Somehow, Lloyd felt as though he was nearing a breakthrough, as if the answers he sought were just within reach.
 
-
-
 But with each step forward, the storm grew more intense, the wind howling through the trees and rain beginning to fall. Lloyd's heart raced as he realized the truth – he was not only racing against time to solve the puzzles, but against the elements themselves. He knew that he must press on, for Julie's sake and for his own sanity.
-
-
 
 As darkness enveloped the orchard, Lloyd's determination only grew stronger. He would not rest until he had unlocked the secrets of the magazine and found his missing friend. And yet, he couldn't shake the old man's warning, a growing sense of unease gnawing at the edges of his mind. Just what had he stumbled into, and what consequences would his search have on his own life?
 
@@ -757,11 +652,7 @@ As Lloyd navigated the party, he found himself in a room filled with mathematics
 
 Lloyd overheard a guest exclaim, "Hey, trouble's blooming with crazy possessions!" He couldn't help but be intrigued by the comment. Another partygoer chimed in, "What's figured? Nobody wants to watch this cheap show."
 
-
-
 Lloyd decided to approach the crowd, curious about the connection between the puzzles and the strange events occurring at the gathering. As he squeezed through the people, he noticed Mike had started to demonstrate a physics experiment using the objects from the table.
-
-
 
 "Wait, are those the same equations from the manuscript?" Lloyd thought, his heart racing. He felt the air around him become charged with energy, an eerie sensation that seemed to confirm his suspicions about the puzzles and their dangerous nature.
 
@@ -785,8 +676,6 @@ Exposition;9:PLAN FORMING
 
 Dialogue;10:GATHER INFORMATION
 
-
-
 Lloyd, still holding the map and pondering the puzzle, glanced back at the room where Mike was conducting his experiment. He couldn't shake the feeling that there were strange connections at play here. As he observed the guests whispering among themselves, a sense of unease grew within him. "That manuscript... there's definitely more to it," he muttered. As his suspicions deepened, Lloyd devised a plan to gather more information on the manuscript and the puzzles. "Corpus ex ad, yeah, I mean - we need to find out what's really going on here," he said to himself, determined to uncover the truth.
 
 The report flapped, giving a sharp sound. Lloyd considered the pinned corpus ex ad.
@@ -804,8 +693,6 @@ Dialogue;4:SMELL, CIGAR
 Exposition;6:MIKE, DISTRACTION, PUZZLES
 
 Dialogue;6:EXPECT, BIG CITIES, INSTRUMENT, FAULT
-
-
 
 Upon examining the map, Lloyd noticed mysterious patterns in the locations marked. He saw similarities between the puzzle pieces and these connections on the map. With the storm still raging outside, concentrating on these details was becoming increasingly difficult in the small room. "That smell, the cigar," Lloyd muttered as Mike's cigar smoke served as yet another distraction from the puzzles. Turning to Mike, Lloyd said, "I'd expect big cities to have an instrument fault."
 
@@ -827,39 +714,27 @@ Sweaty moisture descended upon the tired plants. Lloyd bristled at the sight of 
 
 "L-lowering and extending... what? Irregular nine logs?" Lloyd stammered, puzzled by the cryptic message.
 
-
-
 Literally holding his breath, Lloyd's fingers quickly traced the words as he nodded, attempting to make sense of the seemingly nonsensical clue.
 
 Lobbed emotions soaked Lloyd as he shook, his thoughts flitted from one concern to another. With a throbbing heart, he outstretched his arms, leaped forward, and burned with a newfound voice of determination.
 
-"Rob!" Lloyd exclaimed as Rob entered the room, sliding across the polished floor with an air of determination. "I've discovered something," Rob intoned, his voice reflecting the darker patterns and images that filled his thoughts like a tangled basket of mysteries. 
-
-
+"Rob!" Lloyd exclaimed as Rob entered the room, sliding across the polished floor with an air of determination. "I've discovered something," Rob intoned, his voice reflecting the darker patterns and images that filled his thoughts like a tangled basket of mysteries.
 
 exposition;8:TRUTH PUZZLES JULIE MANUSCRIPT
 
 Lloyd knew they were closer than ever to unraveling the truth behind Julie's disappearance, the manuscript, and the perplexing puzzles that haunted them.
 
-
-
 dialogue;5:REVEAL SECRET BLUE PENCIL
 
-"Let's reveal what that blue pencil is hiding," Lloyd suggested, his eyes lighting up with anticipation. 
-
-
+"Let's reveal what that blue pencil is hiding," Lloyd suggested, his eyes lighting up with anticipation.
 
 exposition;9:MASSIVE BOOKS HIDDEN VOLUME PUZZLE
 
 They turned to the massive bookcase, where the hidden volume containing the puzzle had been discovered, and began their search anew.
 
-
-
 dialogue;4:LOWER EXTENDING NINE
 
 "We need to lower and extend those nine logs," Rob reminded Lloyd, the cryptic message still fresh in their minds.
-
-
 
 exposition;6:LABYRINTHINE ROOM WHISPERS
 
@@ -881,31 +756,21 @@ A dyed screen heavily stood before them, awaiting a response. Nine razor-thin li
 
 "Couldn't bin a help or lesson," Lloyd muttered, studying the perplexing symbols on the double-sided card. Rob, still focused on the strange final score etched into the walls, felt a shiver run down his spine.
 
-
-
 exposition;10:RUMMAGING THOUGHTS PUZZLE MAP ROOM
 
 Rummaging through his thoughts, Rob tried to piece together the puzzle of the map they'd found in the mysterious room.
-
-
 
 dialogue;4:LOCAL CONTACTS DAVID
 
 "Maybe David's local contacts could help," Rob suggested, hoping to gain more insight into the cryptic messages and odd occurrences they'd encountered.
 
-
-
 exposition;8:INVESTIGATION CLUES DANGER DISAPPEARANCE
 
 As they continued their investigation, the danger seemed to grow, but so did the clues surrounding Julie's disappearance.
 
-
-
 dialogue;5:HALT THINK RISK CONSIDER
 
 "We should halt and think, consider the risks," Dan advised, concerned for the safety of his friends.
-
-
 
 exposition;11:DETERMINED PROTAGONIST MYSTERY SOLVE DESPITE
 
@@ -923,39 +788,27 @@ Dialogue;12: "What about this?"
 
 Exposition;11: Lloyd leaned in closer.
 
-Lloyd's frustration became evident as they weren't making much progress in solving the mystery. Lloyd took a deep breath and tried to regain control over his emotions. 
-
-
+Lloyd's frustration became evident as they weren't making much progress in solving the mystery. Lloyd took a deep breath and tried to regain control over his emotions.
 
 exposition;8:ROB NOTICE WALLS WRITTEN
 
-Rob noticed something written on the walls nearby. 
-
-
+Rob noticed something written on the walls nearby.
 
 dialogue;6:WHAT LLOYD LOOK
 
-"What's that, Lloyd? Look!" he exclaimed. 
-
-
+"What's that, Lloyd? Look!" he exclaimed.
 
 exposition;10:LLOYD SQUINTS WALLS TEXT
 
-Lloyd squinted at the walls, trying to make out the text. 
-
-
+Lloyd squinted at the walls, trying to make out the text.
 
 exposition;9:MESSAGE CRYPTIC CLUE PUZZLE
 
-The message seemed to be another cryptic clue to the puzzle. 
-
-
+The message seemed to be another cryptic clue to the puzzle.
 
 dialogue;4:ROB LET'S DO
 
-"Let's do this," Rob said, determined. 
-
-
+"Let's do this," Rob said, determined.
 
 exposition;6:LLOYD NODS AGREES
 
@@ -965,31 +818,21 @@ Lloyd nodded in agreement, ready for the challenge.
 
 Lloyd sighed, "It feels like the breeze through the trees, the soft drop of a leaf, barely noticeable."
 
-
-
 exposition;15:LLOYD ROB PUZZLE PIECE
 
 Lloyd and Rob examined the puzzle piece in their hands.
-
-
 
 dialogue;9:PATIENCE KEY TRUTH
 
 "Patience is the key to the truth," Rob reassured.
 
-
-
 exposition;14:DISCOVERY INVESTIGATION NEXT STEP
 
 This discovery was crucial in their investigation and determining their next step.
 
-
-
 dialogue;5:TIME PRESSURE
 
 "We're under time pressure," Lloyd stated.
-
-
 
 exposition;11:JULIE SAFETY UNKNOWN
 
@@ -1009,8 +852,6 @@ dialogue;8:RIGHT DIRECTION
 
 exposition;10:INTRICATE CONNECTIONS DISCOVERED
 
-
-
 "Yeah, I imagined kicking into high gear and recovering lost time," Lloyd said as they finally decoded the symbols and found new clues to advance the puzzle. "Spot on, Lloyd!" Rob exclaimed, impressed by their progress. The two friends embarked on an intense search, feeling more confident than ever. "We're definitely headed in the right direction now," Rob affirmed, his enthusiasm palpable. As they delved deeper, intricate connections between the symbols were discovered, bringing them one step closer to unraveling the mystery of Julie's disappearance.
 
 Rob stared at the decoded message and read it aloud, "TREE FOUR TWO PLENTY WEEKS." They exchanged puzzled glances, trying to decipher the meaning behind this cryptic phrase.
@@ -1029,8 +870,6 @@ Dialogue;6:STRANGE PLACE
 
 Dialogue;10:DEEPER MYSTERY
 
-
-
 Lloyd and Rob, determined to continue their investigation, focused on the map and the location of the clues they had gathered so far. "This is such a strange place," Lloyd commented, puzzled by the seemingly random nature of their discoveries. "There has to be a deeper mystery here," Rob responded, feeling an elegant jam of excitement and fear rise within him as they delved further into the unknown, hoping to find the truth about Julie's disappearance and bring everything to light.
 
 "Guys, dude, I just got a jolt, I think I heard the boss!" Lloyd suddenly exclaimed. The magazine they were using, which was inefficient and poorly organized, left room for mistakes. "Here's the main entrance," Rob pointed out, as he carefully examined the building's layout on the map, and then leaves his finger on the precise spot.
@@ -1047,15 +886,9 @@ Slyly, the apparition moved forwards, peering and nodding. "There's a high proba
 
 Lloyd looked at the apparition, his heart pounding in his chest. "We'd reckon a slow dive," Rob added nervously, trying to keep his voice steady. They both cautiously approached the figure, their eyes never leaving its sly gaze. "I don't know what this thing is, but we can't let it stop us from solving the puzzle," Lloyd whispered to Rob, who nodded in agreement.
 
-
-
 "Who are you?" Rob questioned with a slight tremble in his voice. The apparition tilted its head, as if amused by their confusion. "Do you have any connection to Julie's disappearance?" Lloyd inquired, his determination shining through his fear. The figure simply smirked, then vanished into thin air, leaving the two friends even more puzzled than before.
 
-
-
 "Damn it," Rob muttered, frustrated by the lack of answers. Lloyd, however, seemed oddly inspired by the encounter. "Maybe the apparition was a test, something to scare us away from the truth," he pondered, his eyes narrowing with renewed focus. "Or perhaps it was a clue in itself, a hint to keep searching and not be deterred by the unknown."
-
-
 
 "Either way, we can't let fear hold us back," Rob agreed, a newfound determination burning in his eyes as well. They returned their attention to the map and the cryptic message, determined to uncover the truth behind Julie's disappearance and the mysterious puzzle. As they studied the map, they began to notice a pattern within the marked locations, a pattern that seemed to lead them to their next destination.
 
@@ -1085,11 +918,7 @@ An illustration on the headline of a newspaper caught my eye, depicting a valley
 
 As I glanced at the poster, I noticed it was printed with a bold handle, urging people to "Wake Whenever." The conditions and terms were laid out with gusto, as if the University itself had crafted them. Skimming through the text, I discovered a phrase that caught my attention, "No cream, no regrets."
 
-
-
-"Judges of extraordinary beings will appear," I read aloud, pausing to take in the information. The public exposure of these judges seemed unusual, almost as if they were celebrities. The poster also mentioned a workshop and competition, which piqued my interest even more. 
-
-
+"Judges of extraordinary beings will appear," I read aloud, pausing to take in the information. The public exposure of these judges seemed unusual, almost as if they were celebrities. The poster also mentioned a workshop and competition, which piqued my interest even more.
 
 Realizing that we were dealing with something much larger than we initially thought, we became even more keen on solving the puzzle and finding Julie.
 
@@ -1097,25 +926,17 @@ The headline in Purple Daylight Yellow clearly stated the fear that gripped the 
 
 As we continued our investigation, I couldn't help but overhear a man exclaim, "Cash it'd squeals keys curtains!" I exchanged a puzzled glance with Rob, wondering how this random statement could be connected to our search for Julie. The man's words echoed in my mind, yet I couldn't decipher their meaning.
 
-
-
 exposition;17:WALKING STREET ADMIRATION INVESTIGATION BUILDINGS
 
 We walked along the busy street, our admiration for the city's historic buildings momentarily distracting us from our investigation.
-
-
 
 exposition;9:MAN EXCITEDLY POINTING NEWSPAPER
 
 A man excitedly pointed towards a newspaper stand, drawing our attention.
 
-
-
 exposition;16:HEADLINE PURPLE DAYLIGHT YELLOW CITY FEAR
 
 The headline, written in bold purple and daylight yellow letters, highlighted the fear that was gripping the city.
-
-
 
 exposition;11:ROB GLANCE DETERMINATION SOLVE
 
@@ -1135,55 +956,37 @@ I exchanged pleasantries with the man, trying to ignore the gravel-like feeling 
 
 "Hello, huh? Fails to harness tonight." I tried to understand the local dialect as I continued to explore the area. The city's atmosphere seemed to be a mixture of excitement and tension, with people from various backgrounds and origins gathering for an unknown purpose. It was as if the entire city had been transformed into a vibrant marketplace, with strange and exotic goods on display.
 
-
-
 exposition;8:LANGUAGES MYSTERIOUS INTRIGUED DIFFERENT FACES
 
 The mix of languages and mysterious faces had me intrigued, as I noticed people speaking in tongues I had never heard before. It was clear that something significant was drawing people to this place, and I couldn't help but wonder if it was connected to our search for Julie.
-
-
 
 dialogue;6:CURIOUS EVENT TIME SOON
 
 "Curious event happening soon, isn't it?" I remarked to a passerby, hoping to gain some insight into what was going on.
 
-
-
 exposition;10:REPLIED LANGUAGE UNFAMILIAR UNDERSTAND FRUSTRATION
 
 The person replied in a language that was unfamiliar to me, leaving me feeling frustrated with my lack of understanding.
-
-
 
 dialogue;6:ENGLISH SPEAK ANYONE HERE
 
 "Does anyone here speak English?" I asked, trying to find someone who could help me decipher the ongoing events.
 
-
-
 exposition;8:WOMAN APPROACHED SMILE HELPFUL
 
 A woman with a kind smile approached me, clearly eager to be of assistance as she recognized my struggle to communicate.
-
-
 
 dialogue;5:INFORMATION EVENT PURPOSE
 
 "What is the purpose of this event?" I inquired, hoping she could provide me with the information I desperately sought.
 
-
-
 exposition;10:EXPLAINED GATHERING EXTRAORDINARY BEINGS JUDGES
 
 She explained that the gathering was for an event called "Judges of Extraordinary Beings," where powerful and unique individuals would come together to showcase their abilities and talents.
 
-
-
 dialogue;5:INVOLVED JULIE CONNECTION
 
 "Could Julie be connected to this event?" I wondered aloud, the possibility of her involvement dawning on me.
-
-
 
 exposition;8:CONSIDERED POSSIBILITY INVESTIGATION DEEPER
 
@@ -1221,8 +1024,6 @@ Exposition;15:MOMENT SILENCE REALIZATION
 
 Exposition;8:SUSPICION GROW
 
-
-
 "Let's see if you're done wiping the floor with your competition," Lloyd said, his interest piqued and curiosity getting the better of him as he approached the person. "Who are you judging next?" he asked. The response from the curious stranger was intriguing, making him want to learn more. "Does any of this information have a connection to Julie?" Lloyd inquired, hoping for a lead. There was a moment of silence before the stranger's realization dawned, and Lloyd's suspicion continued to grow.
 
 As I observed the identical attention and subdued respect directed towards the stranger, I couldn't help but feel a growing unease.
@@ -1253,49 +1054,33 @@ Exposition;7: LLOYD WONDERED IDENTITY JAY
 
 "Commercially prescribed cod everywhere!" I exclaimed, feeling both intrigued and overwhelmed by the gathering. As I continued to explore, I couldn't help but notice the various participants and their unique abilities. Speaking with the other attendees, I soon realized that there was more to this gathering than just friendly competition.
 
-
-
 exposition;10:JULIE DISAPPEARANCE LLOYD SEARCH JUDGES GATHERING
 
-My search for Julie in this peculiar gathering of Judges of Extraordinary Beings had turned into a fascinating journey filled with unexpected twists and turns. 
-
-
+My search for Julie in this peculiar gathering of Judges of Extraordinary Beings had turned into a fascinating journey filled with unexpected twists and turns.
 
 exposition;9:JAY PACKAGE POSTAL WORKER MYSTERY
 
 The mysterious postal worker delivering a package to someone named Jay only deepened the enigma surrounding this event.
 
-
-
 exposition;8:ANGELA GOWNS COMPETITOR LEGEND
 
 Angela, the legendary competitor adorned in her impressive collection of gowns, was another captivating figure in this peculiar world.
-
-
 
 dialogue;4:ANY INFORMATION JULIE
 
 "Any information on Julie?" I asked a nearby attendee, hoping to find some answers to her disappearance.
 
-
-
 exposition;10:CONNECTIONS PEOPLE PIECES PUZZLE LLOYD
 
 As I conversed with various individuals, I began to see connections between people and how these connections could be potential pieces to the puzzle of Julie's disappearance.
-
-
 
 exposition;9:INTRUDER SHIRT OUTSIDER ACCEPTANCE
 
 Despite feeling like an outsider due to my "Intruder" shirt, I was surprised by the warm acceptance I received from the gathering's participants.
 
-
-
 dialogue;5:BELONGING PLACE GATHERING COMMUNITY
 
 "I feel a sense of belonging in this gathering, in this community," I admitted, reflecting on the camaraderie and support within the group.
-
-
 
 exposition;10:JOURNEY DISCOVERY CLUES ANSWERS LLOYD
 
@@ -1359,8 +1144,6 @@ Exposition;9:LLOYD NODDED THANKFUL
 
 Dialogue;15:"Hullo, takes bear, he's poor."
 
-
-
 Lloyd looked around the room, feeling more out of place than ever. Mike noticed Lloyd's confusion and decided to help him out. "Hey, if you need to ask me anything, just do it," Mike said with a casual tone. Lloyd replied with a nod, feeling thankful for the guidance. "Hullo, takes bear, he's poor," one of the men in the room suddenly shouted, drawing Lloyd's attention.
 
 Brief, excruciating, inaccessible reports caused tension. Lloyd slid the bitch volume onto his shoulder, trying to understand. An upside down, colorless, crude projection displayed the observations made. The reception in the room suffered from separate conditions, making it difficult to enjoy. The prose, a series of 11 sentences, filled the page, each representing a different aspect of the situation at hand.
@@ -1375,39 +1158,27 @@ Mike's initial massive pot had been won through a combination of luck, skill, an
 
 "Here's a stick and a book," whispers Mike to Lloyd. "I found them while you were asleep."
 
-
-
 "Wait, I've only been asleep for ten minutes?" Lloyd asks in disbelief, rubbing the sleep from his eyes.
 
 Exposition;8:LLOYD MIKE STICK BOOK
 
 Lloyd examined the stick and the book Mike had found.
 
-
-
 Exposition;5:MYSTERIOUS ITEMS
 
 These mysterious items seemed intriguing.
-
-
 
 Dialogue;6:WHERE FOUND
 
 "Where did you find these?" Lloyd asked.
 
-
-
 Exposition;13:MIKE LOCATION DISCOVER
 
 Mike explained the hidden compartment's location where he discovered them.
 
-
-
 Dialogue;11:THOUGHT MIGHT HELP
 
 "I thought they might help us," Mike said.
-
-
 
 Exposition;10:LEARN SECRETS ROOM
 
@@ -1417,37 +1188,25 @@ Lloyd and Mike continued their investigation, with a sense of spreading, creepin
 
 "Remember, any information we add doesn't necessarily bring us closer to the truth," Lloyd warned Mike cautiously.
 
-
-
 exposition;21:WISDOM MIKE LLOYD
 
 Mike took Lloyd's wisdom to heart, knowing the importance of accuracy in their investigation.
-
-
 
 exposition;25:MYSTERY EXPERIENCE INVESTIGATION
 
 Their combined experience in solving mysteries had taught them to be diligent and thorough.
 
-
-
 dialogue;12:STICK BOOK USE
 
 "So, how do we use this stick and book?" Mike asked.
-
-
 
 exposition;20:LLOYD IDEA CONTEMPLATING
 
 Lloyd, deep in contemplation, had an idea forming in his mind.
 
-
-
 dialogue;18:LLOYD PATTERN CONNECTION
 
 "Maybe there's a pattern or connection," Lloyd suggested.
-
-
 
 exposition;25:MIKE EXCITEMENT DISCOVERY
 
@@ -1499,8 +1258,6 @@ Lloyd took a sip from his pot of pungent herbal tea, muttering a silent prayer a
 
 "Guys, adding this dose of knowledge seems like we've just pulled our own legs," Mike said, feeling both excited and overwhelmed by their recent findings.
 
-
-
 "Even in those Friday evenings when we'd rob ourselves of sleep, with pockets filled with drunk ambition, we didn't come close to this," Dan replied, reminiscing about their previous attempts to crack the mystery.
 
 Laughter burst out as Mike unexpectedly fell, creating a lovely moment amidst the tension.
@@ -1527,19 +1284,11 @@ A hanging plumage bird caught their attention. The audience liked the discarded 
 
 "Let's buy what the suspicious agent leaves," said Mike.
 
-
-
 Mike then used a hedge to awkwardly prop up a chair.
-
-
 
 Lloyd, a bit annoyed, turned down the projector's volume while counting cash.
 
-
-
 The lecture held no significance whatsoever, like a seed without soil.
-
-
 
 Racks, desks, and chairs filled the room, along with photo frames capturing past achievements.
 
@@ -1557,11 +1306,7 @@ The researchers, including Mike, had their seats changed, and as a result, Mike 
 
 "It's crucial we reproduce the cocktail combination," Mike urged, tossing a vial between his hands. "If we can't consistently create the same results, our work is as good as dead." Lloyd frowned, his impatience growing, as he drummed his fingers on the table. He knew Mike was right, but the pressure to make progress was weighing heavily on him.
 
-
-
 "Fine, let's focus on that," Lloyd agreed reluctantly. "But we need to move faster; we're running out of time." The rest of the team exchanged glances, sensing the tension between the two leaders, but their determination to succeed was unwavering.
-
-
 
 As they worked together to perfect the complex mixture, Mike couldn't help but feel a growing sense of camaraderie and shared responsibility. He knew that their breakthrough was just around the corner, and he was determined to help Lloyd see it through to the end.
 
@@ -1600,8 +1345,6 @@ As I moved the heavy block, I hoped it would properly prove my suspicion about t
 As I continued onward, humming and twisting insects floated around me, creating an eerie atmosphere.
 
 It felt like an eternity as I plunged into the blackness, taking one final deep jump into the unknown. I felt like a boy, judging the towering structures and finely detailed surroundings as I continued onward. Slowly, I approached what seemed like the daybreak of this misty opening. Overhead, a creaking cog rested, resembling a peacefully perched dove.
-
-
 
 Gradually, I noticed the uniform recovery of the narrow corridor, each section dressed in shadows and mystery. Then, I saw it - a concrete cat, watching me with particular eyes, as if it were evaluating my every move.
 
@@ -1645,9 +1388,7 @@ With elbows steepled and chin resting on my makeshift mask, I surveyed the room 
 
 "Wait, everyone stop! Don't let the connecting wires touch each other!" I quickly warned the team, as I noticed their carelessness was about to cause a potential disaster.
 
-dialogue;7:"I've written an example piece, I mean." 
-
-
+dialogue;7:"I've written an example piece, I mean."
 
 exposition;9:PROTAGONIST FEELS APPREHENSIVE
 
@@ -1662,8 +1403,6 @@ dialogue;5:RIGHT BEHIND
 exposition;12:PROTAGONIST TAKES LEAD TIGHTLY GRIPPING FLASHLIGHT
 
 "Vacuum yield abstract," I muttered.
-
-
 
 "Guys, let's not forget that we're dealing with a single, mysterious individual who's been lurking around here lately," Mike warned, his voice echoing through the narrow passageway.
 
@@ -1688,8 +1427,6 @@ Dialogue;11:UNHAPPY ANGUISH SUFFERED THUNDER MOUNTAINS
 Exposition;12:PAPERS CLUTTERED DESK MYSTERY
 
 Exposition;10:SEARCHED MANUSCRIPT ARTHUR
-
-
 
 The protagonist sighed as he noticed the tension between Mike and Lloyd, who clearly disagreed on something. The walls of the cluttered room seemed to echo the tension in the air. "You both look as unhappy as someone who has suffered through the thunder in the mountains," he remarked. As they continued to search through the piles of papers on the cluttered desks, the mystery of Arthur's manuscript remained at the forefront of their minds.
 
@@ -1751,8 +1488,6 @@ As we approached the walled room, thirteen mysterious figures seemed to mount gu
 
 As we walked further into the walled room, I couldn't help but notice the strange setup, with doors and windows reminiscent of an apartment, and the thirteen figures donning gowns as if they were orderlies in a hospital. The atmosphere was a mix of a shower room and a paved fruit market, with a cool breeze gently swinging through the area. The sudden sound of alarms rang out, causing the orderlies to reach for their phones, creating a distraction as they scattered in different directions. Amidst the chaos, I found a spot to pour myself some coffee and buttered a roll, the liquid warmth providing a moment of respite from the bizarre scene.
 
-
-
 The steam from the coffee reminded me of a train starting its journey, and I leaned against a nearby station-like structure, taking it all in. As I slid around the corner, I accidentally bumped into a hedge, landing awkwardly on my shoulder. That's when I saw Mike and Julie on the other side of the hedge, also trying to make sense of the situation, and our shared confusion somehow made the whole scene a little less awkward.
 
 ## Chapter 8: The Princess
@@ -1775,8 +1510,6 @@ E;12:SHARED HISTORY WEIGHTS DECISIONS
 
 D;11:SHOULD TRUST HER INSTINCTS
 
-
-
 "Mike, your intent looks opened a single door," said the protagonist, befriending the Princess who had a revealed connection to their unknown past. An intriguing common interest was discussed between them, and the Princess admitted, "We have learned of our similarities." Mike, with a serious tone, suggested further investigation into the matter. The group considered the implications of this newfound connection as their shared history weighed heavily on their decisions. The protagonist turned to the Princess and asked, "Should we trust her instincts in this situation?"
 
 Exposition;7:GROUP CONFUSION GROWS
@@ -1788,8 +1521,6 @@ Dialogue;6:PRINCESS URGENTLY ASKS
 Exposition;5:BOLD DECISION
 
 Dialogue;5:TRUST PLAN
-
-
 
 "Mike confirmed, "It's just a single touch, and we're finished," as the group's confusion grew. The protagonist pondered the situation, unsure of the next step. The Princess urgently asked, "Are we ready?" Knowing time was of the essence, the protagonist made a bold decision. "Let's trust her plan," he said, determined to move forward.
 
@@ -1853,9 +1584,7 @@ Lloyd tapped the newly popped balloon, tears streaming down his face as he cried
 
 "Coconut, momentarily put in more efforts!" Mike enthusiastically exclaimed, attempting to encourage his friend during the peculiar event. "Neither cry nor back out, there's value in this!" Rob chimed in, trying to keep the spirits high as they continued their adventure.
 
-Mike turned to the group and said, "Grannies Granny bin requires brass." His cryptic statement left them all puzzled, but they knew it was a clue they needed to follow. 
-
-
+Mike turned to the group and said, "Grannies Granny bin requires brass." His cryptic statement left them all puzzled, but they knew it was a clue they needed to follow.
 
 Rob chimed in, "We've got identical cash, let's use it!" The group nodded in agreement, as they prepared to delve deeper into the mystery surrounding Lloyd's Folly and the Princess.
 
@@ -1865,25 +1594,17 @@ As they executed the program, Mike handed everyone a drink to help them relax an
 
 "Guys, kids," Mike said, drawing everyone's attention. "Kitty cats bring us luck, right?" He pointed at a group of kittens playing nearby, hoping to lighten the mood. "Maybe we should adopt one for our journey."
 
-
-
 Exposition;5:PRINCESS SMILED GROUP KITTENS
 
 The Princess smiled at the thought of the group adopting one of the kittens.
-
-
 
 Dialogue;4:ADORABLE HELP US
 
 "They're adorable, but can they really help us?" Rob questioned skeptically, unsure of how a kitten could contribute to their mission.
 
-
-
 Exposition;6:MIKE PLAYFULLY GRINNED IDEA GROUP
 
 Mike playfully grinned at the idea, knowing that the group needed something to lift their spirits.
-
-
 
 Exposition;5:TWINS EYES SPARKLED KITTENS
 
@@ -1892,8 +1613,6 @@ The twins' eyes sparkled as they watched the kittens, clearly enamored by the fl
 As Lloyd tapped the volume on the small device, a high-pitched sound filled the room. The group watched as numbers streamed from the device, as if pouring from an unseen source. A blinking cursor crouched at the bottom of the screen, indicating that some hideous language was waiting to be deciphered.
 
 "Forty-two sorted and tested sections, split them," Mike instructed as the group gathered around the mysterious device. Exposition;9:LLOYD MIKE PRINCESS KITTEN ROOM Exposition;11:DEVICE HIGH-PITCHED MYSTERIOUS LANGUAGE DECODING Exposition;6:NUMBERS PUZZLE PIECES Exposition;12:TEAMWORK INVESTIGATE FOCUS DETERMINATION ADVENTURE
-
-
 
 Lloyd, Mike, the Princess, and even the kitten intently studied the screen in the dimly lit room. The device, now emitting a high-pitched sound, displayed the mysterious language that they needed to decode. The numbers seemed like puzzle pieces, waiting to be put together. With teamwork, investigation, focus, and determination, the group prepared to embark on the next stage of their adventure.
 
@@ -1924,8 +1643,6 @@ As the group clumped together under the quickly falling, asymmetrical raindrops,
 In a moment of pensiveness, the inability of the constable to provide pleasure to the group became apparent. The resulting problem was easy to compare to a fair, yet mismatched contest. Deprived and conspicuous, their souls yearned for a profound resolution.
 
 "Amazing, let's refer," said Mike. "We'd find a solution if we'd just act," the Princess declared, eager to jump into action. As the group struggled to decipher the mysterious phrase, they couldn't help but feel a nagging sense of urgency. The kitten, oblivious to the tension, continued to playfully bat at the raindrops, providing a small moment of levity in the otherwise tense situation.
-
-
 
 As the group huddled closer, Mike noticed the Princess's eyes darting back and forth, as if she was trying to piece together a puzzle in her mind. "I think I've got it," she suddenly exclaimed, her voice filled with excitement and hope. The rest of the group leaned in, eager to hear her thoughts on the perplexing clue.
 
@@ -1987,8 +1704,6 @@ Dialogue;3:"Thanks, MIKE"
 
 Exposition;6:TEAMWORK TRUST RELIED
 
-
-
 Mike observed the Princess as the group trudged on, encountering even stranger formations along their journey. "Coffee, anyone?" Mike offered, trying to lift their spirits. The Princess busied herself with consuming the coffee and smiled, her face still filthy from the environment. "Thanks, Mike," she said, grateful for the small comfort. They continued to rely on teamwork and trust to face the challenges ahead.
 
 Mike noticed a small creature with an outstretched palm, offering them pills with a nice smile. The group exchanged glances, wondering if they should trust this being, as they had seen various quantities of these pills in the alien world, leading them to believe they held some universal significance, perhaps even faith-based or related to the mysterious court they had heard about.
@@ -1998,8 +1713,6 @@ Mike noticed a small creature with an outstretched palm, offering them pills wit
 Rob suddenly said, "Notice those offspring veins, bows?" Meanwhile, Mike pulled out his phone and explained, "Wicked reliable tea records are available online."
 
 "Hey Dan, the guy jumps and opens his mug!" Mike exclaimed.
-
-
 
 "What's in there? I won't read his brain, but heavens, I'm curious!" The Princess said playfully.
 
@@ -2027,8 +1740,6 @@ Exposition;6:MIKE ANALYZES
 
 Dialogue;6:ARTERIES MAXIMUM PILL DRUGS DOSE
 
-
-
 Mike, the Princess, Rob, and Dan considered the strange creature before them. Rob, unsure, asked the creature about the pills. Mike silently analyzed the situation, trying to discern the creature's intentions. The creature responded, "Arteries maximum pill drugs dose."
 
 Ironically, Rob's subtle longing for answers made the odd situation even more intriguing.
@@ -2051,8 +1762,6 @@ dialogue;4:SLIPPERY FLOOR ROB
 
 exposition;8:ALIEN TERRAIN UNFAMILIAR
 
-
-
 Rob exclaimed, "I wad the bowl, sliding on my belly!" Mike turned to the Princess, gesturing to the control panel. Dan approached slowly, remaining cautious. The creature's eyes seemed to be watching their every move. The tension in the air was growing among the group. "Slippery floor, Rob," someone pointed out. They all continued forward, the alien terrain unfamiliar and unsettling.
 
 Lloyd situated himself in the late evening beside the Princess's maid.
@@ -2071,8 +1780,6 @@ Exposition;5:Night turned DAYLIGHT.
 
 Dialogue;6:"HELLO, BIRDS! SCREAM it BROAD!"
 
-
-
 Exposition;6:Mike suddenly LAUGHED.
 
 Dialogue;4:"Confusing, huh?"
@@ -2089,25 +1796,17 @@ Lloyd barked loudly, flipping through the volume's pages according to the instru
 
 Rob looked around and said, "A bug can dig, a bird can eat, but a mountain?" The group continued discussing the peculiarities of the world they found themselves in, trying to make sense of the strange landscape and creatures they encountered. Mike recalled a story his great-grandmother had told him about a similar situation, where a group of explorers had come across a bizarre, alien world filled with oddities and challenges.
 
-
-
 exposition;13:MIKE GREAT-GRANDMOTHER STORY MYSTERIOUS
 
 Mike's great-grandmother had been part of the Hones Wavers Administration, an organization dedicated to researching mysterious alien environments and their potential connections to Earth. Her stories had always fascinated Mike, and now they seemed more relevant than ever.
-
-
 
 dialogue;8:PRINCESS UNUSUAL CONNECTION
 
 The Princess chimed in, "There must be some unusual connection between our worlds."
 
-
-
 exposition;17:DAN ANGELA RESEARCH INFORMATION HONES WAVERS
 
 Dan and Angela decided to focus their efforts on gathering more information about the Hones Wavers Administration and their research in order to better understand the world they found themselves in.
-
-
 
 dialogue;11:MIKE LLOYD PAGE VOLUME
 
@@ -2115,11 +1814,7 @@ Mike turned to Lloyd and asked, "Can you help us find the right page in this vol
 
 "Typing all this boss stuff, you'd be fast too," Mike quipped, as he rapidly typed on the ancient-looking device. The others watched in awe at Mike's skills, wondering how he could be so proficient with such outdated technology. The Princess, ever the curious one, inquired about the nature of the information they were looking for. Dan, who had been quiet for a while, chimed in and added that it was crucial to understand the Hones Wavers Administration's past.
 
-
-
 "We need to find any connections between the Hones Wavers Administration and this strange world we're in," Dan explained, his voice filled with determination. The group nodded, understanding the gravity of the situation. As the clicking of keys continued, Rob and Angela exchanged glances, silently acknowledging their shared concern for their friend's well-being.
-
-
 
 Just then, Lloyd, who had been observing the group from a distance, approached them with an old, dusty tome in his hands. "I believe this might be of use to you," he said, presenting the book to the group. As they eagerly flipped through the pages, they hoped to find the answers they were seeking.
 
@@ -2143,15 +1838,11 @@ Angela sighed, "Sorry, nice wagon, but no information."
 
 "Wow, these covers are crazy, Rob!" Mike exclaimed, impressed by the intricate designs on the ancient papers.
 
-
-
 "Let's ask Lloyd for answers before dropping this," Angela suggested, unwilling to give up on the tome just yet.
 
 Lloyd shakes his head, pointing out key aspects of their conversation. The phenomena they discussed seemed to be an invented idea, represented by a faint glow surrounding the text.
 
 dialogue;5:THANKS UNDERSTANDING LLOYD
-
-
 
 As Mike continued to study the ancient papers, he mumbled to Lloyd, "I don't quite understand the meaning of this text, but I'm grateful for your help." Overhearing their conversation, the Princess chimed in, "Thanks for being so understanding, Lloyd."
 
@@ -2165,39 +1856,27 @@ dialogue;8: "Huh, this rich bit is trouble to read."
 
 As they continued their search, the group found themselves facing a peculiar scene. The landscape had shifted once again, now filled with bizarre, frozen creatures that seemed almost human, yet not quite. Angela approached one of the figures, a strange ape-like being with a beaming smile and curled fingers.
 
-
-
 dialogue;5:WHAT ARE THESE THINGS
 
 "What are these things?" she asked, unable to hide her curiosity.
-
-
 
 exposition;5:MIKE CONFUSED SHRUGGED
 
 Mike, equally as puzzled, simply shrugged in response.
 
-
-
 dialogue;7:PRINCESS KNOWS SOMETHING ROB
 
 "Maybe the Princess knows something," Rob suggested.
 
-
-
 exposition;9:PRINCESS STUDIED FIGURES CAREFULLY CONCENTRATION
 
 The Princess studied the figures carefully, her expression filled with concentration as she tried to recall any information that could help them understand these odd beings.
-
-
 
 dialogue;6:SEEN SOMETHING SIMILAR
 
 "I've seen something similar before," she finally said.
 
 "Indeed, although gossip, I'll offer some help," the Princess said, her eyes reflecting a sense of determination. They all listened intently, hoping her knowledge could provide the answers they were searching for. She began recounting a tale from her past, describing a time when she had encountered similar creatures in a remote region of her own kingdom. As she spoke, the group realized that there was a correlation between the Hones Wavers Administration and these beings trapped in ice.
-
-
 
 "I believe they are remnants of their experiments," the Princess concluded, her voice quivering with anger. Mike, Rob, Dan, and Angela exchanged glances, the gravity of the situation sinking in. They knew they had to find a way to put an end to the cruel actions of the Hones Wavers Administration and free these frozen victims. Their resolve strengthened, they began discussing potential strategies to confront the organization and unveil the truth behind the mysterious creatures.
 
@@ -2215,11 +1894,7 @@ Rob started outlining their plan, speaking with conviction.
 
 "Turn the volume down, Lloyd, or I'll hang you by your counter," Mike threatened jokingly.
 
-
-
 The blonde woman, who usually wore pale colors, stood nearby.
-
-
 
 With a coquettish half-smile, she shared a similar resolve to unveil the mystery.
 
@@ -2241,31 +1916,21 @@ Mike nodded and shrugged, accepting Jenny's apology as Rob introduced her to the
 
 "Stuffing weren't involuntary, winked," Mike said playfully, attempting to lighten the mood. He could tell that Lloyd's suspicion was making the atmosphere tense, and he wanted to ensure that everyone was comfortable, especially since Jenny had just joined their group.
 
-
-
 exposition;7:MIKE JENNY BLONDE SMILE LLOYD
 
 Mike noticed Jenny's blonde hair and a small smile forming on her face, indicating that she appreciated his effort to make her feel welcome. However, Lloyd remained unconvinced and still kept a watchful eye on her.
-
-
 
 dialogue;5:ASKED PRINCESS TRUST JENNY
 
 "Princess, do you trust Jenny?" Dan asked, realizing that the group would need to have faith in their new companion if they were going to work together effectively.
 
-
-
 exposition;8:PRINCESS CONSIDERED QUESTION MOMENT GROUP
 
 The Princess considered the question for a moment, taking into account the impact her decision would have on the group's dynamic and their ability to deal with the Hones Wavers Administration.
 
-
-
 dialogue;6:ANSWERED TRUST GROW TIME
 
-"I believe trust can grow in time," the Princess answered diplomatically, hoping to convey that while they may not fully trust Jenny yet, they could potentially work together and build that trust in the future. 
-
-
+"I believe trust can grow in time," the Princess answered diplomatically, hoping to convey that while they may not fully trust Jenny yet, they could potentially work together and build that trust in the future.
 
 exposition;9:LLOYD NODDED RELUCTANTLY DECISION PRINCESS
 
@@ -2299,25 +1964,15 @@ Exposition;6:CONFUSION SPREADS FACES
 
 "Salvatore, any ideas?" Mike inquired slyly.
 
-
-
 "Well, notwithstanding our nervous state, we couldn't just maintain clean appearances and hope for the best," Salvatore suggested thoughtfully. "We need to act smart and cautiously to attain our goals."
 
 "Yeah, huh, pickles starts with bird?" Mike asked, puzzled by the cryptic statement.
 
-
-
 Lloyd elaborated, "What I mean, Mike, is that we should start our investigation by looking into the Hones Wavers Administration's connections to the strange creatures we've encountered, such as the frozen ones and the latte shop alien."
-
-
 
 "Theory thoroughly yours, Je," Jenny chimed in, supporting Lloyd's suggestion and acknowledging her part in the plan.
 
-
-
 Salvatore nodded, adding, "We need to be cautious and smart about this, but I believe it's the right path to take."
-
-
 
 With the group in agreement, they began to brainstorm ways to expose the Hones Wavers Administration while maintaining their cover as harmless outsiders.
 
@@ -2327,21 +1982,13 @@ Mike gave a half-hearted attempt at wiping the sweat from his drained forehead, 
 
 "Rob, this quantum tap business is just plain silly," Mike said, trying to shift the conversation from the swinging bridge. Suddenly, a loud noise echoed through the area, drawing everyone's attention. As they turned, they saw an enormous creature with razor-sharp claws and multiple eyes approaching their camp. Lloyd, always the strategist, quickly assessed the situation and devised a plan to distract the creature while the others prepared to defend their position.
 
-
-
 "Dan, Jenny, you two take the left flank; we'll cover the right," Lloyd instructed, his voice steady despite the impending danger. The group moved into their positions, adrenaline pumping through their veins. As the creature neared, they could see the malice in its many eyes, a clear indication that it had somehow been altered or controlled by the Hones Wavers Administration.
 
-
-
 "Those bastards," Mike muttered under his breath, anger fueling his resolve. He charged at the creature, his companions following suit, their combined efforts overwhelming the monstrous beast. After a tense battle, the creature lay defeated at their feet, a symbol of the Hones Wavers Administration's insidious meddling.
-
-
 
 As they regrouped, Mike couldn't help but wonder how many more creatures like this one they would encounter on their journey. Would they be able to stop the Hones Wavers Administration before it was too late? Only time would tell, but for now, their resolve was stronger than ever.
 
 Lloyd winced. "This is crazy!" he argued, adding to the already tense atmosphere in the room. "How can we trust anything Jenny says when she's been eavesdropping on us the entire time?" he explained, slamming his fist against the wall in frustration. Mike, trying to keep the peace, reminded Lloyd that they had all agreed to take precautions and monitor Jenny's actions closely. "Remember, we're keeping a close eye on her and gathering more information about the Hones Wavers Administration," Mike said, attempting to refocus the group's attention on their mission. "We can't afford to let our emotions get in the way of our goal."
-
-
 
 Lloyd sighed, realizing that Mike was right. "Alright, fine. But we need to stay vigilant and not let our guard down." The rest of the group nodded in agreement, understanding the importance of remaining cautious in their pursuit of answers. As they continued discussing their next moves and potential strategies, a sense of unity and determination settled over them. They knew that the road ahead would be difficult, but they were prepared to face whatever challenges the Hones Wavers Administration had in store for them.
 
@@ -2355,9 +2002,7 @@ Lloyd paced, admiring the dusk map.
 
 "Raise an eyebrow, Lloyd, but this technology puts our throat translators to shame," Jenny said with a smirk, watching him pace and examine the dusk map. The advanced HAT technology she described was capable of much more than simple translation, and she hoped that by sharing this information, the group would gain an advantage against the Hones Wavers Administration. As Lloyd's eyebrows furrowed in thought, Mike interjected, "So, you're saying this HAT tech could be the key to understanding and potentially communicating with those frozen creatures we found?" Jenny nodded, adding, "Not just that, but it could also help us infiltrate the HWA and gather crucial information." The group exchanged wary glances, realizing the potential risks and rewards of utilizing such advanced technology. With a determined look, Lloyd finally spoke up, "Alright, let's do it. Let's see what this HAT tech can do for us."
 
-"Hey, check out this cap!" Jenny exclaimed, showing off a fashionable knee-length garment. 
-
-
+"Hey, check out this cap!" Jenny exclaimed, showing off a fashionable knee-length garment.
 
 Dan replied, "The fabric is thicker than I expected, like it's designed for stormy weather or dense forests."
 
@@ -2375,8 +2020,6 @@ Exposition; 8: DAN OBSERVES CAP
 
 Dialogue; 13: QUAD MILK SIP LURKING SUGAR
 
-
-
 Jenny explained the intricacies of the HAT technology to the group. "So, how does it work?" Mike asked, his curiosity piqued. The group listened attentively as she delved into the details. "It's a gamble, but we might as well try," Lloyd said, contemplating the decision. Meanwhile, Dan observed the fashionable cap, noting its unique features. "Just a quad milk sip away, lurking in the sugar," a mysterious voice whispered from the shadows.
 
 Mike pulled the cubicle chair aside, placing his palm on the cold surface.
@@ -2393,27 +2036,17 @@ Lloyd stammered, lifting his eyes to his friend, "Where?" Jenny blinked and repl
 
 "Draining vines, orchard bench, market?" Mike asked.
 
-
-
 "Sal, jug, cream, pockets, and Dan, of course!" Jenny replied, trying to make sense of the information they had gathered.
 
 As they left the shop, Jenny shared more about her past with the group. They all sipped tea from suspended glasses, its pale liquid soothing their nerves.
 
 "Vortex quilt rises at sunset," Mike mentioned, reflecting on the information they had gathered. "Lifts, not drops," Jenny corrected him, emphasizing the importance of precision in their investigation. The two continued their discussion, piecing together the puzzle of the Hones Wavers Administration's activities and motives. As they walked, the sun dipped below the alien horizon, casting long shadows across the strange landscape before them.
 
-
-
 As they talked, Mike couldn't help but notice the subtle changes in Jenny's demeanor. She seemed more confident, more knowledgeable than before, and he found himself trusting her more with each passing moment. "So, do you think we're ready to confront the Hones Wavers Administration?" Mike asked, seeking her opinion.
-
-
 
 "I think we're getting closer," Jenny replied, her voice steady and determined. "But we still need more information. We can't just charge in blindly."
 
-
-
 Mike nodded, understanding the importance of a well-planned approach. Though the desire to take action burned within him, he knew that they needed to be strategic and thorough in their efforts. Jenny's wisdom and insight were invaluable in this regard, and he was grateful for her guidance.
-
-
 
 As they walked, the pair continued to share ideas and insights, each contributing their unique perspectives to the task at hand. And as the stars began to appear in the sky above, Mike felt a renewed sense of hope and determination. Together, they would uncover the truth and bring the Hones Wavers Administration to justice.
 
@@ -2427,15 +2060,9 @@ My phone grumbled before dying, the result of severe hacking. In a classic twist
 
 A cold draught brought flies into our mouths, eliciting disgusted responses from the group. We remained puzzled, eyebrows furrowed as we chased away the pesky insects. The worn elegance of the hidden library seemed to be in a quantum slumber, a curious mixture of old and new.
 
-
-
 In this peculiar place, it appeared that time had invented curious things, but these inventions seemed to carry a sense of overtime that wasn't quite working as expected. Eliza frantically tried to improve the situation while Angela tended to the baby with a sense of urgency.
 
-
-
 Reality seemed to be attempting to insert itself into this novel situation we had stumbled upon, but something always seemed slightly off. It was as if Julie, piloting our journey, had fallen asleep at the wheel and left us to navigate the chaos.
-
-
 
 Underneath the pseudonym and pronoun that had been bestowed upon this novel adventure, there was a significance that we couldn't ignore. The idea of a shared control, like the one we had found in the drawer, became all the more prominent as we continued to explore.
 
@@ -2457,8 +2084,6 @@ As I pondered our situation, I turned to Grin and asked, "What do you think this
 
 "Anybody need more delivery parts, Jay?" I asked.
 
-
-
 "Well, what happens if we can't reach inside and find the witch's parts, Jenny?" Julie inquired cautiously.
 
 I nodded as I tangled with the peculiar environment, frowning and shrugging as we continued pushing through. We formed a circle around Angela, who greeted us with her arms draped around our necks, her spirits improved. The shelves around us were filled with an array of tuned hardware, emitting a faint screech as if the strings of our destiny were being played.
@@ -2472,8 +2097,6 @@ Silently, the writer's interpretation distorted my reply. A petite, electric pre
 As I shook her hand, I felt my skin crawl as our knuckles pressed into each other's meaty flesh. I noticed a slight mist forming around her, reminding me of the Canadian wilderness we had left behind thousands of miles ago. A breezy sensation preceded her words, as if she was gliding through the conversation, and her voice growled like a cat that wasn't quite satisfied. She stammered, her face turning a shade of garlic-red, as if the blood was rushing to her brain, betraying her nervousness.
 
 "Well, today has been a troubling experience, to say the least," I said, striving to find the right words. "But I can't help but feel there's more to this than meets the eye."
-
-
 
 "You've got quite a talent for understatement," Angela replied dully, clearly unimpressed with my attempt at a clever phrase.
 
@@ -2501,33 +2124,23 @@ The kitchen vacuum emitted an inviting electric hum as it cleaned up the spilled
 
 Exposition;20:PROTAGONIST WONDERS JENNIFER HUMILITY
 
-"Jennifer, I can't believe you just called yourself great!" I exclaimed, a bit amused by her lack of humility. 
-
-
+"Jennifer, I can't believe you just called yourself great!" I exclaimed, a bit amused by her lack of humility.
 
 Exposition;19:LAUGHTER JENNIFER H SMILE
 
-Jennifer's laughter filled the room as H smiled, shaking his head in agreement. 
-
-
+Jennifer's laughter filled the room as H smiled, shaking his head in agreement.
 
 Exposition;26:PROTAGONIST GROUP KITCHEN CONTINUE
 
 As a group, we continued to explore the peculiar kitchen, still wondering about its purpose.
 
-
-
 Exposition;23:NOTICING INGREDIENTS COOKING WONDERS
 
 I noticed various ingredients and cooking utensils, wondering what sort of meals were prepared here.
 
-
-
 Dialogue;12:JENNIFER SUSPICIONS KITCHEN
 
 "Do you think this kitchen has any significance to Lloyd's Folly?" Jennifer asked, her suspicions now piqued.
-
-
 
 Exposition;20:H NODS AGREEMENT SUGGESTS
 
@@ -2561,8 +2174,6 @@ Exposition;11:CAT LEAPING PURRING
 
 Exposition;12:CHAOTIC MESS SALVATORE
 
-
-
 "It's brewed under artificial conditions," announced Salvatore. "Flip the switch and experience something amazing," he continued, gesturing towards a short-necked contraption. As the flashlight's beam grew dim in the fading daylight, the group struggled to make sense of the mysterious box with the number seven on it. Suddenly, a cat appeared, leaping and purring in response to some unforeseen coincidence. The atmosphere remained tense, as the chaotic mess of the peculiar kitchen and Salvatore's enigmatic presence weighed heavily on their minds.
 
 With a slapping hand and unbridled enthusiasm, Salvatore advised against jumping to conclusions.
@@ -2593,17 +2204,13 @@ Beaming, Salvatore skipped ahead, cap draped loosely.
 
 "Ridiculous! I'd totally rather have a beard than pounds," J joked, trying to lighten the mood.
 
-Lloyd shrugged, his shoulders pressing against Angela's grasp. 
-
-
+Lloyd shrugged, his shoulders pressing against Angela's grasp.
 
 "Hey, this reminds me of ol' Dan's farewell party, doesn't it?" Salvatore exclaimed with a grin.
 
 As the program executed, the group hung back, waiting to review the results. They stood there, waiting for whatever would stick, prompted by an unspoken desire to sink into understanding. Lloyd found himself trying to decipher the patterns, bitching about the litter of confusion, as his mind spun with the possibilities.
 
 "Hey, Jenny stays in a world where every nail matters!" J joked, trying to distract the group from their growing unease.
-
-
 
 "Sorry," Angela said, grasping at her necklace, not intending to bring the group down with her worries.
 
@@ -2615,25 +2222,17 @@ Lloyd noticed bitch patterns spinning, making him dizzy. Jenny sat on the carpet
 
 Salvatore suddenly interrupted, "Hey, Lloyd, you've been in the lead for a while now. What do you say we switch roles for a bit? I could take the lead and we might find ourselves somewhere you'll enjoy more."
 
-
-
 exposition;9:LIGHT LAUGHTER AIR
 
 A light laughter filled the air as the group considered Salvatore's proposition.
-
-
 
 exposition;7:SHIFT DYNAMICS
 
 This shift in dynamics had the potential to bring about a change in the group's overall mood.
 
-
-
 dialogue;29:RATHER CURIOUS LLOYD
 
 Lloyd, feeling rather curious, agreed, "Alright, Salvatore, let's give it a shot."
-
-
 
 exposition;10:TENSION EASES SMILES
 
@@ -2641,19 +2240,13 @@ As the tension eased, smiles spread across their faces, and the group's spirits 
 
 "Fun starts now, and we weren't forgetting!" Salvatore announced enthusiastically, trying to inject a sense of excitement into the group. As they ventured deeper into the peculiar kitchen, the atmosphere seemed to lift ever so slightly. A sudden burst of laughter echoed through the room, as they stumbled upon an unexpected sight.
 
-
-
 exposition;4:SERVING TRAY EXPLODING CONFETTI
 
 An oversized serving tray, filled to the brim with exploding confetti, sat before them, making everyone stop in their tracks. Though it was a completely bizarre and somewhat out-of-place discovery, it managed to bring a sense of cheerfulness to the group.
 
-
-
 dialogue;4:J WHO DID THIS
 
 "Who did this?" J asked, a hint of amusement in his voice, as he wiped confetti from his face. The others, too, couldn't help but join in the laughter, their previous unease momentarily forgotten.
-
-
 
 exposition;5:LLOYD PAST MYSTERIOUS EVENTS
 
@@ -2679,37 +2272,25 @@ As the computed scattering paused, the population's century-long stagnation lift
 
 "Isn't it cute?" Angela mumbled, her astonishment instantly prevalent.
 
-
-
 exposition;4:ANGELA GESTURING OBJECT
 
 Angela gestured toward the peculiar object.
-
-
 
 dialogue;5:GRINNED SALVATORE AGREED
 
 "You're right," Salvatore grinned, agreeing.
 
-
-
 exposition;6:SALVATORE EXAMINED OBJECT MYSTERIOUS
 
 Salvatore closely examined the mysterious item.
-
-
 
 dialogue;3:ROB QUESTIONED
 
 "What's that?" Rob questioned.
 
-
-
 exposition;5:GROUP GATHERED CLOSER
 
 The group gathered closer, intrigued.
-
-
 
 dialogue;8:J PUZZLED UNCOVER SECRETS FOLLY
 
@@ -2719,11 +2300,7 @@ As the group typed smartly on the page, their excitement and curiosity for the d
 
 "Wow, veins loudly!" Angela announced, excitedly holding the peculiar object. Salvatore examined it closely, trying to determine its origin and purpose. "It's fascinating," he mused, as the rest of the group gathered around, their curiosity piqued.
 
-
-
 "Where do you think it came from?" Rob asked, his voice filled with awe. J shared their thoughts, wondering aloud about the secrets that Lloyd's Folly held. "There must be more to this place," they murmured, as Dan nodded in agreement.
-
-
 
 As the group's excitement and curiosity for the department increased, they typed smartly on the page, each of them eager to uncover more mysteries hidden within Lloyd's Folly. It seemed that every corner held a new discovery, and they were determined to explore it all.
 
@@ -2791,19 +2368,13 @@ Lloyd pouted, his face flush, and the changing color in his throat betrayed his 
 
 "Typed celebrities hawking literature discussions?" Lloyd questioned incredulously, unable to fathom the relevance of such a topic. Jenny, however, found herself intrigued by this unexpected turn in their conversation. She felt a strange connection to the celebrities and the literature they discussed, as if she had heard of these discussions before but couldn't quite recall when or where.
 
-
-
 exposition;9:WREN LIBRARIAN MYSTERIOUS OBJECTS HISTORY
 
 Wren, the librarian, became more invested in the mysterious objects' history, her eyes lighting up as she listened to the others debate the possible connections between the strange etchings and the typed celebrities hawking literature.
 
-
-
 dialogue;5:JENNY CONNECTION CELEBRITIES DISCUSSIONS
 
 "I feel a connection to these celebrities' discussions," Jenny admitted hesitantly, unsure if the others would dismiss her intuition as pure fantasy.
-
-
 
 exposition;13:GROUP INTRIGUED SUGGESTION CONNECTION MYSTERIOUS OBJECTS CELEBRITIES
 
@@ -2812,8 +2383,6 @@ The group became intrigued by Jenny's suggestion of a connection between the mys
 "You're an image because you haven't done your job."
 
 "Rob, what in the hell is that brown-legged piece of art?" Lloyd exclaimed, eyes widening in confusion.
-
-
 
 "We're just weird members bumping into heavy stuff," Jenny replied nonchalantly.
 
@@ -2833,51 +2402,35 @@ Jenny laughed and said, "I know it sounds silly, but trying to solve this deserv
 
 As the investigation gained media attention, Lloyd's name became associated with the interviews about the mysterious objects. In an old school, they found a desk with a peculiar set of cards hidden within the drawers. With a sudden whoosh, a whirlwind of papers tumbled through the room like prey being chased. Frantically, the group clawed at the papers, trying to recover them before they were swept away or damaged, their eyes fixated on the old school desk and its secrets.
 
-"I've heard that this Repeated Name guy likes the station call," Jenny said, looking at Wren and Lloyd, her eyes filled with curiosity. 
-
-
+"I've heard that this Repeated Name guy likes the station call," Jenny said, looking at Wren and Lloyd, her eyes filled with curiosity.
 
 exposition;9:DESK CARDS RUMORS CONNECTION
 
 Rumors about the desk cards' connection to Repeated Name started to circulate among the group.
 
-
-
 exposition;8:RESEARCH ONLINE ARTICLES
 
 They began to research online, delving into articles about Repeated Name and his interests.
-
-
 
 dialogue;6:STATION BROWN LEGS
 
 "Could the station have brown legs?" Wren asked, trying to piece everything together.
 
-
-
 exposition;4:SCENT MYSTERY
 
 The scent remained a mystery.
-
-
 
 dialogue;10:EXPLAINING CONNECTIONS PIECES PUZZLE
 
 "I think we're slowly explaining the connections between these pieces of the puzzle," Lloyd said, feeling a sense of progress in their investigation.
 
-
-
 exposition;7:PHONE INTERVIEW REQUEST
 
 Suddenly, Lloyd received a phone request for another interview about their findings.
 
-
-
 dialogue;8:FOCUS INVESTIGATION IGNORE
 
 "Let's focus on our investigation and ignore this for now," Lloyd suggested, determined to not be swayed by the media attention.
-
-
 
 exposition;6:GROUP AGREED CONTINUED
 
@@ -2917,21 +2470,13 @@ Salvatore held the firelight, flickering and twinkling in the dingy room. They f
 
 "This place has a crazy set of properties," Lloyd muttered, surveying the sugar bin and piles of socks around them.
 
-
-
 "Last night, I woke up to a horrible noise that made me feel sick," one of the group members shared, rubbing their temples.
 
-
-
 As they continued to explore the room, Lloyd noticed that the air felt heavier, and the scent of decay was stronger.
-
-
 
 Exposition;7:GROUP MEMBER PULLED
 
 A group member pulled a worn-out suit from one of the drawers, examining it with a mix of curiosity and disgust.
-
-
 
 Exposition;24:LAUGHTER SHARED STRANGE MEAL BIRDS
 
@@ -2961,25 +2506,17 @@ Exposition;13:CURTAINS WEIGHT STRONGER
 
 The roaring sound initially startled Eliza, who frantically clutched her pot for comfort. As they navigated the dried plastic byways, they were all blinded by an inexplicable, universal darkness.
 
-
-
 dialogue;6:LLOYD FLASHLIGHT HERE
 
 "Hey Lloyd, flashlight here," Quantum Dan requested, hoping to illuminate their path.
-
-
 
 exposition;14:CURTAIN WEIGHT DARKNESS UNRAVEL
 
 The curtain's weight continued to increase, as if the darkness itself was attempting to unravel their journey.
 
-
-
 dialogue;10:FEEL AIR LAUGHED NERVOUSLY
 
 "I can't even feel the air," Eliza laughed nervously, trying to keep her spirits up.
-
-
 
 exposition;12:GROWING UNEASY COLD DRAFT
 
@@ -2997,8 +2534,6 @@ Exposition;6: BUNDLE MAINTAIN, ENTER
 
 Exposition;7: THEY STEELED THEMSELVES, ADVANCING
 
-
-
 Suddenly, Lloyd's group stopped in their tracks. Their hearts raced as they listened intently, fearful and uncertain of the impending danger. "Anyone knocking?" one of them nervously asked. They decided to maintain their tight bundle and cautiously enter the unknown. Steeled for whatever lay ahead, they advanced further into the darkness.
 
 ---
@@ -3006,8 +2541,6 @@ Suddenly, Lloyd's group stopped in their tracks. Their hearts raced as they list
 Vibrant stars sprinkled the inscrutable haze above as they ventured deeper into the unknown. The initial cooling sensation now cramped their limbs like frostbitten fruits.
 
 "Hey, nail stays for billions of worlds!" exclaimed Lloyd.
-
-
 
 "Tonight, we face a giant lump of lazy unknowns, N!" responded Quantum Dan.
 
@@ -3021,7 +2554,7 @@ Stroking Jenny's intensely smooth fur, Lloyd noticed she had fallen asleep.
 
 "YEAH, I reckon stick to the bird's advice!" Lloyd enthusiastically agreed with Quantum Dan's suggestion. "Wil yell rang ash plenty!" Quantum Dan shouted, warning Lloyd to be cautious as they continued to explore the mysterious area.
 
-Lloyd shouted, "This is insane, bitch!" 
+Lloyd shouted, "This is insane, bitch!"
 
 Quantum Dan replied, "We'd never have imagined something like this being born from a thin page and a twisted tongue!"
 
@@ -3059,57 +2592,39 @@ Dialogue;9:"He'll be okay,"
 
 "Obsessed progenitor?" Lloyd questioned.
 
-
-
 "I can't stand it when someone shares experiences that bother them and then adds milk to it like it's a cup of tea," Quantum Dan explained, rolling his eyes.
 
 "Quantum tissue works best when it's wet to regain its strength," Quantum Dan explained. "Mister Lloyd, do you think somebody can find a gate or fence, anybody at all?" Jenny chimed in, emphasizing the urgency of their situation.
 
 Exposition;10: Lloyd GAZED ROB DISTANCE
 
-As Lloyd gazed into the distance, he saw Rob leisurely picking at something, seemingly lost in thought. "Hey, Rob's over there, just picking and thinking," he called out to his companions. 
-
-
+As Lloyd gazed into the distance, he saw Rob leisurely picking at something, seemingly lost in thought. "Hey, Rob's over there, just picking and thinking," he called out to his companions.
 
 Exposition;7: JENNY RELIEVED REJOINED
 
-Jenny, relieved that Rob had rejoined them, smiled warmly. 
-
-
+Jenny, relieved that Rob had rejoined them, smiled warmly.
 
 Dialogue;6: GOOD FOUND DAN
 
 "Good, we found him," Dan remarked, clearly pleased that their little group was whole once more.
 
-
-
 Exposition;10: LLOYD FLASHLIGHT GATE SEARCH
 
-Lloyd, with flashlight in hand, resumed the search for a gate or fence in the perplexing landscape. 
-
-
+Lloyd, with flashlight in hand, resumed the search for a gate or fence in the perplexing landscape.
 
 Exposition;11: DAN JENNY ROB CLOSE BEHIND
 
 Quantum Dan, Jenny, and Rob followed closely behind, not wanting to lose sight of each other again.
 
-"Hey Jenny, he stays worlds nail?" Lloyd asked, puzzled by her urgency. 
-
-
+"Hey Jenny, he stays worlds nail?" Lloyd asked, puzzled by her urgency.
 
 "Else's phrase vivid lots argument," Jenny cryptically responded, maintaining the sense of urgency in her voice.
 
 "Everybody, there's a breeze coming through here!" Lloyd exclaimed, feeling both relieved and hopeful.
 
-
-
 Jenny responded, "It's as if the universe is remembering somebody who suffered and fought to win against all odds."
 
-
-
 Quantum Dan chimed in, "Well, we've all faced our share of challenges so far, haven't we?"
-
-
 
 Rob, the bird, perched nearby, seemed to nod in agreement, as if he too had borne witness to the group's unwavering determination.
 
@@ -3157,25 +2672,17 @@ Dialogue;18:"Hello!" GREETED Jennifer, GUIDE, SCREAMING, SLIPPING
 
 "Where's she? Reminds me of crazy!" I exclaimed, unable to understand the bizarre scene unfolding before us. The cafe patrons were captivated by something that had stolen their attention, and I couldn't help but feel a mixture of curiosity and unease.
 
-
-
 exposition;7:JENNIFER BEHIND PATRONS PERFORMANCE CAUGHT
 
 Jennifer, now behind the captivated patrons, was putting on an impressive performance that had caught everyone's attention.
-
-
 
 dialogue;6:ANGELA YOU THIS HAVE SEEN
 
 "Angela, have you seen this before?" I asked, turning to my companion for answers.
 
-
-
 exposition;8:ANGELA JENNIFER MYSTIFIED SMILED REPLIED FAMILIAR
 
 Angela, as mystified as I was, smiled and replied, "This seems familiar, but I can't quite place it."
-
-
 
 dialogue;4:JENNIFER SPECTACLE STOP
 
@@ -3239,25 +2746,17 @@ Exposition; 16: NARROW PASSAGE MYSTERIOUS
 
 The narrow passage grew increasingly mysterious.
 
-
-
 Dialogue; 29: CRAZY SOUNDING INFINITE WALL SIGHED
 
 "Did you hear that? It sounded like an infinite wall just sighed!" I exclaimed in disbelief.
-
-
 
 Exposition; 12: ANGELA CHUCKLED
 
 Angela simply chuckled at my remark.
 
-
-
 Dialogue; 14: SILLY LLOYD IMAGINATION
 
 "Oh, Lloyd, you and your wild imagination," Angela teased playfully.
-
-
 
 Exposition; 25: CONTINUED JOURNEY BOOK CLUTCHED
 
@@ -3275,17 +2774,11 @@ exposition;5: H SYMBOL MYSTERY
 
 dialogue;4: DISCOVER HIDDEN MEANING
 
-
-
 "Mean strip wouldn't last," I muttered, recalling the strange sound I had heard earlier. As we continued through the narrow passageway, Angela examined the insect illustrations curiously, trying to find a connection between them. The mysterious "H" symbol still puzzled both of us, its meaning eluding our grasp. "We need to discover the hidden meaning," Angela urged, her determination unwavering.
 
 "Continued pour?" I questioned, confused by the combination of words in the book. "Polished tie shoes?"
 
-
-
 Angela shrugged, trying to make sense of it herself. "Doesn't it seem like we should be worrying about more important things right now, like finding a way out of here, washing up, or even greeting someone for lunch?"
-
-
 
 I couldn't help but agree with her, as the mysterious phrases within the book were starting to become more puzzling than helpful. Yet, the bizarre nature of our surroundings kept me holding onto the possibility that there was something significant hidden within these pages.
 
@@ -3327,11 +2820,7 @@ As if someone had neatly popped a caring thought into his mind, the protagonist 
 
 "Tea or beer, they've cost positive," he said. "Life's licking leads gives one strange dreams," he continued, as the protagonist attempted to make sense of the bizarre events that had transpired in his recent experiences. The strange room with shifting items and the connection to Lloyd seemed to be a part of a larger puzzle, with each piece revealing itself in its own peculiar way.
 
-
-
 Floating in mid-air, feeling like a puppet on strings, and being poked by invisible fingers were just the tip of the iceberg. As the intense, dark visions continued to unfold, the protagonist felt as though he was being taken on a chaotic, yet contained adventure; one that felt at times like a car ride, a passenger liner, and a smoothly gliding aeroplane.
-
-
 
 Through it all, the protagonist found solace in humor, recognizing that laughter might not do his cheek any favors but could help him navigate the strange and sometimes frightening world he found himself in. It was in these moments of levity that he found the strength to continue, pressing onward in search of answers to the questions that plagued him.
 
@@ -3341,31 +2830,21 @@ As they delved deeper into Lloyd's realm, the volume of sensible intelligence se
 
 Jenny smiled and said, "Your praise means a lot to me, considering the strange works we've been through and the value of our shared experiences."
 
-
-
 exposition;12:PROTAGONIST APPRECIATIVE SMILE
 
 The protagonist returned her smile, feeling genuinely appreciative of Jenny's support and presence.
-
-
 
 dialogue;9:BELIEVE LLOYD MYSTERY
 
 "Do you think we'll ever truly understand what's going on with Lloyd and this bizarre mystery?" he asked.
 
-
-
 exposition;10:JENNY UNKNOWABLE NOD
 
 Jenny contemplated the question, nodding slightly as she considered the possibility of the unknowable.
 
-
-
 dialogue;13:UNKNOWN PART ACCEPT
 
 "I suppose not knowing might just be a part of it all that we have to accept," she acknowledged.
-
-
 
 exposition;9:PROTAGONIST AGREEMENT
 
@@ -3375,8 +2854,6 @@ He nodded in agreement, realizing that sometimes answers were not always availab
 
 Jenny shook her head and replied, "Tonight, I can't believe you'll be climbing that broken ladder."
 
-
-
 exposition;14:WORRIES SAFETY CONCERNS PROTAGONIST
 
 exposition;8:CAUTIOUS STRANGE
@@ -3384,8 +2861,6 @@ exposition;8:CAUTIOUS STRANGE
 dialogue;15:STAY TOGETHER ENSURE SAFETY
 
 exposition;21:RELUCTANTLY AGREED PROTAGONIST PLAN
-
-
 
 The protagonist expressed his worries and safety concerns about the upcoming climb. He felt cautious due to the strange nature of their current situation. "We should stay together to ensure our safety," Jenny suggested. Reluctantly, the protagonist agreed to her plan, hoping it would be the best course of action.
 
@@ -3427,21 +2902,15 @@ Exposition;6:ODD FRUIT-LIKE OBJECTS GLOW
 
 Dialogue;4:"Dude, canned plays?"
 
-
-
 As the guiding wheel sped up, Jenny urged, "Hurry, follow!" The purple sky was darkening drastically, while the odd fruit-like objects started to glow. The protagonist replied, "Dude, canned plays?"
 
 Jenny, casting a forgiving glance at the clouds, said, "Pause for a moment." "Oh, it's a nice story about my father," she continued, her voice tinged with nostalgia.
 
-"Yeah," he said sarcastically, "I'm just recovering from the anger I observed." 
-
-
+"Yeah," he said sarcastically, "I'm just recovering from the anger I observed."
 
 She replied, "Well, at least we solved the problem and can now dissolve into the fabric of the winner's circle."
 
 "Maybe we can blame the gate," Jenny suggested.
-
-
 
 "Our world's puzzle has a tailor's touch," the protagonist mused.
 
@@ -3469,8 +2938,6 @@ dialogue;9:ANSWER SIMPLE QUESTION
 
 exposition;6:BREATHED DEEPLY
 
-
-
 "The trip has truly had some indistinguishable and humane beginnings, hasn't it?" the protagonist remarked. As they both laughed, they continued walking through the peculiar world. Jenny replied with a hint of uncertainty, "It raises both hopes and doubts." The protagonist gave her an understanding look, aware of the challenges they faced. Taking a deep breath, he responded, "Sometimes, there's no simple answer to our questions."
 
 Jenny stooped down and smiled, her grey eyes reflecting a mix of bad and good intentions. She leaned in, her ear catching the equivalent of steam starting to hiss from an unseen source.
@@ -3481,25 +2948,15 @@ The jangling of an endless dozen objects caused them to discover a new room. Pec
 
 "Rob, frightening gambler!" the protagonist exclaimed, seeing a figure slide into view. Jenny, catching her breath, muttered, "Rolls amiss, sweat bees." The two shared a curious glance, trying to decipher the meaning behind her words. The room seemed to be filled with an eerie energy, as if some clandestine game was about to begin.
 
-
-
 As they cautiously approached the gambler, they noticed the walls were adorned with peculiar symbols, each one more cryptic than the last. The protagonist couldn't shake the feeling that they were being watched, but he couldn't pinpoint the source. Jenny, feeling a strange connection to the words she had spoken, reached out to touch one of the symbols on the wall.
-
-
 
 The moment her fingers grazed the surface, the room began to shake, and the symbols started to glow. The gambler, with a sinister grin, revealed a deck of cards and declared, "Welcome to the game of your lives!" The protagonists and Jenny exchanged nervous glances, unsure of what they had just gotten themselves into.
 
-
-
 As the room continued to tremble, a door on the far side of the room creaked open, revealing a dimly lit corridor. The protagonist, sensing an opportunity to escape, grabbed Jenny's hand and made a break for the door. But before they could reach it, the gambler shouted, "You can't run from fate!"
-
-
 
 With a heavy heart and a sense of foreboding, they realized that they had no choice but to face the gambler and play his twisted game. As they turned back, the room seemed to darken, and the symbols on the walls seemed to dance in the shadows. The protagonist took a deep breath, prepared to face whatever challenges lay ahead.
 
 "Look at the crazy symbols, even the walls are sugar-coated!" the protagonist exclaimed, referring to the room's bizarre decorations.
-
-
 
 "Our reality feels like it's dissolving, like some artificial writer's world," Jenny replied, her voice trembling with uncertainty.
 
@@ -3527,8 +2984,6 @@ As the wailing sank, the group balanced their lowered sentences. Lloyd, reaching
 
 "He cradled it, staring at it, repeating in a pitch snug," Jenny said, describing Lloyd's odd behavior.
 
-
-
 "But why? We shouldn't rob him sometimes, just for this trip," Mike argued, skeptical of their situation.
 
 Exposition;7:LLOYD PANICKED EYES
@@ -3540,8 +2995,6 @@ Dialogue;8:JENNY QUESTIONING LLOYD
 Exposition;11:MYSTERIOUS OBJECT HOLDING
 
 Exposition;10:GROUP TENSION BUILDING
-
-
 
 Lloyd's eyes widened in panic as he sensed the shadow lurking beneath the carpet, desperately seeking a full explanation. Mike remained skeptical, casting doubtful glances toward Lloyd. "What's going on, Lloyd?" Jenny asked, her voice questioning and concerned. As Lloyd continued clutching the mysterious object, he seemed to be holding onto it for dear life. The tension built among the group, as they awaited answers and braced for the unknown.
 
@@ -3565,39 +3018,21 @@ Angela, sore and trusty, spoke languages. Nearby, bags hung from trees, revealin
 
 Exposition;8:MIKE JENNY DAN GROUP
 
-
-
 Exposition;5:FOREBODING DARKNESS
-
-
 
 Exposition;7:ATMOSPHERE UNEASY TREES
 
-
-
 Exposition;6:BAGS HANGING MYSTERIOUS
-
-
 
 Dialogue;5:MIKE WEIRD
 
-
-
 Dialogue;10:ANGELA, Angela's sorry grasp of pity.
-
-
 
 Exposition;9:KINGLY PRESENCE COMFORT
 
-
-
 Exposition;8:ELBOWS CONCRETE SENSING
 
-
-
 Exposition;9:DESPERATION FLESH-AND-BLOOD PRESENCE
-
-
 
 The group, consisting of Mike, Jenny, and Dan, felt a foreboding darkness settle around them. The atmosphere was uneasy, with shadows cast by gnarled trees. Mysterious bags hung from the branches, swaying gently. Mike muttered, "This is just... weird." Angela responded, her voice laced with pity, "Angela's sorry grasp of pity." Oddly, they felt a sense of comfort from a kingly presence nearby. As they rubbed their elbows on the rough concrete beneath them, they sensed a desperate, flesh-and-blood presence, heightening their tension.
 
@@ -3613,25 +3048,17 @@ With his hips skimming the drab walls, the daggers of the maze flapped against h
 
 "Must we muster the volume, Lloyd?" Jenny asked, glancing at the pages of the cryptic book. The group had been trying to decipher its contents, hoping to gain a better understanding of the mysterious world they found themselves in.
 
-
-
 exposition;10:WALLS SHIMMERED DIMLY LIT PATH MYSTERIOUS
 
 As they continued down the dimly lit path, the walls around them shimmered mysteriously, as if trying to reveal hidden secrets that only the keenest eyes could see.
-
-
 
 exposition;9:MIKE FELT UNCOMFORTABLE GROWING TENSION
 
 Mike felt increasingly uncomfortable as they ventured further, sensing a growing tension in the air that sent shivers down his spine.
 
-
-
-dialogue;8:ANGELA UNNERVING OMINOUS WHISPER 
+dialogue;8:ANGELA UNNERVING OMINOUS WHISPER
 
 Angela, with an unnerving whisper, said, "Something's not right here."
-
-
 
 exposition;5:UNEASY SILENCE DESCENDED
 
@@ -3657,45 +3084,31 @@ dialogue;3:"SORRY."
 
 exposition;5:GATHERED CONTINUE JOURNEY
 
-"Damn this Lloyd! Muster the courage, everyone," Jenny said, clutching the cryptic book's pages tightly. 
-
-
+"Damn this Lloyd! Muster the courage, everyone," Jenny said, clutching the cryptic book's pages tightly.
 
 exposition;8:GRIMMEST EXPERIENCE UNDAUNTED CHALLENGES DETERMINATION
 
 Their journey thus far had been a grimmer experience than they anticipated, but the group pressed on, undaunted and determined to solve the mysteries that lay ahead.
 
-
-
 dialogue;3:MIKE WORRIED
 
 "Guys, I'm worried," Mike admitted, his voice trembling slightly.
-
-
 
 exposition;5:ANGELA HAND REASSURINGLY
 
 Angela placed her hand reassuringly on Mike's shoulder, trying to ease his fears.
 
-
-
 dialogue;6:JENNY FORWARD FACE UNKNOWN
 
 "We must move forward and face the unknown," Jenny said, a steely resolve in her eyes.
-
-
 
 exposition;9:ENVIRONMENT EERINESS GROWING UNNERVING MAZE
 
 As they continued, the eerie environment grew even more unnerving, each turn appearing like a maze designed to test their sanity.
 
-
-
 dialogue;4: DAN CONFUSED DIRECTION
 
 "Which way should we go?" Dan asked, genuinely confused by the labyrinthine path before them.
-
-
 
 exposition;7:JENNY BOOK MAP PATH
 
@@ -3713,35 +3126,33 @@ Exposition;6:JENNY ANGELA MIRROR REFLECTION
 
 Dialogue;3:"Cleaned thicker stomach, where's it's?"
 
-
-
 As they continued their journey through the mysterious world, the unease among the group grew. In the steaming bathroom with the large basin, the atmosphere remained tense. Mike and Dan felt the tension as they examined the glasses on the counter, while Jenny and Angela stared at their reflections in the mirror. Finally, one of them uttered, "Cleaned thicker stomach, where's it's?"
 
-Jenny stared strangely and said, "This place is like a witch's lair or something." 
+Jenny stared strangely and said, "This place is like a witch's lair or something."
 
 Exposition;10:MIKE NODDED AGREEING
 
-Mike nodded in agreement, sensing the same eerie vibe. 
+Mike nodded in agreement, sensing the same eerie vibe.
 
 Exposition;6:GLASSES BATHROOM
 
-The glasses remained in the bathroom. 
+The glasses remained in the bathroom.
 
 Exposition;7:ANGELA SIGHED DEEP
 
-Angela sighed deeply, feeling overwhelmed. 
+Angela sighed deeply, feeling overwhelmed.
 
 Dialogue;9:MIKE BELIEVE ESCAPE
 
-"We have to believe we'll escape," Mike asserted. 
+"We have to believe we'll escape," Mike asserted.
 
 Exposition;11:BOOK CRYPTIC CLUES ATMOSPHERE
 
-The cryptic book offered clues, further intensifying the atmosphere. 
+The cryptic book offered clues, further intensifying the atmosphere.
 
 Exposition;8:DAN WORRIED CAUTIOUS
 
-Dan felt increasingly worried and cautious. 
+Dan felt increasingly worried and cautious.
 
 Exposition;5:GROUP CONTINUED
 
@@ -3779,8 +3190,6 @@ As evening approached, Lloyd situated himself in a spot for prayer.
 
 "Anyway, we fooled them at the lake strip!" Jenny exclaimed, trying to lighten the mood.
 
-
-
 "But we can't just keep running around like we're in a coffee shop talk," Angela added, her voice laced with worry. "We need to be more cautious and prepared for whatever lies ahead." The group nodded in agreement, understanding the gravity of their situation.
 
 As they finished their tea, the sudden absence of sugar sent a wave of panic and dashed terror through the group.
@@ -3799,29 +3208,19 @@ The outspread, ravenous layer bordered the topmost area. I saw institutions beck
 
 As the grandeur widened and my pace quickened, I felt a remote sense of ecstasy. Unsure of what awaited me, I interviewed majestic shapes that startled me as they appeared. A scarf encircled my neck, expressionless faces peering out from underneath it. Yet, the AI's wail remained subdued.
 
-The dirty car screeched to a halt, its tires leaving skid marks on the pavement as I stood there, my heart pounding in my chest. I couldn't help but notice the peculiar Chinese symbol etched into the vehicle's side. The door swung open, revealing the driver with an intense expression on their face. 
+The dirty car screeched to a halt, its tires leaving skid marks on the pavement as I stood there, my heart pounding in my chest. I couldn't help but notice the peculiar Chinese symbol etched into the vehicle's side. The door swung open, revealing the driver with an intense expression on their face.
 
+"Get in now!" they screamed, gesturing for me to join them in the vehicle. I hesitated for a moment, considering the potential danger of this stranger, but the urgency in their voice convinced me to comply. As I climbed in, I couldn't shake the feeling that I was being watched, like countless eyes were scrutinizing my every move.
 
+"Who are you?" I asked cautiously, trying to maintain a calm demeanor despite my racing heart. The driver didn't respond, remaining silent as they navigated the winding roads at breakneck speed. I gripped the door handle tightly, anticipating a crash at any moment.
 
-"Get in now!" they screamed, gesturing for me to join them in the vehicle. I hesitated for a moment, considering the potential danger of this stranger, but the urgency in their voice convinced me to comply. As I climbed in, I couldn't shake the feeling that I was being watched, like countless eyes were scrutinizing my every move. 
-
-
-
-"Who are you?" I asked cautiously, trying to maintain a calm demeanor despite my racing heart. The driver didn't respond, remaining silent as they navigated the winding roads at breakneck speed. I gripped the door handle tightly, anticipating a crash at any moment. 
-
-
-
-"We don't have much time," the driver finally said, their voice low and tense. I couldn't help but feel a sense of impending doom, as if the walls were closing in around us. I glanced out the window and noticed an eerie fog settling in, obscuring the once-clear view. 
-
-
+"We don't have much time," the driver finally said, their voice low and tense. I couldn't help but feel a sense of impending doom, as if the walls were closing in around us. I glanced out the window and noticed an eerie fog settling in, obscuring the once-clear view.
 
 "I need your help," I whispered, revealing my desperation. The driver remained stoic, their eyes locked on the road ahead. We continued to speed down the foggy highway, leaving the ominous shapes and strange encounters of the Chinese Room far behind.
 
 "Repeat after me," he whispered consolingly to the straw beings. I kicked a small stone, greeting someone who appeared nearby. They responded with a half-hearted kick, seemingly preoccupied with their own thoughts.
 
 "I have a plot," I wailed, feeling miserable. "These papers serve as evidence." The stranger glanced at the documents and sighed.
-
-
 
 "My wife, she's dead," he revealed, his voice heavy with emotion. "She was the lucky one, found near the Stone of Luck."
 
@@ -3913,8 +3312,6 @@ Dialogue;5:JENNIFER ASKING CONCERNED
 
 Exposition;12:PROTAGONIST PAUSING CONTEMPLATING LETTER'S MEANING
 
-
-
 "Bacon fancies based?" I blurted out in confusion, as I hastily read through the letter's contents. The information within it was confusing and led to an unexpected discovery, which elicited a reaction of shock, surprise, and uncertainty within me. "What is it?" Jennifer asked, clearly concerned by my reaction. I paused for a moment, contemplating the true meaning behind the letter's cryptic message.
 
 While examining the scrap of paper, I noticed that one side was blank, but the other contained hastily written words that were barely legible.
@@ -3932,8 +3329,6 @@ As I examined the slot, I couldn't help but think of smashing it open to reveal 
 "I once heard a Chinese cook slammed for shaking menial ingredients," I whispered to Jennifer. "He claimed it follows that the soup he makes leaves taste buds numb."
 
 "Did you guys try the smoked cow relish?" I whispered to Jennifer, as we continued our cryptic conversation.
-
-
 
 The weight of the device in my pocket felt particularly heavy, as if it was somehow connected to the strange world of books and contraptions that surrounded us.
 
@@ -4035,8 +3430,6 @@ exposition;10:DOG BARKED LOUDER
 
 exposition;13:VOLUME CONTROL STRUGGLE
 
-
-
 "Well, I don't pity you anymore today, if that's the cause," the protagonist said with a hint of foreign bitterness. "You were my best friend once, but these circumstances have changed everything." He smiled awkwardly, remembering the days when Salvatore was still around. "But we can't change what happened, can we?" As if on cue, the dog's barking grew louder, making Lloyd's struggle with the volume control even more apparent.
 
 Lloyd's face paled as he glanced at the sickly, panting Mike.
@@ -4046,8 +3439,6 @@ Lloyd's face paled as he glanced at the sickly, panting Mike.
 As the protagonist rubbed his palms together excitedly, he couldn't help but notice the hiss of the flies nearby. He knew they would have to contend with the guard, whose lust for power was hidden behind an impenetrable mask.
 
 "Guys, Mike's scrambling for a blackened ascent!" Lloyd exclaimed, concern lacing his voice.
-
-
 
 "Dan's stuff got flattened anyway, intruder or not," the protagonist retorted, trying to remain focused on their escape plan.
 
@@ -4081,39 +3472,27 @@ Lloyd finally managed to control his volume. The group noticed several official 
 
 "Everything's ruined! I tried to warn you, but perhaps it was for the best," Lloyd lamented, his voice still somewhat controlled despite the frustration.
 
-Lloyd, still annoyed, shook the partially rubbed-off page with frustration. 
-
-
+Lloyd, still annoyed, shook the partially rubbed-off page with frustration.
 
 dialogue;5:LLOYD GIVE UP
 
 "Let's just give up," Lloyd grumbled.
 
-
-
 exposition;14:PROTAGONIST ARM LLOYD ENCOURAGING
 
 The protagonist placed a reassuring arm around Lloyd, trying to be encouraging.
-
-
 
 dialogue;8:PROTAGONIST LLOYD HOPE SOLUTION
 
 "We'll find a solution, Lloyd," the protagonist insisted.
 
-
-
 exposition;12:ANGELA SHOUTS SPARK DISTANCE
 
 Suddenly, Angela shouted as she noticed a faint spark in the distance.
 
-
-
 dialogue;9:ANGELA LOOK GUYS SPARK
 
 "Look, guys! There's a spark over there!" she exclaimed.
-
-
 
 exposition;15:GROUP DIRECTION SPARK MYSTERIOUS SHADOWS
 
@@ -4137,8 +3516,6 @@ Exposition;12: Uncertainty loomed overhead
 
 Exposition; 15: DIAGRAMS SPAN PRINTED ENDLESS SURPRISING
 
-
-
 As they moved forward, Lloyd noticed endless surprising diagrams printed on the walls, spanning the entire corridor.
 
 Exposition;5: Lloyd, Angela, group
@@ -4157,57 +3534,39 @@ Dialogue;2: "Wow."
 
 Exposition;10: Lloyd, astonished, intricate, complexity
 
-
-
 As Lloyd, Angela, and the group continued to navigate through the labyrinth, they examined the diagrams on the walls. It was puzzling to decipher their meaning and find any connection to their current situation. "Look, here!" Angela exclaimed, pointing to a specific set of symbols. The group gathered around her, noticing what appeared to be a lock mechanism embedded in a door. "Wow," said Lloyd, astonished by the intricate complexity they were facing.
 
 As they continued down the corridor, they stumbled upon what appeared to be Jenny's famed Wren Arts shop, a location that held significance to their past. The flashing lights and bustling crowd from their memories arose, filling the setting with an eerie nostalgia.
 
 Lloyd muttered, "This page, it must be a clue."
 
-
-
 exposition;9:ANGELA EXAMINED SYMBOLS LOCK
 
 Angela examined the lock symbols more closely.
-
-
 
 dialogue;8:NEED FIGURE OUT KEY
 
 "We need to figure out the key," she said.
 
-
-
 exposition;12:GROUP PUZZLE PIECE TOGETHER WREN ARTS
 
 The group worked together, piecing the puzzle before them in the Wren Arts shop.
-
-
 
 dialogue;7:LLOYD FOUND SOMETHING
 
 "Hey, I found something!" Lloyd exclaimed.
 
-
-
 exposition;11:LLOYD HELD OBJECT MYSTERIOUS
 
 He held up a mysterious object, its purpose unclear.
-
-
 
 dialogue;6:TRY INSERT SLOT
 
 "Try inserting it in the slot," Angela suggested.
 
-
-
 exposition;10:LLOYD INSERTED OBJECT CLICK
 
 Lloyd inserted the object and heard a satisfying click.
-
-
 
 dialogue;5:DOOR OPENED SLOWLY
 
@@ -4225,13 +3584,9 @@ As the phone rung with anticipated certainty, Lloyd quickly started acting on in
 
 At thirty-thousand feet, the aeroplane engine hummed smoothly as it adjusted. Lloyd reclined in his seat, bloody and united with the group, resting in a cramped corner. The soft scratching of Angela's pen as she scribbled in her notebook was almost calming, a forgetful contrast to the chaos they left behind in the grove. It wasn't the time for writing, but she wasn't one to leave her thoughts in disarray, especially as a university student.
 
-
-
 Surrounding them, the walls of the aircraft were neither painted nor particularly inviting, but it provided a sense of security nonetheless. Lloyd, still unconscious from the ordeal, mumbled incoherently, his nationality and the volume of his voice lost in the hum of the aircraft. The attenuated noise of the engines stole any bare semblance of conversation, forcing the group to focus on their thoughts and the journey ahead.
 
 "Let's pray we won't need this," Angela said, gripping the emergency cash envelope tightly as the group huddled aboard the aircraft. The steady hum of the engines provided a sense of calm after their harrowing journey through the tangle of cables. They exchanged worried glances, wondering how they had ended up in such an unexpected situation. The flickering light that had guided them now seemed a distant memory, replaced by the dim glow of the airplane's cabin.
-
-
 
 With Lloyd still unconscious, the group began to discuss their next steps. "We need to figure out where we're headed," Mike said, studying a map he had found tucked in the seat pocket. As they tried to make sense of their surroundings, the airplane began to descend, signaling their imminent arrival at an unknown destination. Despite their uncertainty, a quiet determination settled over them, knowing that whatever challenges lay ahead, they were in this together.
 
@@ -4251,8 +3606,6 @@ Exposition; 8: SHAPE, ANGELA, SUGGESTED, FOLLOW, LOW
 
 Dialog; 3: Angela AGREED
 
-
-
 "Ok," Angela agreed, as the group nervously watched the airplane continue to descend with Lloyd still unconscious. They had no idea what mysterious destination was awaiting them, but they had little choice but to see it through. Mike's advice had been ignored, and concern was etched on his face as he glanced around the cabin. Focusing on the shape Angela had suggested, they decided to follow it down low, hoping for a chance to escape their current predicament.
 
 As they descended, Angela said firmly, "We need to follow the shape's lead and watch the man's movements closely."
@@ -4271,51 +3624,27 @@ As the group moved forward, their muted elbows rubbed against the unreal, tiny s
 
 "Sure, the bat plan is flawed," Lloyd muttered, his voice tense as they continued their journey through the chaotic market. Angela's eyes remained on the mysterious man, her focus unwavering as she tried to decipher his movements. Rain continued to pour down outside, the relentless weather adding to the confusion and tension of the market.
 
-
-
 Exposition;6:CONNECTED GROUP TIGHTLY
-
-
 
 The group stayed tightly connected, their bodies pressed together as they navigated through the crowd, desperately trying not to lose sight of the man they were following. The remorseful expressions they had noticed earlier only seemed to grow more intense, as the people of the market appeared to be grappling with their own private struggles and secrets.
 
-
-
 Exposition;8:WIND SUSPENSE HEIGHTENING FEELING
-
-
 
 As the wind picked up, the suspense and tension in the air heightened, creating an uneasy feeling among the group. The flickering light they had followed earlier seemed to have led them to the heart of the chaos, and they couldn't help but wonder what part they were meant to play in it all.
 
-
-
 Exposition;4:RAIN DRENCHED SHIVERED
-
-
 
 Soaked and shivering from the rain, the group pressed on, their determination to uncover the truth and find a way out of this strange world overriding their discomfort.
 
-
-
 Dialogue;6:ALMOST THERE MAN CURIOUS
-
-
 
 "We're almost there," Angela whispered, her eyes still locked on the curious man they were following. "Just a little bit further, and we'll find our answers."
 
-
-
 Exposition;6:PATH COLLAPSED BARRICADE
-
-
 
 Suddenly, the path before them collapsed, forming a massive barricade that separated them from the mysterious man. Frustration and fear filled their hearts, as they realized they had no choice but to find another way around.
 
-
-
 Exposition;5:HEARTS POUNDED HASTILY
-
-
 
 Their hearts pounding, the group hastily searched for an alternate route, knowing that they couldn't afford to lose the man they believed held the key to their escape.
 
@@ -4327,9 +3656,7 @@ The dream-world yanked Lloyd out of his emergency. His reaction was to discern t
 
 "Sit beside me as we proceed to the court," Lloyd instructed.
 
-As the seventies block swung into view, their car screeched to a halt. Lloyd rested his shoulder against the wardrobe, feeling both growth and stunned by the sudden stop. 
-
-
+As the seventies block swung into view, their car screeched to a halt. Lloyd rested his shoulder against the wardrobe, feeling both growth and stunned by the sudden stop.
 
 exposition;11:LLOYD EXCHANGE MIKE CONCERNED DOUBT
 
@@ -4385,11 +3712,7 @@ Exposition; 8: Lloyd, cave, sensible, common
 
 Exposition; 9: Mystery, deeper, explore, anticipation
 
-
-
 "Lloyd!" Edith called out, her voice filled with a blend of frustration and urgency. Lloyd, Angela, Edith, and Tom stood cautiously within the cave, their eyes scanning the darkness around them as they tried to locate the mysterious man. The group followed Edith's lead, though they were still confused by her sudden change in demeanor.
-
-
 
 "Can you believe it?" Edith asked, her voice now conveying a mix of delight and peace as she spoke. Lloyd took a moment to observe the cave, noticing that the sensible and common elements within it seemed almost too perfect. As the group ventured deeper into the cave, a sense of anticipation grew, as if an even greater mystery was waiting for them to explore.
 
@@ -4407,13 +3730,9 @@ dialogue;4:LIGHT AHEAD
 
 exposition;6:HOPE RELIEF GROUP
 
-
-
 "Lloyd, Angela, Tom, Edith, we must be like my grandmother's dumplings and volunteer for the violent department," Lloyd declared, making a bizarre analogy. As they continued through the cave, the mysterious man with the umbrella seemed to disappear completely. "We're following the umbrella guy, right? We need to escape," Tom reminded them. The path ahead was shrouded in darkness, making it difficult to see. Suddenly, Edith cried out, "There's light ahead!" A sense of hope and relief washed over the group as they continued their pursuit.
 
 As they ventured deeper into the cave, Lloyd suddenly stopped in his tracks, his eyes fixated on something on the cave wall. Edith, Angela, and Tom gathered around him, curious to see what had caught his attention. It was a series of markings, seemingly ancient, yet somehow familiar to them all.
-
-
 
 "Chose ne je petite observations," Angela whispered, her voice echoing through the cave. The others looked at her, puzzled by her cryptic words, but she simply shrugged and continued to study the markings.
 
@@ -4431,43 +3750,29 @@ The turquoise jay persisted in studying its surroundings, diving in and out of t
 
 As they ventured further, the meandering pathways became more perplexing, with some leading to dead ends filled with silly holes balanced precariously between parsley hedges. The heavens above them seemed to shift as they navigated this confusing landscape, further disorienting the group.
 
-
-
 exposition;5:TOM ANGELA SMILE LLOYD TRIES
 
 Tom and Angela exchanged knowing smiles, while Lloyd tried to maintain a sense of direction amidst the puzzling environment.
-
-
 
 dialogue;3:LLOYD EDITH BIRD
 
 "What's that, Edith?" Lloyd inquired, pointing to a peculiar bird in the distance.
 
-
-
 exposition;6:EDITH BIRD YELLOW BREASTED
 
 Edith squinted her eyes and recognized the bird as a yellow-breasted chat, a species she had encountered in her ornithology studies.
-
-
 
 dialogue;4:EDITH LLOYD BIRD CHAT
 
 "It's a yellow-breasted chat, Lloyd," Edith replied with certainty.
 
-
-
 exposition;5:CHAT BIRD LLOYD MYSTERIOUS
 
 This particular chat seemed to possess a mysterious aura, as if it held some secret knowledge about the strange world they found themselves in.
 
-
-
 dialogue;6:LLOYD BIRD EDITH IMPORTANT
 
 "Do you think it's important, Edith?" Lloyd asked, watching the bird intently.
-
-
 
 exposition;7:EDITH LLOYD BIRD SIGN
 
@@ -4489,23 +3794,15 @@ exposition;5:EXPLORATION MURDERED MAN SOURCE
 
 dialogue;4:ANGELA LLOYD SIGN GUIDE
 
-
-
 "Summer pockets, wilderness, wonderful money!" Lloyd exclaimed, unable to contain his excitement. Mike, still lost in his nostalgic memories, added, "The cream parlor where I fell in love." The mysterious aura surrounding the yellow-breasted chat grew stronger as it continued to hover nearby. Warehouses shaped like enormous tomatoes and the innovative device from which the man with the florid complexion had emerged seemed to blend into the surreal landscape. As the riders observed the peculiar scene, the group's exploration for the source of the murdered man's presence continued. Angela turned to Lloyd and asked, "Could this bird be a sign, or even a guide?"
 
 "Christopher, wake up! There's a horrible noise coming from outside!" Mike shouted, rousing his friend from a deep sleep. The sound was jarring, a cacophony of screeches and clangs that left them both feeling uneasy. Christopher, still half-asleep and disoriented, fumbled with his shoes, struggling to get them on properly.
 
 "Can't sell supplies," Mike muttered, still half asleep as he and Christopher stumbled outside, trying to identify the source of the horrible noise. The disorientation from sleep seemed to affect their perception of reality, making them question if they were still dreaming or not. As they continued to search for the origin of the sound, they came across a peculiar figure standing near the tomato-shaped warehouses.
 
-
-
 "Hey, who are you?" Christopher called out, his voice wavering with uncertainty. The figure, a tall man in a worn-out suit, turned to face the two weary travelers, a mysterious smile playing on his lips.
 
-
-
 "Name's Supervisor," he said, introducing himself, "I manage the route that supplies these warehouses." The group exchanged glances, skeptical of the man's intentions and whether they should trust him or not. Despite their uncertainty, they decided to follow him, wondering if he was connected to the yellow-breasted chat they had been suspecting as a guide or sign.
-
-
 
 The Supervisor led them to an old, rusty office on the outskirts of the warehouse complex. Inside, the walls were adorned with maps and charts of various cooking routes, as well as an assortment of cans and other supplies. As Mike and Christopher observed their surroundings, they couldn't help but feel that there was more to this place than meets the eye.
 
@@ -4545,19 +3842,11 @@ Exposition;11:Mike CONSIDERED NEW POSSIBILITY, still PUZZLED
 
 "Always repeating that irregular announcement," Christopher muttered to himself. Mike, on the other hand, was examining the peculiar harness they had found earlier, his face reflecting a mixture of curiosity and confusion. Suddenly, Christopher's eyes widened as he remembered something important from their past discussions.
 
-
-
 "Mike, didn't we talk about a pilot once?" he asked. Mike paused his examination of the harness and looked at Christopher, trying to recall their conversation.
-
-
 
 "Yeah, I think so," Mike replied, his memory slowly returning. "Some guy who was supposed to be testing new equipment, right?"
 
-
-
 Christopher nodded, his thoughts racing. "Exactly, and around the same time, Stephen mentioned the disappearing supplies from the storage rooms," he said, drawing connections between the events.
-
-
 
 The two exchanged a glance, both realizing the possible connection between the pilot's presence and the mysterious occurrences in the tomato-shaped warehouses. Their determination to unravel the mystery surrounding these discoveries and events only grew stronger as they continued their investigation.
 
@@ -4581,19 +3870,11 @@ Mike described a fleeting, chastened moment in the investigation, resembling som
 
 "Pick one," Christopher said, pointing at the assortment of strange tools laid out before them. Mike hesitated, considering the possible outcomes of each tool's function. The Supervisor watched them, his expression unreadable as they made their selection.
 
-
-
 "Try this," Mike suggested, handing Christopher a peculiar device that resembled a cross between a wrench and a corkscrew. With a deep breath, Christopher approached the meat-like substance, his movements slow and careful.
-
-
 
 As he worked on the strange material, Mike couldn't help but feel overwhelmed by the extravagance of the warehouse's contents. It was clear that a lot of time, effort, and cash had been poured into these experiments. He began to wonder who was truly behind the project and what their ultimate goal was.
 
-
-
 The Supervisor's expectations of the duo's progress seemed to waver, his brow furrowed as he watched Christopher's attempt at deciphering the purpose of the meat-like substance. He seemed to grow more impatient with each passing moment, as if he feared what they might uncover.
-
-
 
 Suddenly, Mike felt the presence of an unseen watcher again, the sensation of being observed sending a shiver down his spine. He glanced around the warehouse, but saw no one. The feeling passed as quickly as it had arrived, leaving Mike with an uneasy feeling that lingered in the air.
 
@@ -4657,19 +3938,11 @@ A console jug sits next to the confused guy, its purpose unclear. Carpeted utter
 
 "Okay, messy job," Christopher said, skilfully spotting the untidiness. Jay glanced around the room, taking note of the haphazard state of things. His mind raced with curiosity about the console jug and its purpose in this strange environment.
 
-
-
 "Sometimes things get a little chaotic," Jay admitted, feeling a mix of embarrassment and annoyance at the disorder. Christopher seemed to understand, and he shifted his focus back to the mysterious objects and the task at hand.
-
-
 
 "Any idea what these are for?" Christopher asked, pointing at the peculiar items scattered throughout the room. Jay shook his head, just as puzzled as his companion. They both knew that solving the mystery of the Ado was paramount, and it seemed that every new discovery only led to more questions.
 
-
-
 "Whatever they are, they must be important," Jay mused, examining a small, intricate device. The weight of the chest he had carried earlier still lingered in his arms, reminding him of the progress they had made and the challenges that lay ahead.
-
-
 
 "I think we should keep moving," Christopher suggested, his eyes scanning the room for any other clues or useful information. Jay agreed, knowing that they could not afford to waste any more time. With a deep breath, the two men prepared to delve further into the unknown, determined to uncover the secrets that lay hidden within the walls of Lloyd's Folly.
 
@@ -4693,8 +3966,6 @@ exposition;7:CONTINUE FORWARD
 
 exposition;14:HOPE REVELATION TRUTH LLOYD FOLLY
 
-
-
 "Can you believe the volume of objects Lloyd had to muster in this room, bitch?" Jay said. Christopher looked around, sharing Jay's confusion as they continued their discussion. Together, they began to examine the objects more closely, searching for any hidden clues. "Don't forget to keep an eye out for any connection to the Ado," Christopher reminded him. As they dug deeper, they slowly uncovered the significance of these items and their potential connection to their quest. "Hey, look over there!" Jay exclaimed, pointing in a mysterious direction. They decided to continue forward, hoping that their perseverance would lead them to a revelation about the truth behind Lloyd's Folly.
 
 As they proceeded forward, they found themselves shaking various types of sticks, hence immediately realizing the significance of their actions.
@@ -4707,39 +3978,27 @@ As the smell of baked fish and freshly brewed coffee filled the air, Jay and Chr
 
 As the clock struck noon, discernible smiles appeared on their faces, but no sign of nervousness was evident whatsoever. The once squeaking grate swung open, revealing a subdued environment, as if anticipating their next move.
 
-"I can't believe they forced such ungodly hours on the elderly, it's unnecessary!" Jay exclaimed, shaking his head at the boarding house's strict schedule. 
-
-
+"I can't believe they forced such ungodly hours on the elderly, it's unnecessary!" Jay exclaimed, shaking his head at the boarding house's strict schedule.
 
 exposition;12:SEARCH EFFORTS RESUMED
 
 The two resumed their search efforts, meticulously examining every corner of the carriage.
 
-
-
 exposition;8:EXAMINATION CLUE
 
 During their examination, a small clue caught their eye.
-
-
 
 dialogue;7:ADORNS WALLS
 
 "What adorns these walls?" Christopher questioned, squinting at the faint markings.
 
-
-
 exposition;10:INTRICATE PATTERNS HIDDEN
 
 Upon closer inspection, intricate patterns were hidden within the dusty surface.
 
-
-
 dialogue;9:SIGNIFICANCE PATTERNS ADO
 
 "Do you think these patterns have any significance to Ado?" Jay pondered aloud.
-
-
 
 exposition;12:INTRIGUING POSSIBILITY INVESTIGATE
 
@@ -4757,13 +4016,9 @@ Exposition;14: CARRIAGE MARKINGS PATTERNS
 
 Dialogue;22: JOBS SEEM DIDN'T SPEND ODD
 
-
-
 As Jay and Christopher continued to discuss the mysterious patterns, Jay mentioned their supervisor, Rob, who seemed to be avoiding the situation. The investigation of the carriage and its hidden markings only added to the intrigue surrounding Lloyd's Folly. The patterns on the walls of the carriage were unlike anything they had seen before. Jay commented, "It's odd how we didn't seem to spend much time on jobs like this before Rob."
 
 Mike whispered, "Here's a stick, and this book."
-
-
 
 Christopher responded, "She'd made mistakes, but the effects are slowly becoming apparent as the story shows."
 
@@ -4787,19 +4042,13 @@ Despite the despair, breaks screamed and destroyed.
 
 "Guys, look closer at that blackened upside!" Mike exclaimed. Jay and Christopher leaned in to examine the peculiar markings more closely, their faces inches from the wall. The trio felt a shiver run down their spines as they realized the significance of the symbols etched into the surface.
 
-
-
 Exposition;9:SHIVER SYMBOLS SIGNIFICANCE CONNECTION ADO
 
 The symbols seemed to have a direct connection to Ado and Lloyd's Folly, confirming their suspicions that these mysteries were intertwined. As they discussed the potential implications of their discovery, Rob entered the room, his expression a mix of curiosity and concern.
 
-
-
 Dialogue;4:ROB EXPLAIN
 
 "Explain this," Rob demanded, gesturing towards the markings on the wall. Mike began to recount their findings from the carriage, the hidden compartment, and the steps leading to this room, while Jay and Christopher chimed in with additional details and theories.
-
-
 
 Exposition;6:THEORIES PIECES PUZZLE
 
@@ -4807,31 +4056,21 @@ As they shared their theories, the pieces of the puzzle slowly began to fall int
 
 "Mike, this market is pretty bad to spend time in," Christopher said, eyeing the surroundings cautiously. Jay nodded in agreement, sensing the unease in the air. They continued down the narrow alley, the walls closing in around them. The faint markings on the walls seemed to grow more complex and intricate here, as if they were nearing something significant.
 
-
-
 exposition;14:FADED SYMBOLS SHADOWS STRANGE LIGHT
 
 Faded symbols danced in the shadows, illuminated by a strange light source that seemed to defy logic, beckoning the trio further into the depths of the alley.
-
-
 
 dialogue;9:JAY HINT SECRETS WALK
 
 "Guys, I think these symbols hint at more secrets," Jay whispered, as they cautiously walked forward.
 
-
-
 exposition;7:ROB SUPERVISOR FOLLOW BEHIND
 
 Rob, their supervisor, followed closely behind, his reluctance now mixed with a growing curiosity.
 
-
-
 exposition;20:DISCOVERED HIDDEN DOOR COMPLEX MECHANISM UNLOCK
 
 Suddenly, they discovered a hidden door, complete with a complex mechanism that appeared to require a specific sequence to unlock it.
-
-
 
 dialogue;5:CHRISTOPHER TRY
 
@@ -4879,21 +4118,13 @@ Exposition;15:JAY AWESTRUCK WHISPERS UNBELIEVABLE
 
 Exposition;14:ROB CAUTION CURIOSITY SURROUNDINGS
 
-
-
 "Christopher judges the holy symbol forming a stand," he announced triumphantly. Christopher finally achieved success in unlocking the door, and Rob watched with relief and pride. Mike and Jay stood nearby, clearly impressed by their friend's skill. As the door creaked open, a hidden room was unveiled before them. The group eagerly entered, their curiosity piqued. The room was filled with ancient artifacts, their mysterious origins yet to be discovered. Jay, awestruck by the sight, whispered, "This is unbelievable." Rob, while equally intrigued, urged caution as they continued to explore their surroundings.
 
 dialogue;15:JAY READS INSCRIPTIONS ARTIFACTS
 
-
-
 "Mike, I'll buy this," Rob said as he slid forward with a determined stride.
 
-
-
 "But is it really holy, Christopher?" Jay questioned, forming a stand against Christopher's hasty judgement.
-
-
 
 Jay continued to read the inscriptions on the artifacts, hoping to uncover more about their mysterious origin.
 
@@ -4907,37 +4138,25 @@ Eventually, they cleared the tangled, weed-covered artifacts in Lloyd's Folly.
 
 "Dan, that naked fish just exclaimed something in English!" Jay shouted, bewildered by the bizarre sight.
 
-
-
 "Jenny, your praise of Jay's works increases his value," Rob chimed in, recognizing the importance of their contributions to the investigation.
 
 As Jay flinches, flashes of high-pitched squirting sound catch the group's attention, followed by the shopkeeper's sudden appearance.
 
 "Mike, can you believe a bike made of mahogany?" Jay asked, shaking his head at the oddities of Lloyd's Folly's shops.
 
-
-
 "Isn't it," Christopher agreed, eyeing the peculiar beads displayed in another shop, questioning the fundamental purpose of such items.
-
-
 
 exposition;10:GROUP CONTINUES WEAVING SHOPKEEPER LABYRINTHINE MARKET
 
 The group continues weaving through the labyrinthine market, with the shadowy shopkeeper observing their every move.
 
-
-
 dialogue;4:ROB IDEA SUSPICIOUS
 
 "You know, Rob, this whole place seems suspicious," Jay remarked, expressing his unease.
 
-
-
 exposition;4:ROB SHRUGS CARELESSLY
 
 Rob simply shrugged carelessly, seemingly unfazed by the eerie atmosphere.
-
-
 
 exposition;6:MYSTERY ADO DEEPENS INVESTIGATION
 
@@ -4953,7 +4172,7 @@ As the group continued their exploration, Mike gave a pretty smile that almost r
 
 As Jay examined the ancient chart, he noticed that the lines seemed to become darker and deeper, indicating a more treacherous path ahead.
 
-"Forty-five pour!" Mike exclaimed. 
+"Forty-five pour!" Mike exclaimed.
 
 Christopher greeted him with a wry smile, "You smell as greasy as your wits, Mike." Jay rolled his eyes at their banter but couldn't help but smile as well. Rob, however, maintained a serious expression, knowing the importance of their mission.
 
@@ -4965,19 +4184,11 @@ With absolute accuracy, Jay pinpointed the outbreak's origin on the map, noting 
 
 "REPLIES BACON TRIUMPH?" Rob asked, puzzled by the strange phrase. "There's a winner signal missed," Jay responded, hinting at a clue they might have overlooked. As the group continued their investigation, they felt the weight of the mystery bearing down on them. The shadowy shopkeeper remained watchful, adding to the tense atmosphere.
 
-
-
 "Maybe we should take a break," Christopher suggested, noticing the strain on his companions' faces. Mike agreed, rubbing his temples as the pressure of their surroundings began to take its toll. They found a corner in the market to rest, attempting to collect their thoughts and regroup.
-
-
 
 Jay, however, remained fixated on the artifacts and the possible connection to the outbreak's origin. He couldn't shake the feeling that there was something crucial they were missing, something that could potentially unlock the entire mystery of Ado. As his friends rested, Jay continued to examine the items they had collected, determined to find the missing piece.
 
-
-
 The silence that had previously enveloped the group in the market now seemed to be interrupted by the steady hum of activity around them. While Mike and Christopher took a moment to relax, they couldn't help but feel a growing sense of unease. The peculiar environment of Lloyd's Folly seemed to seep into their very bones, making it difficult to find any real respite.
-
-
 
 As the group prepared to continue their investigation, they were determined to uncover the truth behind Ado and Lloyd's Folly. They knew that in order to succeed, they would need to rely on their combined skills and instincts. With renewed focus, they delved deeper into the labyrinthine market, ready to face whatever challenges lay ahead.
 
@@ -4985,11 +4196,7 @@ Mike stared intently at the curved display, his focus unwavering as the images d
 
 "Chorus betrayed, stirring bade!" Jay exclaimed suddenly, drawing the attention of his companions. As they gathered around him, the tension in the air grew palpable, and Jay continued to analyze the artifacts. Christopher, sensing the importance of the situation, listened intently and tried to offer his expertise. "This inscription here," Jay pointed out, "seems to suggest that there's more to this story than we initially thought."
 
-
-
 Mike, ever the skeptic, raised his eyebrows and asked, "Are you sure about that, Jay?" He didn't want to dismiss his friend's findings, but he also didn't want to jump to conclusions. Rob, on the other hand, trusted Jay's instincts and urged the group to press on in their investigation.
-
-
 
 "Regardless of what we find," Rob said firmly, "we need to continue exploring Lloyd's Folly and uncover the truth behind Ado." The group nodded in agreement, and with renewed determination, they ventured deeper into the eerie market, bracing themselves for the challenges that awaited them.
 
@@ -5111,8 +4318,6 @@ Exposition;12:GROUP CONTINUES SEARCH LLOYD'S FOLLY
 
 Dialogue;9:CHRISTOPHER RANDOM WALK
 
-
-
 Suddenly, the scratching and rubbing sound stopped, filling Jay, Christopher, Mike, Rob, and Lloyd with a sense of relief. They began to examine the writings on the small sofa more closely. "This must be important," Jay said, as he discovered a potential clue about Ado. "We're definitely making progress in uncovering this mystery," Mike added optimistically. The group continued their search throughout Lloyd's Folly, with Christopher remarking, "It's like we're on a random walk."
 
 As they searched the kitchen, Jay suddenly exclaimed, "Hey, check this out!" as he grabbed a couple of bottles from a dusty shelf, noting their cheap and well-traveled appearance.
@@ -5121,17 +4326,11 @@ As they searched the kitchen, Jay suddenly exclaimed, "Hey, check this out!" as 
 
 "Distinct, huh?" mumbled Jay, flushing cutely.
 
-
-
 With a serious tone, Mike added, "We haven't found Jenny yet, so we can't assume she's safe or that this witch isn't a threat."
-
-
 
 Exposition;25:JAY THOUGHT POSSIBILITY FOLLY TRUE
 
 Considering the possibility, Jay thought that maybe Lloyd's Folly was true after all.
-
-
 
 Exposition;11:CHRISTOPHER SHRUGGED AGREED
 
@@ -5151,15 +4350,11 @@ dialogue;19:WITCH JENNY'S SAFETY
 
 exposition;24:TRUTH LLOYD'S FOLLY DETERMINED
 
-
-
 "Buy a lone wheel, who's decent in progress, it's like a mystery random walk," Jay mused, a slight smile on his lips. Christopher, Mike, and Rob exchanged glances in the dimly lit kitchen. They stood near the dusty shelf that held the cheap, well-traveled bottles, contemplating their next move. The suggestion to survey the cat splashing seemed to hold the potential for a new clue or discovery. "We need to ensure the witch doesn't endanger Jenny's safety," Christopher added, his voice resolute. With their determination to uncover the truth about Lloyd's Folly stronger than ever, the group prepared to continue their exploration.
 
 The group moved ceaselessly through the cluttered kitchen, now noticing several small desks strewn about amongst the various appliances and furniture.
 
 "Library, switch, toy, invention machine?" Jay questioned, puzzled by the words.
-
-
 
 "Is this some kind of story, like what Teacher Brown taught? It's pretty confusing," Christopher added, trying to make sense of the mystery.
 
@@ -5223,15 +4418,9 @@ As he sat intensely, the solitary man walked by a fruit stand. In the dim light,
 
 In the dimly-lit, dream-like atmosphere, the protagonist and his group continued to explore the strange, mysterious building. They came across an overweight hotel, which seemed to pretend to be a part of their nights, with its curtains drawn tightly shut. The group proceeded cautiously, still feeling uneasy about the faint whistling and strange viewing routine that seemed to counsel their every step.
 
-
-
 As they moved further into the building, they noticed the peculiar sensation of shifting realities. The alien versions of their world appeared to mourn life's evolutionary changes and the group felt increasingly on edge. Mike's interest in science drove him to study every detail of their surroundings as they navigated through the dim, dingy atmosphere.
 
-
-
 Suddenly, the protagonist heard a desk resembling a school official, causing him to stop in his tracks. His companions looked at him curiously, wondering what had caught his attention. The protagonist hesitated for a moment, then motioned for the group to continue onward, as ghostly shapes seemed to lurk in the background.
-
-
 
 They passed by a fruit stand, and watched as a solitary man walked by, glancing at them briefly before disappearing into the shadows. The group continued onward, their determination to uncover the secrets of the mysterious building only growing stronger.
 
@@ -5256,8 +4445,6 @@ Under twisted coconut and banana palms, the group found a small stand selling be
 In the Noodle Department, they discovered the Foreign Office giving away free samples. There were tables and plastic chairs set up for them to rest, feeling universal as they continued exploring the mysterious building. They stumbled upon an alcove, where a peculiar device, battered and worn, caught Mike's attention near the entrance.
 
 As they explored further, the protagonist noticed a bowl labeled "Soi Thirteen" and decided to pour its contents. On a nearby shelf, they found a collection of peculiar items like lime pickles, jam, nails, and sugar. The protagonist couldn't help but wonder about the purpose of these unusual ingredients, as Mai picked up a bowl of lime curry noodles, eyeing the curious tourists around them.
-
-
 
 In the corner, an old woman was skillfully making floats by raking and coasting boiled chicken. Mike eagerly devoured the dish, clenching a tissue as the spiciness caused his face to become a bright red. The protagonist, feeling adventurous, decided to buy some of the crispy fried delicacies, dipping them into the greasy broth provided.
 
@@ -5289,49 +4476,33 @@ In the background, a profile of a milking cow shone brightly. A photograph, or p
 
 dialogue;9: "I think Wad is susceptible to scents," he decided.
 
-
-
 exposition;10: PROTAGONIST MIKE ROOM DISCUSS
 
 The protagonist and Mike continued discussing in the room, focusing on their next move.
-
-
 
 exposition;7: MAP SECRET DOOR
 
 They studied the map for more secret doors, hoping to find answers.
 
-
-
 exposition;12: CHIRPS DAISIES PRESENCE AIR
 
 The absence of chirps and daisies in the air only added to the eerie atmosphere.
-
-
 
 dialogue;8: NEED POLICE WATCHES
 
 "We need those police watches," Mike stated, emphasizing their importance.
 
-
-
 exposition;14: PERFECT CHOREOGRAPHY PERFORMANCE
 
 They knew that perfecting their choreography for the upcoming performance was crucial.
-
-
 
 dialogue;6: BEE DEVICE
 
 "Use the bee device," the protagonist suggested.
 
-
-
 exposition;11: COOLING SCENTING CRAMPED SPACE
 
 Utilizing the bee-shaped device, they cooled and scented the cramped space, making it more bearable.
-
-
 
 exposition;15: FACES PEOPLE DISAPPOINTMENT DOOR
 
@@ -5343,25 +4514,17 @@ The protagonist considers the corpus experiments vile and unsettling.
 
 "Possibly flanking preparation?" the protagonist suggested, as the group considered their next move. They had to ensure the safety of the maiden they believed was hidden somewhere within these mysterious walls. The exploration had grown increasingly intense, and they knew they couldn't afford to make any mistakes.
 
-
-
 exposition;4:PROTAGONIST TIGHTENED GRIP
 
 The protagonist tightened their grip on the small bee-shaped device, which had proven to be an invaluable tool in their journey. It served as a symbol of their determination to succeed and find the truth behind the building's secrets.
-
-
 
 dialogue;11:ALWAYS QUICK DECISIONS PERFORMANCES
 
 "During our performances, we're always making quick decisions," Mike chimed in, acknowledging the need for swift action. "We need to apply that same mentality here and decide on our next move."
 
-
-
 exposition;7:GROUP STRATEGY DISCUSSION
 
 The group huddled together for a strategy discussion, weighing their options while keeping an eye on the mysterious cow profile and the betraying lights that had flickered moments ago. With the transformation of the space and the vile corpus experiments on their minds, they knew they must proceed with caution.
-
-
 
 dialogue;5:APPROACH CAUTIOUSLY AGREED
 
@@ -5379,19 +4542,13 @@ As the protagonist enters and stays for four days in the King's quarters, he obs
 
 "Here's what I feel," Mike whispers, gesturing to the surroundings. "This place, the University of Searle, it's like a roundabout, always defending its conclusions." Mai nods, her eyes wide with curiosity as she absorbs the information.
 
-
-
 Exposition;6:PROTAGONIST CONTINUES EXPLORING BUILDING
 
 The protagonist continues exploring the mysterious building, each room revealing more of its hidden secrets.
 
-
-
 Exposition;6:GROUP EXPERIENCES STRANGE SENSATIONS
 
 As they delve deeper, the group experiences strange sensations, as if there's a presence watching their every move.
-
-
 
 Dialogue;4:MAI WHISPERS FEELS BREEZE
 
@@ -5425,31 +4582,21 @@ Exposition;6:DEVICE REVEALED
 
 "Well, Mister Flip is abruptly playing square," Mai noted, looking at their fellow group member with a hint of surprise.
 
-
-
 exposition;5:FLIP DEVICE HAND
 
 Mister Flip had a device in his hand, a small rectangular object that seemed to be controlling the emblem's glow.
-
-
 
 dialogue;6:FLIP EXPLAIN INTRIGUING
 
 "Allow me to explain this intriguing situation," Flip said, his voice steady and confident.
 
-
-
 exposition;8:DEVICE POWER SOURCE CONTROL
 
 The device in his hand was, in fact, a power source control, capable of manipulating the energy emitted by the emblem.
 
-
-
 dialogue;11:EMITTING WAVES POWER SOURCE
 
 "By emitting these specific waves, we can harness the power source within the emblem," Flip elaborated, a proud smile spreading across his face.
-
-
 
 exposition;12:GROUP ASTONISHED REVELATION
 
@@ -5464,8 +4611,6 @@ The taxi phone provided compelling and fundamental amenities. Lloyd dozed off, h
 Regarding the forgotten conversation, Lloyd opened his eyes and quickly scanned the room.
 
 "HELLO, locate knuckles!" Lloyd yelled. The group, now deep within the University of Searle, continued to explore its mysterious halls. As they ventured further, Lloyd couldn't shake the feeling that they were being watched, a sensation that sent chills down his spine. Their footsteps echoed throughout the dark corridors, creating a haunting ambiance.
-
-
 
 "So, anyone eager to continue?" someone softly suggested, their voice barely audible. The uncertainty in their tone was palpable, reflecting the unease that had settled over the group. Despite their fears, they knew they had to press on, driven by the need to uncover the secrets hidden within the university's walls.
 
@@ -5513,8 +4658,6 @@ exposition,11:MYSTERIOUS INSCRIPTIONS INCOMPREHENSIBLE
 
 exposition,12:GLYPHS PATTERNS INTERWOVEN PAGES
 
-
-
 "Christopher, these holy pages aren't for fools to stand around!" Lloyd snapped. "Listen to me, Lloyd," Mike said urgently. In the book he was holding, there appeared a black cat symbol that caught Lloyd's focus and attention. He cautiously approached the table, where Mike had spread out the books. The mysterious inscriptions in front of him were incomprehensible, with glyphs and patterns interwoven throughout the pages.
 
 "Mike, forgive me," Lloyd cried, struggling to deal with the old, overwhelming emotions that resurfaced upon seeing the black cat symbol. Exposition;15:GLYPHS MYSTERIOUS CODE. The mysterious glyphs seemed to be part of a code that could potentially hold significant information. Exposition;12:EYES WIDENED LLOYD. Lloyd's eyes widened as he realized the importance of cracking this code. Dialogue;7:LLOYD START. "Let's start," Lloyd said, his voice filled with determination. Exposition;14:LLOYD TEAM PUZZLE. Lloyd and his team began working on the puzzle, each contributing their own unique skills to the process.
@@ -5533,8 +4676,6 @@ Exposition;8:APPROACHING TABLE CHRISTOPHER DAVID
 
 Exposition;6:OLD EMOTIONS FILLING AIR
 
-
-
 Lloyd saw a connection between the glyphs and the pattern. Mike continued investigating the book's cover. Approaching the table, Christopher and David joined the effort. Old emotions filled the air as they worked together.
 
 Exposition;10:MIKE, DAVID, CHRISTOPHER
@@ -5547,49 +4688,33 @@ Dialogue;13:"JUMPING bus, fluid LIFT cries!"
 
 Dialogue;24:"SOULS of the omniscient, AUTHOR runs SHOUTING!"
 
-
-
 Mike, David, and Christopher continued their investigation in the mysterious library street. They were surrounded by books containing enigmatic glyphs and patterns that seemed to hold a hidden meaning. Suddenly, Mike exclaimed, "Jumping bus, fluid lift cries!" David chimed in with excitement, "Souls of the omniscient, author runs shouting!" as they made a new discovery about the connection between the glyphs and patterns.
 
 "Insane blast believing!" Mike shouted, unable to contain his enthusiasm as they continued to decipher the glyphs.
-
-
 
 exposition;7:PATTERNS MIKE DAVID CHRISTOPHER FOCUSING
 
 The patterns now had Mike, David, and Christopher completely focused, as they intently studied the mysterious symbols.
 
-
-
 dialogue;5:IMPOSSIBLE UNDERSTAND GLYPHS TIME
 
 "It's impossible to understand these glyphs in time," Christopher muttered, growing increasingly frustrated.
-
-
 
 exposition;8:LIBRARY SHELVES STRANGE BOOKS DISCOVERED
 
 All around them, the library shelves held strange books they had discovered earlier, enticing them to investigate further.
 
-
-
 dialogue;4:CONNECTIONS PATTERNS GLYPHS
 
 "There are connections between these patterns and glyphs," David observed, his eyes scanning the pages.
-
-
 
 exposition;6:LLOYD MYSTERIOUS UNIVERSITY SEARLE
 
 Lloyd felt a growing sense of unease as they delved deeper into the mysteries of the University of Searle.
 
-
-
 dialogue;3:KEY UNLOCKING SECRETS
 
 "The key to unlocking these secrets must be here," Mike insisted, his determination unwavering.
-
-
 
 exposition;9:GROUP DETERMINED DEEPER MEANING SYMBOLS
 
@@ -5602,8 +4727,6 @@ Together, the group was determined to uncover the deeper meaning behind the symb
 As they worked, Christopher suddenly exclaimed, "Guys, look at this! The tissue paper in this book is all chewed up and wet, as if something with a brain has been gnawing on it!"
 
 "Christopher, regain your quantum composure and deliver," said Lloyd.
-
-
 
 "There's cash in learning, here's washing," Christopher replied, attempting to make sense of the damaged book.
 
@@ -5657,37 +4780,25 @@ As the group continued their investigation, they couldn't help but notice the sc
 
 "WHAT'S that?" asked Lloyd, as the group noticed a giant, growing interest in the strange scratching noises. They suddenly became aware of a black cat lurking in the shadows, its eyes locked onto them.
 
-
-
 dialogue;6:FOUND FELINE FRIEND MIKE OBSERVATION
 
 "I think we've found a feline friend," Mike observed, trying to lighten the atmosphere.
-
-
 
 exposition;6:CAT WATCHED SMILING EYES
 
 The cat watched them with a mysterious smile in its eyes, as if it knew something they didn't.
 
-
-
 dialogue;5:SEARLE LIBRARY GUARDIAN DAVID
 
 "Maybe it's the Searle Library's guardian," David suggested, half-jokingly.
-
-
 
 exposition;8:PAWS DUSTY BOOKSHELVES SWIFT
 
 The cat gracefully jumped from the floor, its paws landing on the dusty bookshelves with a swift motion.
 
-
-
 dialogue;7:SNEAKY HELPFUL GUIDE HERE
 
 "Perhaps it's a sneaky, yet helpful guide," Jenny chimed in, her voice filled with curiosity.
-
-
 
 exposition;10:CURIOSITY FOLLOWED LEADING PATH MYSTERIOUS
 
@@ -5711,37 +4822,25 @@ Christopher questioned the group, "What if Babe is trying to build something?" L
 
 "Visual dissolution hovering," Christopher muttered, as they examined the wall pattern more closely. Mike found a small, hidden lever and hesitated before pulling it. The sound of gears turning and metal scraping against metal rang through the library.
 
-
-
 exposition;7:LIBRARY SHELVES SHIFTING MAZE DISORIENTING
 
 The library shelves began shifting, transforming the once familiar space into a disorienting maze. The group exchanged worried glances, realizing they might be trapped within the labyrinthine walls.
-
-
 
 exposition;5:BLACK CAT PAWING PATTERN WALL
 
 The black cat, seemingly unfazed by the shifting surroundings, continued pawing at the pattern on the wall, drawing the group's attention back to the mystery at hand.
 
-
-
 dialogue;5:TRAPPED MUST SOLVE PUZZLE
 
 "We're trapped; we must solve this puzzle," Jenny declared, her voice tense but determined, as she joined the others in studying the wall.
-
-
 
 exposition;9:LLOYD PATTERN FAMILIARITY UNRAVELING DESIGN CONNECTIONS
 
 Lloyd's familiarity with intricate patterns helped them gradually unravel the design, as they began making connections between the glyphs, symbols, and the mysterious machine they had found earlier.
 
-
-
 dialogue;8:MAP LIBRARY SECRETS HIDDEN
 
 "This could be a map, leading us to the library's hidden secrets," David proposed, excitement creeping into his voice as the group started to make progress.
-
-
 
 exposition;5:BLACK CAT WATCHING INTENTLY
 
@@ -5773,8 +4872,6 @@ Exposition;10:COMPANIONS PUZZLE EXCITEMENT DISCOVERED SECRET
 
 Dialogue;5:FOREVER MOUTHFUL SANDY CLENCHED REPUTATION
 
-
-
 Lloyd studied the mysterious wall intently, sensing the hidden machine within. "I have the impression this is one of Professor Searle's experiments," he said, his voice echoing in the library. His companions eagerly worked on the puzzle, their excitement growing with each newly discovered secret. "This'll take forever with my mouthful of sandy words!" Sandy clenched her fists, worried about her reputation.
 
 "Truly fly stuff we've proper discovered here, don't you think?" Lloyd exclaimed, unable to contain his enthusiasm. Exposition;14:MYSTERIOUS MACHINE LIBRARY. The mysterious machine in the library seemed to hold immeasurable power and knowledge. Exposition;12:WALL PATTERN SECRET. The wall pattern was the key to unlocking this secret. Dialogue;14:FRUSTRATION REPUTATION SANDY. "But my reputation is still at stake," Sandy reminded them, her frustration evident. Exposition;15:PROFESSOR SEARLE EXPERIMENTS. They were delving deeper into Professor Searle's experiments, hoping to find answers. Exposition;10:BLACK CAT PUZZLE. The black cat remained an enigmatic piece of the puzzle.
@@ -5789,8 +4886,6 @@ Exposition;6:CAT LEADING THEM
 
 Exposition;8:MYSTERIOUS CHAMBER DISCOVERED
 
-
-
 "Lloyd, we've been flanking pork seed attempts they'd made," Sandy muttered. The maze's walls curved in seemingly endless patterns, making their exploration a challenging task. Frustration was growing in the group despite their excitement just moments ago. "I'm not giving up," Lloyd stated firmly, following the black cat as it continued to lead them through the labyrinth. To their surprise and relief, they finally stumbled upon a mysterious chamber, a significant discovery in their quest for answers.
 
 "Please, let's continue," Jenny said, her eyes becoming earnest as she stared intently at the maze.
@@ -5801,15 +4896,9 @@ As they entered the chamber, they noticed the steepled mortar bricks and the dus
 
 "Lloyd, muster here!" he called, as they all gathered around a channel smashed neatly into the floor. "I think we've found something!" Sandy exclaimed, her excitement growing as she observed the woollen threads emerging, extracted from the suicide of an inward wall. The black cat sat nearby, its eyes locked on the unraveling threads, as if it knew this was the key to another secret within the maze.
 
-
-
 "This is incredible," Lloyd said, his eyes following the woollen trail as it led deeper into the chamber. Each thread seemed to tell a story, an intricate pattern connecting pieces of a forgotten past. The group, now more determined than ever, followed the path, guided by the mysterious black cat and the unraveling threads.
 
-
-
 Suddenly, the air around them seemed to shift, and the sound of grinding stone echoed through the chamber. "What's happening?" Sandy asked, her voice shaking with a mix of fear and excitement. The walls around them began to move, revealing more hidden passageways and secrets.
-
-
 
 As the dust settled, a new path appeared before them, leading to an unexplored corner of the library. "We must be getting closer," Lloyd whispered, his eyes gleaming with the thrill of the chase. The group pressed on, the black cat leading the way, as they ventured further into the heart of Professor Searle's experiments and the enigma that was the University of Searle's library.
 
@@ -5819,31 +4908,21 @@ Dipping inwards, the sparse spun strand led them further. As they followed, they
 
 "WE'RE NOT DONE YET!" Lloyd yelled, coming to a conclusion as he watched the burly man race ahead, his arms swinging like a pendulum. "We must follow him; he might lead us to the secrets we seek!"
 
-
-
 Exposition;10:GROUP MEMBERS HESITATED DOUBT
 
 The group members hesitated for a moment, doubt clouding their expressions, but they knew deep down that they couldn't turn back now.
-
-
 
 Exposition;15:BLACK CAT MYSTERIOUS DISAPPEARED ENGULFED LIBRARY MAZE
 
 The mysterious black cat that had guided them thus far had vanished, seemingly engulfed by the twisting maze of the library, leaving them to navigate on their own.
 
-
-
 Exposition;4:DETERMINATION PRESSING FORWARD
 
 Fueled by determination, they pressed forward, following the burly figure as he disappeared around a corner.
 
-
-
 Exposition;7:WOOLLEN THREADS UNRAVELING PATH
 
 The woollen threads from the wall continued to unravel, creating a makeshift path for them to follow, their map of ink-stained elbows and knees an essential tool in this bewildering labyrinth.
-
-
 
 Exposition;8:SOUND SCRATCHING FOOTSTEPS URGENT
 
@@ -5852,8 +4931,6 @@ The sound of scratching footsteps grew more urgent, urging them on, as the group
 As the manuscript detailing entangled games headed the procession,
 
 dialogue;5: "I'll lay lots, cried Finger!"
-
-
 
 exposition;8:CONTINUED FOLLOWING URGENT GROUP FOOTSTEPS
 
@@ -5907,13 +4984,9 @@ Interrupts were made by the concierge, who ushered them throughout with assent. 
 
 "Such a boring, austere delivery," Lloyd responded, clearly unimpressed with the so-called explanation they had received. As the group continued their exploration, they stumbled upon a peculiar room filled with an assortment of strange equipment and peculiar patterns. Jenny, still feeling uneasy, reluctantly followed the group in, her frustration and discomfort growing with every step.
 
-
-
 Exposition;9:UNEASE UNCOVER MYSTERIOUS SECRETS GROWS
 
 Their unease grew as they struggled to uncover the mysterious secrets hidden within this peculiar room, the strange equipment casting eerie shadows on the walls. "I don't like this one bit," Jenny muttered under her breath, her nerves fraying with each passing moment.
-
-
 
 Exposition;10:UNUSUAL SMELLS LABYRINTH-LIKE LABORATORY MYSTERIOUS
 
@@ -5955,27 +5028,17 @@ Exposition;10:JENNY SHUDDERED PULLED CLOSER
 
 Dialogue;8:WHAT DOING NOW
 
-
-
 As they navigated the labyrinthine corridors of the laboratory, the group had been lost more times than they could count. Jay, becoming increasingly frustrated, grabbed Lloyd's arm and exclaimed, "Not again, Lloyd!" Lloyd sighed, his frustration visible on his face, as Jenny's sense of dread grew stronger. She shuddered and pulled herself closer to the others, asking with a trembling voice, "What are we doing now?"
 
 A faint murmuring hovered around them as they cracked open the lifting windows. They navigated the maze of avenues and peculiar paths, unsure which concrete route would lead them to their destination. Regrettably, the scent of pickles announced their presence before Lloyd could even exchange glances with his companions. They finally stumbled upon a translation of the mysterious document, revealing that the English version consisted of 11 pages.
 
 As he reads, the document unfolds and reveals information about a potential candidate. "This person seems to be the key to unlocking the final secrets of the laboratory," Lloyd declared, a glimmer of excitement in his eyes. Jay and Jenny, however, exchanged a worried glance, feeling the weight of the unknown on their shoulders.
 
-
-
 "Is it wise to pursue this further?" Jenny asked, her voice wavering with uncertainty. "I mean, the mysterious odors, the hidden rooms... it all seems so dangerous."
-
-
 
 Jay nodded in agreement, his concern for their safety evident. "Lloyd, I think Jenny's right. We've already found so much, but we don't know what we might be getting ourselves into."
 
-
-
 In response, Lloyd took a deep breath and contemplated their concerns. The stakes were high, but the temptation to uncover the truth was overwhelming. "I understand your worries," he said, his voice filled with determination. "But we've come too far to turn back now. We must find this candidate and learn the truth behind the laboratory's secrets."
-
-
 
 With a mix of reluctance and resolve, Jay and Jenny agreed to continue their investigation. As they ventured deeper into the laboratory, the scent of pickles seemed to grow stronger, a constant reminder of the unknown dangers lurking within.
 
@@ -6003,15 +5066,9 @@ As Mike hesitantly scribbled on the notepad, he was unsure of what to expect. Ll
 
 "Serene procedure," Ad says, "language." They all stare at the trunk hanging above them, their hearts pounding with anticipation. Lloyd reaches out to touch it, feeling a strange energy emanating from its surface.
 
-
-
 "Prove major understood, become passage," Jay recites the cryptic message from the translated document. As if on cue, the dense trunk begins to unravel, revealing a hidden chamber within. The group exchanges nervous glances before stepping inside, eager to uncover the secrets that lie within the laboratory.
 
-
-
 As they enter the chamber, they are greeted by the hum of machinery and the faint glow of mysterious devices. Mike cautiously examines a nearby control panel, his fingers hovering above the buttons, while Jenny studies a collection of vials filled with glowing liquids.
-
-
 
 The eerie atmosphere within the chamber sends shivers down Lloyd's spine, but he knows they must press on. With every step, they draw closer to the truth, and although the path ahead is uncertain, they are determined to see their journey through to its end.
 
@@ -6019,25 +5076,17 @@ As the group explored further, they noticed the Canadian J fruit's influence on 
 
 "An unmistakable type of individual lifting snap," Lloyd murmured as he examined the peculiar devices within the hidden chamber. Jay's eyes darted around, trying to make sense of the overwhelming collection of gadgets and glowing vials before them. Jenny, still entranced by the vials' glow on her skin, couldn't help but feel a sense of awe and trepidation as she continued to explore.
 
-
-
 exposition;6:JAY SHIVERED UNSETTLING MACHINERY
 
 Jay shivered upon glimpsing the unsettling machinery, feeling a growing uneasiness in the pit of his stomach. He tried to shake off the sensation, focusing instead on deciphering the purpose of these mysterious contraptions.
-
-
 
 dialogue;4:EERIE FAMILIAR
 
 "This feels eerily familiar," Jenny whispered, her voice barely audible as the group continued to navigate the chamber. Her statement sent a chill down Mike's spine, as he too had experienced a nagging sense of déjà vu since they had entered the laboratory.
 
-
-
 exposition;11:MIKE NOTICED STRUCTURE LABORATORY
 
 Mike noticed the structure of the laboratory seemed to echo the cryptic message they had recited earlier, as if they were somehow intrinsically connected. The realization only added to the growing mystery and unease that enveloped the group.
-
-
 
 dialogue;6:SEARLE'S LIBRARY SECRET
 
@@ -6067,17 +5116,11 @@ exposition;12:LABORATORY TRUTHS DISCOVERED DEEPER DARKER
 
 dialogue;11:JULIE POINTED CHARRED DEVICE WALL
 
-
-
 "Multiple trucks needed for these machines," Mike remarked, recalling traces of their past adventures and nightmares. The oddly familiar surroundings brought a growing concern to Lloyd and the other group members. Wiping the sweat from his brow, Lloyd felt a mix of anxiety and exhaustion. As they ventured further into the laboratory, the truths they discovered only grew deeper and darker. "Look at this charred device on the wall," Julie pointed out, her voice trembling with fear.
 
 "Drugs, murderous souls, and others drinking... it's all connected," whispered Lloyd, as his friends stared at him with a mix of unease and curiosity. They could feel the weight of the past pressing down on them, their memories of previous adventures and nightmares converging in the eerie, dimly lit laboratory. Mike, still trying to wrap his head around the vastness of the AI project, mumbled something about the trucks needed to transport all the machinery.
 
-
-
 Exhaustion and anxiety were taking their toll on the group, but they couldn't afford to stop now. With each new discovery, the darker and more sinister the truths became, tugging at the threads of their sanity. Julie, her eyes wide with fear, pointed at a charred device hanging from the wall, as if it were a warning of the horrors that awaited them.
-
-
 
 Despite their trepidation, they knew they had to continue. As they ventured further into the depths of the laboratory, the air grew colder, and the shadows seemed to whisper dark secrets to them. They steeled themselves, determined to uncover the truth behind the AI project and the twisted souls that had been involved in its creation.
 
@@ -6097,11 +5140,7 @@ Exposition;8:NERVOUSNESS FEAR TENSION
 
 Exposition;8:STRANGE NOISES CORRIDOR
 
-
-
 "MAI, ne dove forty-five pour," Lloyd whispered, alluding to the secret location of the AI library they were now exploring. "We need to find more information about this place," said another member of the group, seeking answers to the mysterious events that took place. They knew that three years ago, a group of researchers had disappeared from this very laboratory, never to be seen again. The mysterious discovery they had made was now just inches away from being revealed.
-
-
 
 "A failed experiment could have catastrophic consequences," Lloyd reminded them, his voice full of apprehension. The air was thick with nervousness, fear, and tension as they continued their search. Suddenly, strange noises echoed through the corridor, adding to the unsettling atmosphere of their exploration.
 
@@ -6143,11 +5182,7 @@ Lloyd stares at the performing crowds, scandal in their actions.
 
 "What's this illness, guys?" Lloyd asked, jolted by the sudden appearance of a sickly-looking man. As they continued deeper into the laboratory, the group noticed various medical equipment and test subjects in various stages of experimental treatment. Trusty whirred again, seemingly fascinated by the advanced technology surrounding them.
 
-
-
 "Be careful not to touch anything," Arrow warned, his voice tense as he eyed the bizarre experiments. Julie nodded in agreement, her eyes scanning the room for anything that might provide a clue to Wedge's whereabouts. They moved cautiously, their footsteps echoing in the cold, sterile environment.
-
-
 
 As Lloyd inspected a row of specimen jars, he couldn't shake the feeling that they were being watched. The unnerving sensation sent shivers down his spine, and he found himself questioning their decision to search for the elusive surgeon.
 
@@ -6189,47 +5224,33 @@ Dialogue;26:"CRAZY ROARED AGREED EXPLAINED SHE'S"
 
 Exposition;4:MIKE SMILED JULIE
 
-
-
 The group continued their search of the room, the mysterious screeching still on their minds. Mike suddenly stopped and pointed, exclaiming, "Look there!" On the wall behind the display of fake cheese, Julie spotted something. "Confesses Julie's undeserved," she remarked, to which Mike responded with a chuckle, "Crazy roared agreed explained she's." Julie nodded her thanks, and Mike smiled back at her, as they continued to investigate the mysterious room.
 
 The chime's sound seemed to embody a lively stroll.
 
 "THAT'S odd," Mike commented, looking at something on the wall. Julie, who had been examining the same spot, nodded in agreement. "I've seen this cross symbol before, but I can't remember where."
 
-
-
 exposition;6:JULIE MIKE CORNER SYMBOL
 
 Julie and Mike continued to scrutinize the mysterious symbol etched into the corner of the room.
-
-
 
 exposition;7:WALL MYSTERIOUS SYMBOL
 
 The wall, which had been plain and unremarkable like the rest of the room, now held a strange allure as the enigmatic symbol drew their attention.
 
-
-
 dialogue;4:REMEMBER ANYTHING JULIE
 
 "Do you remember anything about it, Julie?" Mike asked, hoping that her memory might provide some clue.
 
-
-
 dialogue;5:JULIE SYMBOL BOOK
 
 "I think I saw this symbol in a book once," Julie replied, trying to recall the context in which she had encountered it.
-
-
 
 exposition;6:MIKE JULIE RESEARCH
 
 Their interest piqued, Mike and Julie decided to delve deeper into their shared knowledge and research to uncover the meaning behind the cryptic symbol.
 
 "Consider the possibilities," Mike said, allowing for a moment of reflection. "If we could just copy the symbol and bring it with us, it might help us break this code."
-
-
 
 Julie pondered for a moment and replied, "I can stay here for a few more weeks, but I can't afford to lose any more days from work. We need to figure this out before I have to leave."
 
@@ -6241,37 +5262,25 @@ Exposition;6: MIKE CROSSED ROOM URGENTLY
 
 "Guys, come here!" Mike called out urgently as he crossed the room.
 
-
-
 Exposition;8: JULIE JAY SANDY RESPONDED GROUP
 
 Julie, Jay, and Sandy quickly responded, forming a tight-knit group around Mike.
-
-
 
 Exposition;9: GESTURED TOWARDS BODY DISCOVERED
 
 He gestured towards a body he had discovered, lying in a corner.
 
-
-
 Exposition;9: EVIDENTLY DEAD MYSTERIOUS CIRCUMSTANCES
 
 It was evident that the person was dead, under mysterious circumstances.
-
-
 
 Dialogue;7: SWUNG APPARENTLY CROSSED DIFFICULTY CALLING
 
 "Looks like he... crossed some difficulty," Jay said, trying to lighten the mood.
 
-
-
 Exposition;7: SENSE HUMOR TENSION SITUATION
 
 The attempt at humor did little to relieve the tension in the situation.
-
-
 
 Exposition;8: INVESTIGATE CAUSE DEATH CLUES
 
@@ -6288,8 +5297,6 @@ Exposition;10:DEEPER MYSTERY
 Dialogue;13:MIKE CLUE CROSS
 
 Exposition;8:EMOTIONS HIGH
-
-
 
 Mike was horrified by his grisly discovery. "Maybe somebody wanted to cover up where the dollars were," he said, trying to make sense of the situation. Julie placed a comforting hand on his shoulder as the group began to investigate the body. As they delved deeper, it became clear that this was another piece of the mysterious puzzle. "There's a clue here; look at the cross," Mike pointed out. With emotions running high, the group was determined to uncover the truth.
 
@@ -6311,11 +5318,7 @@ Beyond the pillows, Mike strode forward, peering into the gloom. Adjusting to th
 
 "Jesus," Julie muttered, her voice a mixture of awe and disgust as she examined the room. The stench of the rotting garbage was almost unbearable, but it was the pink tinge that seemed to linger on the walls and floor that truly unnerved her. Arthur, still struggling with the phone call, moved closer to Mike who was becoming increasingly restless with each passing moment.
 
-
-
 "We need to keep moving," Mike said, his gaze fixed on the passage leading south. As they ventured further into the unknown, the mysterious symbols that littered the walls became more prominent, connecting them to the dead body they had discovered earlier. The group longed for a drink to take their minds off their grim situation, but they knew they had to press on.
-
-
 
 As Mike peered into the gloom of the passage, he discovered a towering, fragile structure that appeared to have once housed shops. Twisted protest banners and flattened wires were strewn across the floor, and a beckoning stain on the wall seemed to demand a response.
 
@@ -6451,55 +5454,35 @@ As Mike spun the massive door knock, astonishment filled his eyes. The reader ha
 
 "Ours is of accurate importance, a useful soul," Arthur claimed, as he continued examining the stained papers. The cryptic scribblings seemed to hold more secrets than they initially thought. He couldn't help but wonder how much more was hidden within this peculiar mansion.
 
-
-
 Arthur's thoughts were interrupted by the ringing of the old grandfather clock in the corner. Its chimes resonated through the air, adding to the eerie atmosphere of the room. He shuddered, feeling an odd connection between the clock's ticking and their investigation.
 
-
-
 As the final chime rang out, a sudden gust of wind blew through the room, scattering the papers everywhere. Arthur, Mike, and Julie scrambled to collect them, their anxiety and determination to uncover the truth pushing them forward.
-
-
 
 With the papers finally gathered, the trio sat on the dusty floor, spreading the documents out in front of them. They began to piece together the fragments, hoping to find some semblance of order in the chaos.
 
 "I'm sorry, I couldn't make sense of this," Arthur said, holding up one particularly illegible piece of paper. The stains and age had taken their toll, making it nearly impossible to read. Mike, on the other hand, was having better luck with his own stack, and he looked up from the floor for a moment, only to see Julie's face scrunched up in concentration as she tried to decipher another cryptic message.
 
-
-
 "Hey, check this out," Mike said, pointing to a passage with a growing sense of excitement. Julie and Arthur leaned in closer, their eyes scanning the words that seemed to hint at an important revelation. They could feel their hearts race as the puzzle they were trying to solve began to take shape.
-
-
 
 Arthur's eyes widened in disbelief as he read the passage aloud, "It says, 'The clockwork doll holds the key to the mansion's darkest secret.' What could that possibly mean?" The trio looked around the room, their eyes searching for any sign of a clockwork doll. They knew they had to find it, for it might hold the answers they sought.
 
 Arthur glanced around the room and said, "It's probably in one of the most unlikely places only ours can be."
 
-
-
 exposition;10:SHADOWS FURNITURE
 
 The shadows of the furniture loomed ominously around them.
-
-
 
 dialogue;7:MIKE AGREE
 
 Mike nodded, "I agree."
 
-
-
 exposition;8:COUNTLESS OBJECTS SEARCH
 
 Their search led them through countless dusty objects.
 
-
-
 exposition;6:DEEPER ROOM INVESTIGATION
 
 As they delved deeper into the room, their investigation intensified.
-
-
 
 exposition;10:MYSTERIOUS PLACE MANSION
 
@@ -6525,8 +5508,6 @@ Exposition;12:GROUP CONTINUED SEARCH
 
 Exposition;14:PASSAGEWAY NARROWING DARKER
 
-
-
 "Is it just me, or does it feel like this fool of a machine is playing games with us?" Arthur showed a hint of annoyance, tugging at his jacket. Julie couldn't help but smirk at Arthur's comment and replied, "Do you really think it is the machine's doing?" Mike, unsure of what to make of the situation, merely shrugged in response. Undeterred, the group continued their search for the clockwork doll through the mansion. As they ventured further, they noticed the passageway becoming narrower and darker, heightening their sense of unease.
 
 As Arthur, Mike, and Julie proceeded deeper into the mansion, their minds wandered to the various distractions of their lives, such as hardware, sausages, mathematics, whiskey, and vegetables.
@@ -6537,11 +5518,7 @@ As they continued on, Mike was stewing in his downcast mood, awkwardly brushing 
 
 "Listen," Julie whispered, her voice hushed as she motioned for the others to be quiet. "Did you hear that?" she asked, her eyes wide with a mix of fear and curiosity. "It sounded like a woman's voice, barely audible between the creaking of the floorboards."
 
-
-
 "I heard it too," Mike confirmed, his voice trembling ever so slightly. "It sounded like she was saying something about a green stone and a machine. But what could that mean?"
-
-
 
 As the trio continued down the narrowing passageway, the air grew colder and their sense of unease heightened. The strange whispers they had just heard only fueled their determination to uncover the truth about the clockwork doll and the mysterious events that had taken place within the Resigned Butterfly Mansion.
 
@@ -6601,8 +5578,6 @@ Arthur winces as he bids Mike to handle the wooden bench. With a quip about the 
 
 Arthur, Mike, and Julie continue exploring the Resigned Butterfly Mansion, encountering mysterious objects and the enigmatic concierge with wildly dilating pupils. They find themselves in a room with an artificial breeze and smoldering symbols on scraps of paper. Frustrated by the lack of clues, they decide to confront the concierge for answers. They wonder about the clockwork doll's connection to the concierge and the whispers they heard earlier. Julie expresses her fear, urging the group to stay calm, while Mike seeks direction. Julie confronts the concierge, noticing his intense, curved stare. As they continue their search, Julie becomes lost in the mansion's common areas, increasing the tension and mystery. Mike raises a question about cricket clubs, bats, and arts, wondering if the concierge is the author behind their adventure. In the latest development, Arthur winces as he bids Mike to handle the wooden bench, and they console a struggling Julie with a quip about the concierge, while she eyes a bottle of whisky overhead.
 
-
-
 "A hospital doorstep accident," replied Mike, mentioning a name.
 
 Julie and Mike wandered back into the common area where a peculiar display caught their attention, raising more questions about the occurrences within the mansion.
@@ -6621,13 +5596,13 @@ dialogue;9: "Mike, your Canadian stuff scattered immediately!"
 
 exposition;5: Arthur exclaimed, frustrated.
 
-dialogue;7: "Calm down, Arthur," 
+dialogue;7: "Calm down, Arthur,"
 
 exposition;6: Julie interjected softly.
 
 dialogue;8: "We'll find everything together."
 
-exposition;11: They began to search the room, 
+exposition;11: They began to search the room,
 
 dialogue;5: "What's this?"
 
@@ -6637,45 +5612,31 @@ dialogue;9: "It's part of the doll!"
 
 "Before we finish speaking, let's walk along this big hallway," Mike suggested, eager to continue their exploration. Exposition;11:MANSION ROOMS DISCOVERED NEW. As they ventured through the mansion, they discovered new rooms filled with intriguing objects. Exposition;14:AROUND CORNER CLOCKWORK DOLL PIECE. Around the corner, they found another piece of the mysterious clockwork doll. Dialogue;10:ARTHUR PIECE MISSING FOUND. "Arthur, I think I found a missing piece!" Julie exclaimed, holding up the small, intricate component. Exposition;10:TOGETHER GROUP DOLL ASSEMBLE. The group worked together to assemble the clockwork doll, curious to see its purpose.
 
-"Doesn't she make you wonder what kind of world she's from? She's so quiet and mysterious," Arthur mused aloud. 
-
-
+"Doesn't she make you wonder what kind of world she's from? She's so quiet and mysterious," Arthur mused aloud.
 
 exposition;12:MIKE JULIE AGREED
 
 Mike and Julie nodded in agreement, sharing his curiosity.
 
-
-
 exposition;18:WALL DOOR CLICKED OPEN
 
 As they spoke, a hidden door in the wall clicked open.
-
-
 
 exposition;15:CAUTIOUSLY STEPPED ROOM
 
 They cautiously stepped into the newly revealed room.
 
-
-
 exposition;20:FURNITURE COVERED DUST SHEETS
 
 Inside, old furniture lay covered with dust and sheets.
-
-
 
 dialogue;29:CAN'T ALL BEEN ABANDONED
 
 "I can't believe all of this has been abandoned for so long," Julie whispered.
 
-
-
 exposition;17:TIME STOOD STILL MANSION
 
 It was as if time had stood still within the mansion.
-
-
 
 exposition;16:EXPLORING ROOMS FURTHER
 
@@ -6711,43 +5672,31 @@ Exposition;15:GROUP CONTINUED SEARCHING ROOM
 
 Exposition;12:OLD CHAIRS TABLES
 
-
-
 "What's our target, Canadian Mike?" Arthur asked, as he examined a curious painting on the wall. Mike, noticing something peculiar, beckoned the others to come see. Julie, her eyes fixed on a set of hidden symbols, pondered their meaning. "Do you recognize that, Julie?" Arthur inquired. Julie nodded affirmatively, her knowledge of ancient artists and their cryptic symbols proving useful. The mystery deepened as the group continued searching the room, finding more old chairs and tables covered in dust.
 
 "Let's stop troubling ourselves with these books," Mike said, gesturing towards the eighth volume on the dusty shelf.
-
-
 
 exposition;6:MIKE SUGGESTION
 
 Taking Mike's suggestion, they left the books behind.
 
-
-
 dialogue;9:ARTHUR PAINTINGS SECRETS
 
 "What about these paintings?" Arthur asked, eyes searching for hidden secrets.
-
-
 
 exposition;5:INTRICATE DESIGNS WALLS
 
 Intricate designs adorned the walls, surrounding the mysterious paintings.
 
-
-
 dialogue;15:JULIE EXAMINE ARTIST SYMBOLS
 
 "Let's examine them closely," Julie said, her knowledge of ancient artists and their cryptic symbols coming in handy.
-
-
 
 exposition;7:GROUP STUDIES PAINTINGS
 
 The group studied the paintings carefully, searching for clues.
 
-Exposition;5:Arthur examined closely. 
+Exposition;5:Arthur examined closely.
 
 Exposition;8:He noticed an unmistakable symbol.
 
@@ -6763,11 +5712,7 @@ As Julie examined the scenery around her, she noticed a common reflection that s
 
 "We can finally squeeze through the system somehow," Arthur said, sounding relieved.
 
-
-
 Julie replied, "But be cautious, the machine shows signs of Roger's voice fooling us."
-
-
 
 As they carefully navigated their way through the intricate mechanisms, the eerie atmosphere that had been building up within the mansion seemed to intensify.
 
@@ -6809,51 +5754,35 @@ Dialogue;8:JULIE EXPLAINS REALIZATION
 
 Exposition;9:DISCOVERY SHOCKING REVELATION
 
-
-
 Arthur led the group through the maze-like corridors, the mystery of the mansion ever present. They suddenly stopped when Mike questioned, "Did you all know that the University dissolved months ago, leaving the streets empty?" Julie's eyes widened in surprise as she explained her realization, "I had no idea!" The discovery of this shocking revelation added another layer to the enigmatic atmosphere surrounding them.
 
 dialogue;9: "Working on vulnerable engines, uses thirteen?"
 
 "Arthur, I've never seen anything like this," Julie said in awe, as her eyes wrapped around the intricately designed room they had just entered, her perception of reality shifting. "It's almost as if each piece is a part of some grand, interconnected AI network."
 
-
-
 exposition;6:REMARKABLE PIECES
 
 The room was filled with remarkable pieces of clockwork machinery, each one more elaborate than the last.
-
-
 
 exposition;10:CURIOUSLY TINY ENORMOUS
 
 Curiously, some of the machines were tiny, while others were enormous, but all of them worked in perfect harmony.
 
-
-
 dialogue;12:MIKE DOLL
 
 "Remember that clockwork doll we found earlier?" Mike asked, still examining the machines.
-
-
 
 dialogue;9:ALIVE CONNECTION
 
 Julie nodded. "It almost felt alive, like there was some connection between them."
 
-
-
 exposition;11:INTRICATELY CONNECTED
 
 Indeed, the machines seemed to be intricately connected, as if they were all part of a larger, elaborate puzzle.
 
-
-
 dialogue;7:SEARLE RELATED
 
 "Do you think this is related to Searle's work?" Arthur inquired.
-
-
 
 dialogue;8:MASTERPIECE UNDOUBTEDLY
 
@@ -6917,7 +5846,7 @@ As Jay's mastery over the Judges from the South grew strongest, the group decide
 
 Arthur, feeling a sense of urgency, said, "We must investigate this revolutionary technique, the so-called 'pour works,' which could be a key component in understanding the mystery."
 
-"Pounding delusional relish, Mike's instrument?" Arthur asked, raising an eyebrow at the odd phrasing. 
+"Pounding delusional relish, Mike's instrument?" Arthur asked, raising an eyebrow at the odd phrasing.
 
 "Mean strip securely blows opinion," Mike responded cryptically, leaving the group puzzled.
 
@@ -6947,43 +5876,23 @@ Dialogue;25:"When gazing at these ancient books, it feels like I can hear the wh
 
 "What's the meaning of this, Mike?" Arthur mumbled, his tongue twisting in confusion. "Mother mentioned something similar before."
 
-
-
 "Ah, the lighthouse," Mike whispered, introducing the topic with cool fingers pointing at the map's previous destination.
-
-
 
 Exposition;9:LIBRARY DIMLY LIT DISCOVERIES
 
-
-
 Exposition;6:RUMMAGING SHELVES DUST
-
-
 
 Exposition;7:LEATHER BOUND TOMES HISTORY
 
-
-
 Exposition;4:MYSTERIOUS SYMBOLS
-
-
 
 The library was dimly lit, setting the stage for the discoveries they were about to make. They began rummaging through the shelves, stirring up dust as they searched. Among the leather-bound tomes, they found books detailing the history of the mansion and its inhabitants. Mysterious symbols adorned the pages, similar to those they had seen earlier in their investigation.
 
-
-
 Dialogue;6:ARTHUR SENSES HEIGHTENED
-
-
 
 Exposition;14:ANGELA WHISPERS STORIES ECHOING WALLS
 
-
-
 Exposition;11:PATTERN CONNECTIONS UNRAVEL
-
-
 
 "Something feels off here," Arthur admitted, his senses heightened by the eerie atmosphere. Angela nodded, the whispers of countless stories echoing off the walls, as if they were trying to communicate with them. As they continued to explore, they slowly began to unravel the pattern of connections between the symbols, the mansion, and the mysterious events that had taken place.
 
@@ -7021,8 +5930,6 @@ As Arthur tilted his trolley onto the avenue's rails, crowds bustled around them
 
 Je waved passionately and said, "Pour yourself a drink, and let's discuss our findings in detail."
 
-
-
 Arthur looked around and exclaimed, "Christopher's holy bus must've been on auto-pilot to get us all here on the same train!"
 
 As the group entered, they noticed Jay, agape and quickening his pace, slinking away from the buzzing conversations in the turquoise dive.
@@ -7037,33 +5944,21 @@ Despite the author's haphazard approach to organizing the information, the group
 
 The group observed a piece of incoherently twitching transparent tissue, looking sleek and disturbing. As the slitted wheel turned, Julie approached it with a concerned expression on her face.
 
-"Here's the archives stick," whispers Mike. 
-
-
+"Here's the archives stick," whispers Mike.
 
 Arthur, looking surprised, shouts, "You seem mad, boys!"
 
 "Stay on, Mike!" Arthur considers.
 
-
-
 Arthur continued, "The sunken cargo, drowning in lights, almost seemed like a suicide mission."
 
-
-
 Julie interjected, "It's crazy to think they'd risk that just for some hidden treasure."
-
-
 
 Jenny chimed in, "But people will do anything for power, especially those connected to the Judges in the South."
 
 "Who's nod?"
 
-
-
-Inside Jay's turquoise dive, the gleaming lights hummed softly overhead. 
-
-
+Inside Jay's turquoise dive, the gleaming lights hummed softly overhead.
 
 "Stall your concerns; just press the passive button, and it'll reveal everything."
 
@@ -7073,17 +5968,15 @@ As Julie neatly folded a leaf she had just brushed off, the tension in the room 
 
 Jay, clenching his fists, was buzzing like the bees or flies in his head. As he tried to shut out the noise, he certainly couldn't help but give a nervous laugh.
 
-"Jenny, you hopped strangely," praised Dearest. 
-
-
+"Jenny, you hopped strangely," praised Dearest.
 
 Arthur added, "We missed a fraction, but our mark will arrive in time for the race."
 
 Julie, squatting by the dying coals, suddenly awoke with a trembling shiver.
 
-Exposition;6:Julie's thoughts drifted. 
+Exposition;6:Julie's thoughts drifted.
 
-Exposition;7:She remembered her university days. 
+Exposition;7:She remembered her university days.
 
 Dialogue;7:"Jay, remember hanging out on the streets?"
 
@@ -7096,8 +5989,6 @@ Dialogue;6:"Those were wild times."
 Exposition;9:The room's atmosphere lightened a bit.
 
 "I agree," said Mister Bin, loyally handling the document.
-
-
 
 "The sauce itself, Dan, will attract animals," he continued, his tone suggesting that he'll take care of the situation.
 
@@ -7115,17 +6006,13 @@ As the group continued to discuss Jay's Judges, mingling laughter and sobs fille
 
 "Remember that nodding dose experiment in our apartment?" Julie asked with a grin. "Maybe you'd like to try it at yours next time?"
 
-Jay began to suspect that the choice of their meeting location was influenced by rain. Julie scurried around, tying and tending to the overgrown vines that crawled along the walls. 
-
-
+Jay began to suspect that the choice of their meeting location was influenced by rain. Julie scurried around, tying and tending to the overgrown vines that crawled along the walls.
 
 dialogue;6:LLOYD MENTIONED CURIOUSLY
 
 exposition;17:GATHERING ARTHUR DAN MIKE
 
 dialogue;9:JAY REPLIES SMILE
-
-
 
 "Lloyd, what's up with these vines?" asked Arthur curiously. The rest of the group, including Arthur, Dan, and Mike, gathered around to inspect the peculiar plants. Jay replied with a warm smile, "Ah, the vines... they have a story of their own."
 
@@ -7161,8 +6048,6 @@ Exposition;7:LOST DAZE
 
 Exposition;10:REMINISCING SHARED PAST
 
-
-
 "Look at this!" Christopher exclaimed, pointing at the storm that was now visible in the distance. "What a catastrophic delivery of chaos, Jay," he replied with a mix of awe and concern. The strange atmosphere of tension continued as birds took unpredictable flights amidst the howling winds. The group gathered in a circle, with Angela wheeling herself closer to be part of the conversation. Jay scratched his chin thoughtfully, while Julie and Mike exchanged knowing smiles as they observed the humming turquoise feather attached to Jay's hat. Time seemed to fly by as they all became lost in a daze, reminiscing about their shared past and the adventures that brought them together.
 
 ---
@@ -7185,7 +6070,7 @@ Chuckling, anticipation bespoke lunacy.
 
 Despite their mutual understanding of each other's pilfered relationship, Mike, Amber, and Julie remained supportive friends.
 
-Mike laughed and said, "Amber, I never thought I'd see forty-five flying cats in one place!" 
+Mike laughed and said, "Amber, I never thought I'd see forty-five flying cats in one place!"
 
 Amber replied, "Well, let's finish wiping our laughter tears and enjoy this bizarre scene, shall we?"
 
@@ -7205,9 +6090,7 @@ Dialogue;6:"Dirty philosophy indeed, Julie."
 
 Exposition;5:They laughed together, reminiscing
 
-"Sanity twisting, huh?" Mike nods. 
-
-
+"Sanity twisting, huh?" Mike nods.
 
 "Did you read that golden book's quest?" Julie startles them.
 
@@ -7217,31 +6100,21 @@ As their concentration transformed into intense focus, Mike ripped a specific pa
 
 "Did you conclude showing Pencil Estate?" Julie asked, her curiosity piqued by the mysterious golden book's quest. Mike and Amber exchanged glances, clearly not expecting this line of inquiry.
 
-
-
 exposition;7:MIKE JULIE AMBER
 
 Mike hesitated, while Julie and Amber waited eagerly for his response.
-
-
 
 dialogue;5:ANSWERS RELUCTANTLY HESITATION
 
 "With some hesitation, yes," Mike reluctantly answered.
 
-
-
 exposition;6:REVEALS PENCIL ESTATE DETAILS
 
 He then revealed the details of their visit to the Pencil Estate.
 
-
-
 dialogue;4:GOLDEN BOOK CONNECTION
 
 "Any golden book connection?" Julie inquired, hoping to find a link between their experiences.
-
-
 
 exposition;6:MIKE UNCERTAIN CONNECTION
 
@@ -7255,13 +6128,9 @@ Julie's reconciliation with the saucer eventually occurred. "I killed it scrambl
 
 "Mike, did you spend a single late at the market?" Amber asked curiously.
 
-
-
 "Well, I must admit I lack the AI for these past two days," Mike replied, pointing to the racks of clothes.
 
-Amber wipes her unsteady hands on her filthy clothes, granting herself a moment to recover. 
-
-
+Amber wipes her unsteady hands on her filthy clothes, granting herself a moment to recover.
 
 "Wait, Angela, don't jump or slip so quickly!" she calls out, worried about her friend's safety.
 
@@ -7272,8 +6141,6 @@ Julie's saucer slipped, pieces clattering to the floor. They had been discussing
 As the group walks towards the concierge, they notice newly devised innumerable ways to join the bustling market.
 
 "Excuse me, but how do we approach the unconscious?" Mike asked the concierge, looking puzzled. "We'd like to buy some eggs."
-
-
 
 As the concierge listened, his chin bowing slightly, he described the process of purchasing goods from the market with a subtle lip movement and a nod.
 
@@ -7291,8 +6158,6 @@ A sudden compulsion coursed through Mike's innermost veins, igniting a spark of 
 
 "Whiskey that'll set your bids smouldering, bee honey for the sweetest deals!" a vendor shouted below.
 
-
-
 Mike watched as customers haggled over an assortment of items: freshly baked rolls, smoked cheese, and ripe bananas. The energy of the market was infectious, and it was clear that trade was alive and well in this town.
 
 ---
@@ -7306,8 +6171,6 @@ As they walked, lubricating clipped wares and rubber literature caught their att
 Mike paced lazily, squealing with delight. According to P Jay's judges, this was also a popular spot. Twists of fate and tiny ridges of fidelity brought them all here. The frugal scene reminded Stephen of an arranged store.
 
 As they continued browsing, the protagonist notices a tilted and rubbed off sign with scattered official-looking documents. They were reminded of an inviting letter they received when they first began their journey to this market. The protagonist tries to remember the contents of that letter while navigating the busy market, but finds it difficult to stay focused with so many notes and sounds competing for their attention. The perplexing observations and mixtures of items weren't helping either.
-
-
 
 As they ventured inwards, the market buzzed with activity, a main dip in the crowd streaming past them. A sign for a nearby bathroom station and hotel beckoned them to explore further down the crowded corridor.
 
@@ -7377,51 +6240,35 @@ Exposition;6:ATMOSPHERE ROOM TENSION
 
 Startled by the sudden sound, the protagonist's focus shifted. Uniformed figures moved in a modern, rectangular formation, their movements creating an array of images. The cheerful buzzing of the bees momentarily broke as the room was filled with a symphony of new sounds and lights.
 
-"Coins, keys, and far-fetched wrinkles on a skull?" the protagonist questioned, puzzled by the images before him. 
+"Coins, keys, and far-fetched wrinkles on a skull?" the protagonist questioned, puzzled by the images before him.
 
-
-
-exposition;14:FORMATION RECTANGLE INTRIGUED UNIFORMED FIGURES 
+exposition;14:FORMATION RECTANGLE INTRIGUED UNIFORMED FIGURES
 
 The rectangular formation of uniformed figures intrigued him, wondering who they were and what their purpose was in this strange place.
-
-
 
 dialogue;5:DISCOVER PURPOSE SEEK
 
 "We must discover their purpose," Jay asserted, glancing at the others for agreement.
 
-
-
 exposition;10:MANUSCRIPT CONNECTION COINCIDENCE
 
 They pondered if there was a connection between the manuscript and these new figures, or if it was merely a coincidence.
-
-
 
 dialogue;6:BEE SYMBOLIC SIGNIFICANCE
 
 "Could the bee hold some symbolic significance?" Christopher suggested thoughtfully.
 
-
-
 exposition;8:CONSIDERED MEANING HIVE
 
 The trio considered the meaning behind the bee and the hive, seeking to understand its role in the unfolding mystery.
-
-
 
 dialogue;7:CLUES ROOM PATTERNS
 
 "Look for clues in the room's patterns," the protagonist advised, scanning the surroundings.
 
-
-
 exposition;12:SHADOWS WALLS MYSTERIES
 
 The shadows cast by the dappled light on the walls seemed to hold more mysteries than they first realized.
-
-
 
 dialogue;4:TIME PRESSING
 
@@ -7461,31 +6308,21 @@ Leaning gracefully on the frail rows of desks, the burly figure of Mike observed
 
 Arthur pauses in his display, sensing that time was running short and a sense of urgency required him to hurry. Jay anxiously gazes around the room, trying to understand the odd occurrences that have plagued them since their arrival. Christopher, on the other hand, is determined to see this through and to protect his friends from any potential harm.
 
-
-
 Dialogue;3:CONTINUE PRESENTATION
 
 "Continue the presentation," Christopher urges Jay, who hesitates before swallowing his apprehension and resuming his demonstration.
-
-
 
 Exposition;10:JUDGES FOCUSED WHISKEY-SCENTED MANUSCRIPT
 
 The judges, still captivated by the whiskey-scented manuscript, gradually shift their focus back to Jay's presentation.
 
-
-
 Dialogue;4:VOICE REASSURING
 
 "You've got this," a reassuring voice whispers to Jay, giving him the confidence boost he needs to go on.
 
-
-
 Exposition;12:JASMINE SCENT INTENSIFIES CRESCENDO
 
 As the presentation continues, the scent of jasmine in the room intensifies, and a crescendo of murmurs and whispers fills the air, heightening the tension.
-
-
 
 Dialogue;5:JAY PLEADS TRUTH
 
@@ -7527,8 +6364,6 @@ Exposition;6:Wilderness responded
 
 Dialogue;26:"The most powerful, brightest vegetable is here, and even the maid faces this challenge."
 
-
-
 As Arthur, Jay, and Christopher listened intently, Arthur leaned closer to Wilderness, while Jay frowned in confusion. "What's that?" Jay asked, curious about the meaning behind the words. Wilderness responded with a cryptic statement, "The most powerful, brightest vegetable is here, and even the maid faces this challenge."
 
 Nods and added touches came flashing three at a time. Rheumy babbling failed to deliver compelling information. "You said there's a vegetable?" Arthur asked, unable to hide his skepticism. Wilderness nodded slowly, his face intense and serious. "Indeed, this vegetable holds immense power," he confirmed, his voice barely above a whisper. "But how?" Christopher inquired, his curiosity piqued as he leaned forward. "That," Wilderness replied mysteriously, "is something you must discover for yourselves."
@@ -7563,9 +6398,7 @@ As they approached Mike's surface, they found massive messages strewn all around
 
 "Mike confirms the market spend touched this," Arthur said, holding up a mysterious object. Christopher replied, "She's undeniably insisted it's her fault, but there were eight of them."
 
-"It's all her fault!" Jay complains, somehow believing that Jenny was the one who had caught them in this mess. 
-
-
+"It's all her fault!" Jay complains, somehow believing that Jenny was the one who had caught them in this mess.
 
 "Look, Jenny didn't know about Mike's involvement in this either," Arthur defended, pausing for a moment before continuing, "Let's just focus on figuring this out and forgive her for now, alright?"
 
@@ -7581,35 +6414,19 @@ The manuscript led them to a passage within Fire Mountain. As they made their wa
 
 Mike said, "I want to mildly gather near the plantation."
 
-
-
 Christopher responded, "I located a place where we can find the souls and brains we need."
-
-
 
 Arthur, feeling uneasy, replied, "I think we should be cautious moving forward."
 
-
-
 Jay chimed in, "We should stick together and trust each other on this journey."
-
-
 
 As they made their way to the plantation, the group noticed the landscape becoming more ominous and strange.
 
-
-
 The air grew colder, and Arthur felt the energy in the atmosphere change, as if they were nearing something powerful.
-
-
 
 Jay whispered to Christopher, "I think we're getting closer to the source of the witch's spell."
 
-
-
 Suddenly, the group stumbled upon a clearing with an ancient tree that seemed to pulsate with dark energy.
-
-
 
 Arthur took a deep breath and said, "This must be the place. Let's find those souls and brains before it's too late."
 
@@ -7631,13 +6448,11 @@ Arthur sighed, observing the whimpering fishes devouring a mysterious device.
 
 "Guys, Mike's closer!" Arthur exclaimed, noticing the blackened wheels of a familiar carriage approaching. "These patterns are pushing us in the right direction, but we must decipher the rest of the suit's message. Let's write down our findings."
 
-
-
 Arthur continued to study the painting, trying to understand its significance while Jay and Christopher observed the whimpering fishes devouring the mysterious device. The atmosphere was tense, as they all knew that every step they took brought them closer to their goal of breaking the witch's spell and saving their friend.
 
 Nods added touches, flashing three.
 
-"Mike, Christopher, do you see that single painting?" Arthur replied, a bit late to the conversation. 
+"Mike, Christopher, do you see that single painting?" Arthur replied, a bit late to the conversation.
 
 exposition;10:NOTICED PAINTING ROOM
 
@@ -7667,33 +6482,23 @@ As Arthur studied the painting, he couldn't help but peer through the exhaust fu
 
 "Isn't that what I just said?" Arthur observed, but he couldn't quite grasp the English.
 
-
-
 "Look at those packs of orange daisies, they're akin to a dive into a sea of color," exclaimed one of his friends.
 
 As Mike's chunk of aluminum spun around in his hand, the emptying feeling inside Arthur increased, as if the metal held more significance than he initially thought.
 
 "Stride to the deal," Mike said, subtly hinting at a connection between the aluminum and the painting. Arthur frowned, trying to decipher the meaning behind Mike's words. "Rainbows smoothed, dried," he muttered, alluding to the colorful aspect of the artwork.
 
-
-
 exposition;8:ARTHUR HAND PAINTING ALUMINUM CHUNK
 
 Arthur cautiously extended his hand, offering the aluminum chunk to Mike, as if the object held the key to unlocking the painting's mystery.
-
-
 
 dialogue;6:MIKE BETTER UNDERSTAND PAINTING CONNECTION
 
 "We better understand the connection," Mike urged, emphasizing the importance of their investigation into the painting's secrets.
 
-
-
 exposition;5:ARTHUR HESITATED SUSPICIOUS MIKE MOTIVES
 
 Arthur hesitated, growing increasingly suspicious of Mike's motives and the true significance of the aluminum and the painting.
-
-
 
 exposition;7:MIKE EYES SPARKED CURIOSITY ALUMINUM
 
@@ -7749,39 +6554,27 @@ Shaking his head, the patient gazes at Mike with suspicion.
 
 "Please, step aside," Arthur urgently whispered, hoping to move through the crowd without drawing too much attention.
 
-Frowns aback, Arthur stammered, feeling a thrill. 
-
-
+Frowns aback, Arthur stammered, feeling a thrill.
 
 dialogue;4:LEFT_POWERFUL_LEGS_ROOM
 
 "Left, powerful legs, room," Rob advised.
 
-
-
 exposition;6:CONFUSION BREATHING DOORS SLAMS
 
 In their confusion, someone slams a door nearby.
-
-
 
 dialogue;6:RIGHT_CORRIDOR_AROUND_CORNER
 
 "Right, corridor, around the corner," Angela added.
 
-
-
 exposition;4:TENSION RISES FACES
 
 Tension rises in their faces.
 
-
-
 dialogue;6:EVERYONE_STAY_CLOSE_BEHIND_ME
 
 "Everyone, stay close behind me," Mike instructed.
-
-
 
 exposition;7:ARTHUR PUSHES CROWD TENSE MOOD
 
@@ -7789,57 +6582,31 @@ Arthur pushes through the crowd, further intensifying the tense mood.
 
 "We need to head towards the Orchard Walks," Arthur explained, showing a card with directions. "This should help us navigate through the chaos."
 
-
-
 "Be careful not to draw too much attention," Angela advised. "We don't need the fame of being caught or communicated with those who might not have our best interests at heart. A sufficient dose of caution is necessary."
 
 "Diagram," Arthur stammers.
 
-
-
 Exposition;7:RECOGNIZES DESPERATELY PROTECTIVE
-
-
 
 Desperately, Angela recognizes his protective inflection.
 
-
-
 Exposition;6:MIKE GENTLY SMILES
-
-
 
 Mike gently smiles, understanding the situation.
 
-
-
 Exposition;8:ROB TENSES SENSE CONFLICT
-
-
 
 Rob tenses up, sensing potential conflict.
 
-
-
 Exposition;7:ATMOSPHERE THICKENS AGAIN
-
-
 
 The atmosphere thickens again with tension.
 
-
-
 Exposition;9:COLLAPSES INTO UNCOMFORTABLE SILENCE
-
-
 
 Their conversation collapses into an uncomfortable silence.
 
-
-
 Exposition;10:CONTINUE NARROW HOSPITAL CORRIDOR
-
-
 
 They continue down the narrow hospital corridor.
 
@@ -7919,15 +6686,11 @@ exposition;9:ROB SMIRKED MESSAGE
 
 dialogue;14:ROB SAYINGS MEANING
 
-
-
 Mike chuckled and said, "You and your Canadian stuff are scattered all over the place, eh?" Christopher replied with a laugh, "You got me there!" Just then, a panicked nurse rushed past them. The group regained their focus, acknowledging the seriousness of their situation. Rob smirked, knowing his cryptic message was starting to sink in. "You see," Rob explained, "these sayings have a deeper meaning to them."
 
 As the group shook off the hours of tension, they took a figurative shower, cracking jokes and easing the mood. Mike, with an intent look, said, "You know, sometimes it's better to open a can of worms than to allow it to fester."
 
 "Dan, remember using those Glimmer figures?" Rob asked.
-
-
 
 "Yeah, but the department mostly scattered after the second one was added," Dan replied.
 
@@ -7943,43 +6706,29 @@ As the tragedy deepened, the group sat in serene silence.
 
 "Tray, who's Dan?" asked Dan, holding his mug.
 
-
-
 "Well, that's a crazy story," Tray roared with laughter, leaning against the wall as he explained, "She's actually your long-lost twin sister!"
 
 dialogue;4: "Any progress, Rob?" Dan asked, still reeling from the revelation about his twin sister. The team had split up to explore the Steer Hotel further and get a better sense of its weaknesses and potential value, and Rob had been assigned to survey the basement.
-
-
 
 exposition;6:ROB REPORTS BASEMENT FLOODED WATER
 
 Rob reported back, "The basement is flooded with water."
 
-
-
 dialogue;8:CHRISTOPHER SUGGESTS PUMPING WATER OUT
 
 Christopher suggested, "We could try pumping the water out."
-
-
 
 exposition;6:DAN AGREES PLAN BASEMENT
 
 Dan agreed, knowing that clearing the basement was essential to their mission.
 
-
-
 dialogue;9:ASKS TRAY KNOWLEDGE TWIN SISTER
 
 Dan turned to Tray and asked, "Do you know anything more about my twin sister?"
 
-
-
 exposition;7:TRAY REVEALS LIMITED INFORMATION
 
 Tray revealed that his knowledge was limited, but he promised to help Dan uncover more information.
-
-
 
 dialogue;5:THANKS TRAY SINCERELY
 
@@ -8014,5 +6763,23 @@ The sunshine filled the room, casting frantic shadows as it transformed the spac
 As Dan moved onto the next room, he noticed a wipe hanging snugly on a hook, symbolizing the potential for improvement in this once forgotten place.
 
 ## Chapter 25: Afterword
+
+Dan stood up, feeling a renewed sense of purpose surging through him. He knew they had a chance to turn things around, not just for themselves, but also for the entire town. The Steer Hotel, in all its faded glory, could be the linchpin to revitalizing the area, and they had been given the opportunity to make it happen.
+
+He gathered his team together in the hotel lobby, each of them carrying the weight of their past choices and mistakes. As Dan spoke, his voice filled with conviction, the members of his team exchanged glances, their faces reflecting the hope that began to grow within them.
+
+"We have a unique opportunity here," Dan said. "We can be the catalyst for change in this town, and it starts with this hotel. We have the skills, the passion, and the drive to make this work. We'll need to find investors and partners, but I believe we can create something amazing and truly special."
+
+The team nodded, their spirits lifted by Dan's vision. They knew the road ahead wouldn't be easy, but they were willing to fight for it. And so, they got to work, reaching out to the local community and potential investors, sharing their vision for the hotel and the town.
+
+As the weeks and months went by, the Steer Hotel began to transform. The flooded basement was drained and renovated, the old magazine shop was turned into a cozy café and bookstore, and the once-dreary rooms were given new life with fresh paint and warm lighting. The hotel's grand reopening drew people from all around, and it soon became a bustling hub of activity.
+
+During this time, Dan continued his search for Angela, his long-lost twin sister. With each new lead, he grew more determined, and it was only a matter of time before he found her, working at a small library in a nearby town. The siblings, separated for so long, shared an emotional reunion, and Angela was soon drawn into the Steer Hotel project, her passion for literature and helping others a perfect fit for the revitalized hotel.
+
+As the hotel flourished, so did the town. New businesses opened their doors, and people who had once left began to return, drawn by the promise of a brighter future. The once-black sky seemed to lighten, and the rattling sound that had plagued Dan's dreams disappeared, replaced by the laughter of children playing and the hum of a thriving community.
+
+One evening, as Dan stood on the hotel's rooftop terrace, he looked out over the town he had helped to save. The sun dipped below the horizon, casting brilliant hues of orange and pink across the sky, and he felt a profound sense of peace and contentment. As he turned to go back inside, he caught sight of the string of beads from the lampshade, now repurposed as a wind chime, dancing gracefully in the breeze. The symbol of hope that had once seemed so fragile now stood as a testament to the power of determination, community, and love.
+
+With a smile, Dan walked back into the hotel, ready to face whatever new challenges the future might hold. For he knew that no matter the obstacles, the people of the town, united by a shared vision and unbreakable bonds, would always find a way to overcome them, together. And as the pages of the mysterious manuscript fluttered in the wind, the story of the Steer Hotel and its heroes would be remembered as a tale of redemption, resilience, and the enduring power of the human spirit.
 
 ## THE END
