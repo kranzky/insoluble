@@ -1,6 +1,15 @@
-# Lloyd's Folly
+---
+title: "Lloyd's Folly"
+author: Chadwick G. Petey
+publisher: Kranzky Press
+rights: Unlicensed
+date: 2023-05-12
+cover-image: generated.png
+---
 
-### by Chadwick G. Petey
+_For Arthur_
+
+• • •
 
 ## Chapter 1: The White Palace
 
