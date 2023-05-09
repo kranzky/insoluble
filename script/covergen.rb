@@ -12,7 +12,7 @@ end
 
 client = OpenAI::Client.new
 
-message = "Lorenz attractor symbolizing multiple universes with an author on one side and a reader on the other."
+message = "Cover image for a sci-fi romance novel showing a futuristic starship in space near a nebula, with abstract silhouettes of a human woman and an alien man symbolizing a romantic connection."
 
 response = client.images.generate(parameters: { prompt: message, size: "1024x1024" })
 
