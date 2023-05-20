@@ -72,14 +72,19 @@ def generate_chapter_context
   chapter = $book[:chapters][$book[:state][:chapter][:index]]
   return if chapter[:context]
   puts "Generating chapter context..."
-  prompt = <<~PROMPT
-    We are writing a novel together. Here is a summary of what you have written so far:
+  summaries = $book[:chapters].map { |c| c[:summary] }.compact
+  if summaries.empty?
+    chapter[:context] = "This is the first chapter of the novel."
+  else
+    prompt = <<~PROMPT
+      We are writing a novel together. We are about to start writing a new chapter. Here is what has happened in the previous chapters:
+      #{summaries.join("\n")}
       
-    # TODO: chapter summaries
-    
-    Write a single paragraph which summarises the story so far.
-  PROMPT
-  chapter[:context] = get_response(prompt)
+      Write a single paragraph which summarises what has happened in the novel so far.
+    PROMPT
+    debugger
+    chapter[:context] = get_response(prompt)
+  end
   $book[:state][:changed] = true
 ensure
   $book[:state][:chapter][:name] = "scenes"
@@ -94,7 +99,7 @@ def generate_scenes
   prev_chapter =
     if $book[:state][:chapter][:index] == 0
       {
-        prompt: "There was no previous chapter! This is the first chapter of the book, so please take your time and make sure to set things up slowly."
+        prompt: "There was no previous chapter! This is the first chapter of the novel, so please take your time and make sure to set things up slowly."
       }      
     else
       $book[:chapters][$book[:state][:chapter][:index]-1]
@@ -102,7 +107,7 @@ def generate_scenes
   next_chapter =
     if $book[:state][:chapter][:index] == $book[:chapters].count-1
       {
-        prompt: "There is no next chapter! This is the last chapter of the book, so please make sure to wrap things up with a bang!"
+        prompt: "There is no next chapter! This is the last chapter of the novel, so please make sure to wrap things up with a bang!"
       }
     else
       $book[:chapters][$book[:state][:chapter][:index]+1]
@@ -157,18 +162,50 @@ def generate_scene_context
   scene = chapter[:scenes][$book[:state][:scene][:index]]
   return if scene[:context]
   puts "Generating scene context..."
-  prompt = <<~PROMPT
-    We are writing a novel together. Here is a summary of what you have written so far:
+  summaries = chapter[:scenes].map { |scene| scene[:summary] }.compact
+  if summaries.empty?
+    scene[:context] = "This is the first scene of the chapter."
+  else
+    prompt = <<~PROMPT
+      We are writing a novel together. We are currently writing a chapter in the novel. We are about to write a new scene in the chapter. Here's what has happened in the previous scenes:
+      #{summaries.join("\n")}
       
-    # TODO: chapter summaries
-    
-    Write a single paragraph which summarises the story so far.
-  PROMPT
-  debugger
-  scene[:context] = get_response(prompt)
+      Write a single paragraph which summarises what has happened in the chapter so far.
+    PROMPT
+    debugger
+    scene[:context] = get_response(prompt)
+  end
   $book[:state][:changed] = true
 ensure
   $book[:state][:scene][:name] = "beats"
+end
+
+#-------------------------------------------------------------------------------
+
+def generate_scene_beats
+  chapter = $book[:chapters][$book[:state][:chapter][:index]]
+  scene = chapter[:scenes][$book[:state][:scene][:index]]
+  return if scene[:beats]
+  puts "Generating scene beats..."
+  prompt = <<~PROMPT
+    We are writing a novel together. #{$book[:genre]}
+    
+    Here is a list of characters:
+    #{characters}
+
+    Here is a list of locations:
+    #{locations}
+
+    We are currently writing a chapter in the novel. Here is what has happened in the chapter so far: #{scene[:context]}
+
+    We are about to write a scene. Here's what needs to happen in this scene: #{scene[:prompt]}
+    
+    Bearing in mind the rules of narrative, and making sure to be consistent with what has happened in the chapter so far, write a list of story beats which will make up this scene. More story beats are better than fewer story beats. Introduce new minor characters if you like, and create dramatic tension where possible. The list of story beats should be presented a JSON array of objects, with each object containing name and prompt keys.
+  PROMPT
+  scene[:beats] = JSON.parse(get_response(prompt))
+  $book[:state][:changed] = true
+ensure
+  $book[:state][:scene][:name] = "text"
 end
 
 #-------------------------------------------------------------------------------
@@ -180,7 +217,7 @@ def generate_scene
   when "context"
     generate_scene_context
   when "beats"
-    raise "not implemented"
+    generate_scene_beats
   when "text"
     raise "not implemented"
   when "summary"

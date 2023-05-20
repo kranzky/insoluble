@@ -105,7 +105,50 @@
       "scenes": [
         {
           "name": "Opening Scene",
-          "prompt": "The starship Horizon drifts through the vast emptiness of space, with its crew going about their daily tasks. Introduce the ship and its crew, and showcase their camaraderie."
+          "prompt": "The starship Horizon drifts through the vast emptiness of space, with its crew going about their daily tasks. Introduce the ship and its crew, and showcase their camaraderie.",
+          "context": "This is the first scene of the chapter.",
+          "beats": [
+            {
+              "name": "Opening",
+              "prompt": "Describe the vast emptiness of space, setting the scene for the starship Horizon as it drifts along its course."
+            },
+            {
+              "name": "Ship Introduction",
+              "prompt": "Introduce the starship Horizon, its various sections, and the advanced AI, Zara, who oversees its operations."
+            },
+            {
+              "name": "Bridge Scene",
+              "prompt": "Show Captain Elara Vance on the bridge, interacting with Lieutenant Erisa Mora and other minor crew members as they execute their duties."
+            },
+            {
+              "name": "Tension",
+              "prompt": "Create a minor issue with the ship's systems that Engineer Tull Renner needs to solve, showcasing his skills and gruff personality."
+            },
+            {
+              "name": "Medical Bay",
+              "prompt": "Shift the scene to the medical bay, where Dr. Kaelan Soren is treating a minor injury for a crew member, allowing for character development and insight into his alien background."
+            },
+            {
+              "name": "Erisa's Empathy",
+              "prompt": "Demonstrate Erisa's empathic abilities through her interactions with the crew, highlighting both the benefits and drawbacks of her powers."
+            },
+            {
+              "name": "Camaraderie",
+              "prompt": "Show the crew gathering for a shared meal in the mess hall, with conversations and banter that showcase their camaraderie and individual personalities."
+            },
+            {
+              "name": "Elara's Thoughts",
+              "prompt": "Offer a glimpse into Elara's thoughts and feelings as she observes her crew, reflecting on their strengths and the challenges they may face together."
+            },
+            {
+              "name": "Incoming Message",
+              "prompt": "Introduce a message from Admiral Ryland, setting up potential future conflict and adding depth to Elara's character through their past connection."
+            },
+            {
+              "name": "Closing",
+              "prompt": "End the scene with the crew preparing for their next mission, with a sense of anticipation and determination."
+            }
+          ]
         },
         {
           "name": "Distress Signal",
@@ -213,7 +256,7 @@
       "index": 0
     },
     "scene": {
-      "name": "context",
+      "name": "text",
       "index": 0
     },
     "changed": true
