@@ -173,7 +173,6 @@ def generate_scene_context
       
       Write a single paragraph which summarises what has happened in the chapter so far.
     PROMPT
-    debugger
     scene[:context] = get_response(prompt)
   end
   $book[:state][:changed] = true
@@ -225,7 +224,9 @@ def generate_scene_text
     Here is a list of locations:
     #{locations}
 
-    We are currently writing a scene in a chapter of the novel. Here are the story beats that make up this scene:
+    We are currently writing a scene in a chapter of the novel. Here's what happens in this scene: #{scene[:prompt]}
+    
+    Here are the story beats that make up this scene:
     #{scene[:beats].map { |beat| "#{beat[:name]}: #{beat[:prompt]}" }.join("\n")}
 
     Write the full text of this scene using these story beats as a guideline. The scene should be a few pages long. Please write lengthy, descriptive paragraphs and compelling dialogue between characters. Introduce new minor characters if you like, and create dramatic tension where possible. The scene should be presented as a JSON array of strings, with each string making up a paragraph of text.
@@ -234,6 +235,30 @@ def generate_scene_text
   $book[:state][:changed] = true
 ensure
   $book[:state][:scene][:name] = "summary"
+end
+
+#-------------------------------------------------------------------------------
+
+def generate_scene_summary
+  chapter = $book[:chapters][$book[:state][:chapter][:index]]
+  scene = chapter[:scenes][$book[:state][:scene][:index]]
+  return if scene[:summary]
+  puts "Generating scene summary..."
+  prompt = <<~PROMPT
+    We are writing a novel together. Here is a scene within a chapter:
+    #{scene[:text].join("\n")}
+
+    Write a single paragraph which summarises this scene.
+  PROMPT
+  scene[:summary] = get_response(prompt)
+  $book[:state][:changed] = true
+ensure
+  if $book[:state][:scene][:index] < chapter[:scenes].count-1
+    $book[:state][:scene][:name] = "context"
+    $book[:state][:scene][:index] += 1
+  else
+    $book[:state][:chapter][:name] = "summary"
+  end
 end
 
 #-------------------------------------------------------------------------------
@@ -249,7 +274,7 @@ def generate_scene
   when "text"
     generate_scene_text
   when "summary"
-    raise "not implemented"
+    generate_scene_summary
   end
 end
 

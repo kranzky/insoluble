@@ -159,15 +159,124 @@
             "That evening, the crew gathered in the mess hall for a shared meal, their conversations and laughter echoing through the space as they enjoyed a brief respite from their duties. The camaraderie among them was evident, each crew member bringing their own unique personality and background to the table, forming a diverse and tightly-knit group. Elara sat at the head of the table, watching her crew with a mixture of pride and concern. She knew that the challenges they faced together would only grow more difficult as their journey progressed, and she was determined to see them through it all.",
             "As the meal wound down, Elara's thoughts turned inward, reflecting on the strengths and weaknesses of her crew. She knew that each of them had their own reasons for embarking on this journey, and she hoped that the bonds they had formed would be enough to see them through the trials ahead. Her reverie was interrupted by a chime from her personal communicator; a message from Admiral Ryland awaited her. The connection to her former superior officer brought a mixture of emotions to the surface, reminding her of the complicated history they shared.",
             "After reading the message, Elara stood and addressed her crew, her voice filled with determination. 'We've got our next mission, folks. Get some rest and be ready to move out first thing tomorrow.' The crew nodded, their expressions a mix of anticipation and resolve as they prepared to face whatever challenges the universe had in store for them."
-          ]
+          ],
+          "summary": "Aboard the starship Horizon, Captain Elara Vance and her diverse crew navigate the challenges of space travel, from minor system issues to emotional support. While Dr. Kaelan Soren tends to a crew member's injury in the advanced medical bay and Lieutenant Erisa Mora uses her empathic abilities to comfort others, the crew gathers in the mess hall for a shared meal, fostering a strong camaraderie. When Elara receives a message from Admiral Ryland, she announces their next mission, and the crew prepares to face whatever challenges lie ahead."
         },
         {
           "name": "Distress Signal",
-          "prompt": "The Horizon intercepts a distress signal from a remote human colony. The crew gathers on the bridge and discusses the situation. Captain Elara Vance decides to respond."
+          "prompt": "The Horizon intercepts a distress signal from a remote human colony. The crew gathers on the bridge and discusses the situation. Captain Elara Vance decides to respond.",
+          "context": "Aboard the starship Horizon, Captain Elara Vance leads her diverse crew through the challenges of space travel, as Dr. Kaelan Soren tends to injuries and Lieutenant Erisa Mora offers emotional support with her empathic abilities. The crew shares a meal in the mess hall, fostering camaraderie and a strong bond among themselves. When a message from Admiral Ryland announces their next mission, the crew braces themselves for the challenges that await them in the vast expanse of space.",
+          "beats": [
+            {
+              "name": "Distress signal interception",
+              "prompt": "The crew of the Horizon is alerted to the distress signal by Zara, the ship's AI. Zara provides initial details about the signal's origin and content."
+            },
+            {
+              "name": "Crew gathering on the bridge",
+              "prompt": "Captain Elara Vance calls her officers to the bridge, including Dr. Kaelan Soren, Lieutenant Erisa Mora, and Engineer Tull Renner, to discuss the distress signal and its implications."
+            },
+            {
+              "name": "Analyzing the distress signal",
+              "prompt": "The crew examines the details of the distress signal, including its origin, urgency, and any potential risks associated with responding to it."
+            },
+            {
+              "name": "Erisa's empathic input",
+              "prompt": "Lieutenant Erisa Mora uses her empathic abilities to sense the emotional urgency of the distress signal, providing additional insight into the potential severity of the situation."
+            },
+            {
+              "name": "Tull's technical concerns",
+              "prompt": "Engineer Tull Renner raises concerns about the ship's readiness to respond to the distress signal, potentially involving resource allocation, repairs, or other technical issues."
+            },
+            {
+              "name": "Dr. Soren's medical perspective",
+              "prompt": "Dr. Kaelan Soren offers his medical perspective on the potential injuries or illnesses the crew might encounter at the colony and the preparedness of the Horizon's medical bay."
+            },
+            {
+              "name": "Captain Vance's decision",
+              "prompt": "Captain Elara Vance weighs the crew's input and decides to respond to the distress signal, emphasizing the importance of helping the colony in need, despite potential risks and challenges."
+            },
+            {
+              "name": "Crew reactions and preparations",
+              "prompt": "The crew reacts to Captain Vance's decision, with some expressing apprehension and others determination to help the colony. They then begin preparations to alter course and respond to the distress signal."
+            },
+            {
+              "name": "Reflection on past experiences",
+              "prompt": "As the crew prepares for their new mission, they briefly reflect on past experiences that have shaped their approach to their current situation, providing further character development and context."
+            }
+          ],
+          "text": [
+            "The Horizon's vast bridge was bathed in the glow of countless holographic displays, each one feeding its crew members vital information about the ship's systems and its journey through the endless expanse of space. Suddenly, the serene atmosphere was shattered by a sharp, urgent tone. Zara, the ship's AI, announced in her calm, synthesized voice, 'Captain Vance, a distress signal has been intercepted, originating from a remote human colony.'",
+            "Captain Elara Vance, a seasoned space captain with a mysterious past, stood at the center of the bridge, her eyes narrowing as she considered the implications of this unexpected development. She had been through enough to know that responding to a distress signal could lead to unforeseen complications, but she also knew that lives could be at stake. 'Zara, send the details of the distress signal to the main display. Summon Dr. Kaelan Soren, Lieutenant Erisa Mora, and Engineer Tull Renner to the bridge immediately.'",
+            "As the crew members filed into the bridge, the main holographic display flickered to life, showing a map of the galaxy with the distress signal's origin highlighted. Captain Vance studied the data, taking in the remote location, the urgency of the signal, and the potential risks involved in responding. She looked to her officers, each one bringing their own unique perspective and expertise to the situation.",
+            "Dr. Kaelan Soren, the ship's enigmatic alien medical officer, examined the distress signal with a calm, intellectual curiosity. He knew that the crew would be relying on his medical expertise should they encounter injuries or illnesses in the colony, and he considered what preparations would need to be made.",
+            "Lieutenant Erisa Mora, Elara's loyal second-in-command and empathic alien pilot, closed her eyes and focused her senses on the distress signal. She could feel waves of fear and desperation radiating from it, a clear indication that the situation at the colony was dire. 'Captain, I can sense the emotional urgency of this distress signal. Whatever is happening at that colony, it's serious.'",
+            "Engineer Tull Renner, the gruff cyborg in charge of the ship's technical aspects, frowned as he considered the potential challenges of responding to the distress signal. 'Captain, I must remind you that we're still dealing with some damage from that last solar storm. The ship can handle it, but it might put additional strain on our resources and systems.'",
+            "Captain Vance absorbed the input of her crew, weighing the risks and challenges against the potential lives they could save. Finally, she made her decision. 'We have a duty to help those in need, even if it means facing risks and challenges. We will respond to this distress signal. Erisa, set a course for the colony. Tull, do what you can to optimize the ship's systems and let me know if you need any additional resources. Dr. Soren, prepare the medical bay and ensure we are ready for any medical emergencies we might encounter.'",
+            "The crew reacted to Captain Vance's decision with a mixture of apprehension and determination. They knew that responding to the distress signal could lead them into danger, but they also understood the importance of helping others in need. As they set about their tasks, preparing the ship and themselves for what lay ahead, they couldn't help but reflect on their past experiences.",
+            "For Captain Vance, the decision to respond to the distress signal brought up memories of her own troubled past, of times when she had been in desperate need of help. She knew all too well the fear and hopelessness that could grip a person when they were trapped in a dire situation, and she was determined to do whatever it took to prevent others from experiencing that same fate.",
+            "As the Horizon adjusted its course and began its journey towards the remote human colony, its crew members steeled themselves for the challenges that lay ahead. They knew that they were embarking on a mission fraught with potential danger and uncertainty, but they also knew that they had a responsibility to those in need. And so, propelled by a mixture of determination, fear, and hope, the Horizon and its crew set off to answer the distress signal, each one acutely aware that their own lives, as well as the lives of those on the colony, hung in the balance."
+          ],
+          "summary": "In this scene, the crew of the spaceship Horizon, led by Captain Elara Vance, receives a distress signal from a remote human colony. Despite the risks and challenges they face, including lingering damage from a solar storm and their own troubled pasts, the crew members feel a duty to help those in need. With a mixture of determination, fear, and hope, they set a course for the colony, preparing themselves and the ship for the potential dangers that lie ahead."
         },
         {
           "name": "Course Change",
-          "prompt": "Lieutenant Erisa Mora, the skilled pilot, adjusts the ship's course toward the colony. The crew discusses the potential risks and unknowns of the mission."
+          "prompt": "Lieutenant Erisa Mora, the skilled pilot, adjusts the ship's course toward the colony. The crew discusses the potential risks and unknowns of the mission.",
+          "context": "In this chapter aboard the starship Horizon, Captain Elara Vance leads her diverse crew through the challenges of space travel, tending to injuries, providing emotional support, and fostering camaraderie during a shared meal. As they receive a new mission from Admiral Ryland, the crew is put to the test when they intercept a distress signal from a remote human colony. Despite lingering damage from a solar storm and their own troubled pasts, the crew members feel a duty to help those in need and, with a mixture of determination, fear, and hope, set a course for the colony, preparing themselves and the ship for the potential dangers that lie ahead.",
+          "beats": [
+            {
+              "name": "Erisa adjusts course",
+              "prompt": "Lieutenant Erisa Mora focuses on the navigation console, adjusting the ship's course toward the colony, while the rest of the crew watches intently."
+            },
+            {
+              "name": "Elara addresses the crew",
+              "prompt": "Captain Elara Vance takes a deep breath and addresses her crew, reminding them of their duty to help those in need and asking for their thoughts on potential risks and unknowns."
+            },
+            {
+              "name": "Tull expresses concerns",
+              "prompt": "Engineer Tull Renner voices his concerns about the ship's lingering damage from the solar storm and the potential dangers that could arise if they encounter more trouble."
+            },
+            {
+              "name": "Dr. Soren offers reassurance",
+              "prompt": "Dr. Kaelan Soren offers his reassurances that he will be ready to provide medical assistance if needed and shares his curiosity about the unknown elements of the mission."
+            },
+            {
+              "name": "Erisa shares her intuition",
+              "prompt": "Lieutenant Erisa Mora shares her intuition, as an empathic alien, that the distress signal is genuine and that they must act quickly to save lives."
+            },
+            {
+              "name": "Elara weighs the risks",
+              "prompt": "Captain Elara Vance listens carefully to her crew and weighs the risks, ultimately deciding that the potential dangers are worth the chance to help the colony."
+            },
+            {
+              "name": "Zara provides mission details",
+              "prompt": "Zara, the ship's advanced AI, provides the crew with more information about the colony and the potential hazards they may encounter during the mission."
+            },
+            {
+              "name": "Pax observes silently",
+              "prompt": "Agent Pax, the mysterious figure from the intergalactic government agency, observes the crew's discussion silently, his motives and thoughts still unclear."
+            },
+            {
+              "name": "Crew prepares for the mission",
+              "prompt": "With the decision made, the crew members begin their preparations for the upcoming mission, double-checking their equipment and mentally preparing themselves for the challenges ahead."
+            },
+            {
+              "name": "Elara's determination",
+              "prompt": "Captain Elara Vance looks out into the vastness of space, her determination and focus unwavering as the Horizon speeds toward the unknown."
+            }
+          ],
+          "text": [
+            "Lieutenant Erisa Mora's fingers danced across the navigation console, adjusting the ship's course toward the Planetside Colony. The crew of the Horizon watched intently, tension mounting in the air as they approached the source of the distress signal. Captain Elara Vance stood at the center of the bridge, her eyes fixed on the viewscreen as the starscape outside shifted with their changing trajectory.",
+            "Taking a deep breath, Elara addressed her crew. 'We have a duty to help those in need, and it seems the colony is in desperate need of assistance. But we must also proceed with caution and prepare for any potential risks and unknowns. I want to hear your thoughts on this mission.' Her voice was firm, but she made sure her crew knew she valued their input.",
+            "Tull Renner, the ship's gruff engineer, crossed his arms. 'Captain, we sustained significant damage from that solar storm earlier. I patched up what I could, but we're not in the best shape for a rescue mission. If we run into more trouble, it could be disastrous.'",
+            "Dr. Kaelan Soren, the enigmatic alien medical officer, offered a more optimistic perspective. 'While I understand Tull's concerns, I assure you that I will be ready to provide medical assistance to both our crew and the colonists if needed. I am also quite curious about the unknown elements of this mission.' His calm demeanor and intellectual curiosity served as a counterpoint to Tull's skepticism.",
+            "Erisa, the empathic alien pilot, chimed in. 'I can feel the desperation in the distress signal, Captain. It's genuine, and we must act quickly to save lives. I'm confident that with our combined skills, we can handle whatever challenges we face.'",
+            "Elara listened carefully to her crew, weighing the risks in her mind. Ultimately, she decided that the potential dangers were worth the chance to help the colony. 'Alright, we'll proceed with the mission. Tull, keep an eye on the ship's systems and notify me if anything changes. Erisa, plot the most efficient course to the colony. Kaelan, prepare the medical bay for potential patients.'",
+            "As the crew set to work, Zara, the ship's advanced AI, chimed in with more information. 'Captain, I have analyzed the data on the Planetside Colony. They are a small human outpost with limited resources. Their distress signal indicates a potential catastrophic event. We should prepare for various hazards, including environmental and hostile forces.'",
+            "Agent Pax, the mysterious figure from the intergalactic government agency, stood in the corner of the bridge, silently observing the crew's discussion. His motives and thoughts remained unclear, adding a layer of unease to the already tense atmosphere.",
+            "With Elara's decision made, the crew members began their preparations for the upcoming mission. They double-checked their equipment, ran diagnostics on the ship's systems, and mentally prepared themselves for the challenges ahead. The air was thick with a mix of anticipation and determination.",
+            "Captain Elara Vance gazed out into the vastness of space, her focus unwavering as the Horizon sped toward the unknown. She knew the risks were great, but she also knew that her crew was capable of overcoming them. With the lives of the colonists hanging in the balance, failure was not an option."
+          ],
+          "summary": "Captain Elara Vance and her crew aboard the Horizon discuss the risks and challenges of an upcoming rescue mission to the distressed Planetside Colony. While some crew members express concerns about the ship's condition and potential dangers, others emphasize their duty to help those in need and their ability to handle any challenges they may face. Ultimately, Captain Vance decides to proceed with the mission, and the crew prepares themselves for the unknown hazards that may await them at the colony. Meanwhile, the enigmatic Agent Pax observes the unfolding scene, his motives and thoughts remaining hidden, adding an unsettling element to the already tense atmosphere."
         },
         {
           "name": "Preparations",
@@ -267,8 +376,8 @@
       "index": 0
     },
     "scene": {
-      "name": "summary",
-      "index": 0
+      "name": "context",
+      "index": 3
     },
     "changed": true
   }
