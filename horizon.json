@@ -101,7 +101,37 @@
     {
       "name": "Distress Signal",
       "prompt": "The Horizon receives a distress signal from a remote human colony. Captain Elara Vance decides to respond, setting the plot into motion.",
-      "context": "The story revolves around the adventures of the starship Horizon, captained by the strong-willed yet compassionate Elara Vance, as it navigates the uncharted reaches of the universe with its diverse human and alien crew. Amidst this exploration, Captain Vance finds herself increasingly drawn to the enigmatic alien medical officer, Dr. Kaelan Soren. As they stumble upon a mysterious distress signal, the crew is suddenly thrust into a perilous journey filled with danger, romance, and unforeseen conspiracies that will ultimately challenge their courage, loyalty, and the very fabric of their relationships."
+      "context": "The story revolves around the adventures of the starship Horizon, captained by the strong-willed yet compassionate Elara Vance, as it navigates the uncharted reaches of the universe with its diverse human and alien crew. Amidst this exploration, Captain Vance finds herself increasingly drawn to the enigmatic alien medical officer, Dr. Kaelan Soren. As they stumble upon a mysterious distress signal, the crew is suddenly thrust into a perilous journey filled with danger, romance, and unforeseen conspiracies that will ultimately challenge their courage, loyalty, and the very fabric of their relationships.",
+      "scenes": [
+        {
+          "name": "Distress Signal",
+          "prompt": "The Horizon's crew discovers the distress signal from the remote human colony, sparking a debate among the crew about whether or not to respond."
+        },
+        {
+          "name": "Captain's Decision",
+          "prompt": "Captain Elara Vance ultimately decides to investigate the distress signal, taking into account the crew's opinions and her own instincts."
+        },
+        {
+          "name": "Preparation for Landing",
+          "prompt": "Lieutenant Erisa Mora and Engineer Tull Renner coordinate the preparations for landing on the colony's planet, while Dr. Kaelan Soren prepares medical supplies for potential emergencies."
+        },
+        {
+          "name": "Zara's Analysis",
+          "prompt": "The AI, Zara, shares her analysis of the planet's climate and potential hazards, providing crucial information to the crew as they prepare to land."
+        },
+        {
+          "name": "Crew's Concerns",
+          "prompt": "Each crew member privately expresses their concerns about the mission, revealing their individual fears and motivations."
+        },
+        {
+          "name": "The Descent",
+          "prompt": "As the Horizon descends through the planet's atmosphere, the crew encounters unexpected turbulence and atmospheric anomalies, heightening the tension and excitement."
+        },
+        {
+          "name": "Landing on the Colony",
+          "prompt": "The Horizon successfully lands on the remote colony, and the crew begins their investigation, unaware of the danger and mystery that awaits them."
+        }
+      ]
     },
     {
       "name": "Approach Vector",
@@ -175,7 +205,7 @@
   "state": {
     "name": "chapters",
     "chapter": {
-      "name": "scenes",
+      "name": "scene",
       "index": 0
     },
     "scene": {
