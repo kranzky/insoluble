@@ -148,6 +148,17 @@
               "name": "Closing",
               "prompt": "End the scene with the crew preparing for their next mission, with a sense of anticipation and determination."
             }
+          ],
+          "text": [
+            "The vast emptiness of space stretched out before the starship Horizon, a cold and infinite expanse of darkness broken only by the distant pinpricks of light that were the stars. The ship drifted along its course, a tiny island of warmth and life in the great void, its engines humming softly as it cut a path through the cosmos.",
+            "The Horizon was an impressive vessel, boasting state-of-the-art technology and a sleek, streamlined design. Its various sections housed everything the crew needed to survive their long journey through the stars: the command bridge, the engine room, the medical bay, and the living quarters, among others. Overseeing the ship's operations was Zara, an advanced AI that served as the heart and mind of the Horizon. Her presence was felt everywhere, a gentle guiding force that ensured the safety and well-being of the crew.",
+            "Inside the bridge, Captain Elara Vance stood tall and proud, her eyes scanning the various displays as she surveyed the ship's status. Her second-in-command, Lieutenant Erisa Mora, sat at her side, expertly piloting the vessel with practiced ease. The bridge was a hive of activity, with minor crew members attending to their various tasks, their voices a low hum of focused concentration.",
+            "Suddenly, a series of alarms blared, jolting the crew out of their routine. The ship shuddered briefly, and a minor issue with the ship's systems became apparent. 'Tull, what's going on?' Elara demanded over the intercom. 'Seems like a minor coolant leak in the engine room, Captain,' came the gruff reply from Engineer Tull Renner. 'I'm on it.' Elara nodded, trusting in her engineer's skills to resolve the issue quickly as she turned her attention back to the bridge.",
+            "Meanwhile, in the medical bay, Dr. Kaelan Soren stood over a crew member who had suffered a minor injury during a recent training exercise. His alien features were calm and focused as he expertly treated the wound, his long fingers deftly manipulating the advanced medical instruments. The crew member winced but soon relaxed as Dr. Soren's expertise and soothing bedside manner took effect. The medical bay was a testament to the advanced technology of Kaelan's homeworld, a glimpse into the knowledge and capabilities of his enigmatic race.",
+            "Elsewhere on the ship, Erisa's empathic abilities were on full display as she moved gracefully through the living quarters, offering assistance and comfort to her fellow crew members. Her uncanny ability to sense emotions allowed her to provide a level of understanding and support that was unmatched by any human. However, the weight of the crew's emotions sometimes threatened to overwhelm her, and she struggled to maintain her own composure in the face of their collective pain and stress.",
+            "That evening, the crew gathered in the mess hall for a shared meal, their conversations and laughter echoing through the space as they enjoyed a brief respite from their duties. The camaraderie among them was evident, each crew member bringing their own unique personality and background to the table, forming a diverse and tightly-knit group. Elara sat at the head of the table, watching her crew with a mixture of pride and concern. She knew that the challenges they faced together would only grow more difficult as their journey progressed, and she was determined to see them through it all.",
+            "As the meal wound down, Elara's thoughts turned inward, reflecting on the strengths and weaknesses of her crew. She knew that each of them had their own reasons for embarking on this journey, and she hoped that the bonds they had formed would be enough to see them through the trials ahead. Her reverie was interrupted by a chime from her personal communicator; a message from Admiral Ryland awaited her. The connection to her former superior officer brought a mixture of emotions to the surface, reminding her of the complicated history they shared.",
+            "After reading the message, Elara stood and addressed her crew, her voice filled with determination. 'We've got our next mission, folks. Get some rest and be ready to move out first thing tomorrow.' The crew nodded, their expressions a mix of anticipation and resolve as they prepared to face whatever challenges the universe had in store for them."
           ]
         },
         {
@@ -256,7 +267,7 @@
       "index": 0
     },
     "scene": {
-      "name": "text",
+      "name": "summary",
       "index": 0
     },
     "changed": true

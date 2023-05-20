@@ -11,6 +11,7 @@ require 'json'
 def get_response(prompt)
   OpenAI.configure do |config|
     config.access_token = ENV.fetch("OPENAI_SECRET_KEY")
+    config.request_timeout = 300
   end
   client = OpenAI::Client.new
   request =
@@ -200,12 +201,39 @@ def generate_scene_beats
 
     We are about to write a scene. Here's what needs to happen in this scene: #{scene[:prompt]}
     
-    Bearing in mind the rules of narrative, and making sure to be consistent with what has happened in the chapter so far, write a list of story beats which will make up this scene. More story beats are better than fewer story beats. Introduce new minor characters if you like, and create dramatic tension where possible. The list of story beats should be presented a JSON array of objects, with each object containing name and prompt keys.
+    Bearing in mind the rules of narrative, and making sure to be consistent with what has happened in the chapter so far, write a list of story beats which will make up this scene. More story beats are better than fewer story beats. The list of story beats should be presented a JSON array of objects, with each object containing name and prompt keys.
   PROMPT
   scene[:beats] = JSON.parse(get_response(prompt))
   $book[:state][:changed] = true
 ensure
   $book[:state][:scene][:name] = "text"
+end
+
+#-------------------------------------------------------------------------------
+
+def generate_scene_text
+  chapter = $book[:chapters][$book[:state][:chapter][:index]]
+  scene = chapter[:scenes][$book[:state][:scene][:index]]
+  return if scene[:text]
+  puts "Generating scene text..."
+  prompt = <<~PROMPT
+    We are writing a novel together. #{$book[:genre]}
+    
+    Here is a list of characters:
+    #{characters}
+
+    Here is a list of locations:
+    #{locations}
+
+    We are currently writing a scene in a chapter of the novel. Here are the story beats that make up this scene:
+    #{scene[:beats].map { |beat| "#{beat[:name]}: #{beat[:prompt]}" }.join("\n")}
+
+    Write the full text of this scene using these story beats as a guideline. The scene should be a few pages long. Please write lengthy, descriptive paragraphs and compelling dialogue between characters. Introduce new minor characters if you like, and create dramatic tension where possible. The scene should be presented as a JSON array of strings, with each string making up a paragraph of text.
+  PROMPT
+  scene[:text] = JSON.parse(get_response(prompt))
+  $book[:state][:changed] = true
+ensure
+  $book[:state][:scene][:name] = "summary"
 end
 
 #-------------------------------------------------------------------------------
@@ -219,7 +247,7 @@ def generate_scene
   when "beats"
     generate_scene_beats
   when "text"
-    raise "not implemented"
+    generate_scene_text
   when "summary"
     raise "not implemented"
   end
@@ -244,23 +272,3 @@ while !$book[:state][:changed]
 end
 
 File.write("horizon.json", JSON.pretty_generate($book))
-
-#   {
-#     "name": "xxx",
-#     "prompt": "xxx",
-#     "context": "(summary of the story so far, based on other chapter summaries, or the prologue if this is the first chapter)",
-#     "summary": "(summary of this chapter)",
-#     "scenes": [
-#       {
-#         "name": "xxx",
-#         "prompt": "xxx",
-#         "context": "(summary of the chapter so far, based on other scene summaries; blank if this is the first scene)",
-#         "summary": "(summary of this scene)",
-#         "beats": [{
-#           "name": "xxx",
-#           "prompt": "xxx",
-#         }],
-#         "paragraphs": []
-#       }
-#     ]
-#   },
