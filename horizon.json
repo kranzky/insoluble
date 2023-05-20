@@ -13,7 +13,7 @@
     "Romantic Suspense in Space"
   ],
   "blurb": {
-    "prompt": "Write a blurb for the novel, being careful not to give away any spoilers.",  
+    "prompt": "Write a blurb for the novel, being careful not to give away any spoilers.",
     "paragraphs": [
       "In the vast expanse of the cosmos, love, danger, and secrets intertwine in a thrilling dance of fate. \"Star-Crossed: Echoes of the Horizon\" beckons you on an unforgettable journey.",
       "Captain Elara Vance, a seasoned spacefarer, and her diverse crew aboard the starship Horizon respond to a distress signal from a remote human colony. Their mission: simple rescue. The reality: a cryptic puzzle that pulls them into a galaxy-spanning conspiracy.",
@@ -86,7 +86,6 @@
   "prologue": {
     "name": "Echoes",
     "prompt": "Write a prologue for the novel.",
-    "summary": "(summary of this prologue)",
     "paragraphs": [
       "In the endless expanse of space, a lone starship cut a shimmering path through the darkness. Its name was Horizon, a moniker chosen for its promise of discovery, for the edges of the universe it sought to explore. It was a beacon of human and alien cooperation, a testament to the far reaches of shared technology and ambition.",
       "Inside, the crew, a blend of species from different corners of the cosmos, were at their stations, each absorbed in their tasks, their minds synced to the heartbeat of the ship. The hum of the engine was a lullaby they had all grown fond of—a reminder of the journey they had undertaken.",
@@ -169,13 +168,12 @@
   ],
   "epilogue": {
     "name": "Starlight's Promise",
-    "prompt": "The Horizon sets off on its next adventure. The crew, stronger and more united, faces the future with courage and optimism. The promise of further adventures leaves the reader anticipating the next book in the series.",
-    "summary": "(summary of the epilogue)",
-    "paragraphs": []
+    "prompt": "The Horizon sets off on its next adventure. The crew, stronger and more united, faces the future with courage and optimism. The promise of further adventures leaves the reader anticipating the next book in the series."
   },
   "state": {
     "name": "prologue",
     "chapter": 0,
-    "scene": 0
+    "scene": 0,
+    "changed": false
   }
 }
