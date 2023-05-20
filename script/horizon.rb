@@ -8,7 +8,7 @@ require 'json'
 
 #===============================================================================
 
-def get_response(messages)
+def get_response(prompt)
   OpenAI.configure do |config|
     config.access_token = ENV.fetch("OPENAI_SECRET_KEY")
   end
@@ -17,10 +17,17 @@ def get_response(messages)
     {
       model: "gpt-4",
       temperature: 0.7,
-      messages: messages
+      messages: prompt.split("\n").map do |message|
+        {
+          role: "user",
+          content: message
+        }
+      end
     }
   response = client.chat(parameters: request)
-  response.dig("choices", 0, "message", "content")
+  result = response.dig("choices", 0, "message", "content")
+  raise "no response" if result.nil?
+  result
 end
 
 #-------------------------------------------------------------------------------
@@ -58,7 +65,7 @@ while !$book[:state][:changed]
   end
 end
 
-File.write("book.json", JSON.pretty_generate($book))
+File.write("horizon.json", JSON.pretty_generate($book))
 
 #   {
 #     "name": "xxx",

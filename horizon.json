@@ -94,7 +94,8 @@
       "What Elara didn't know then was that the journey of the Horizon was about to take a turn. A distress signal, weak and fading, was racing through the cosmos towards them, a cry for help that would pull them into a whirlwind of mystery and danger. And through it all, in the heart of the starship Horizon, a unique love story was about to unfold.",
       "This is their story—a tale of love and courage, of secrets and betrayals, of a conspiracy that spanned galaxies. It's a story that echoes across the cosmos, a testament to the resilience of the heart, even in the face of the vast, uncharted void.",
       "Welcome aboard the Horizon. The journey is just beginning."
-    ]
+    ],
+    "summary": "The novel follows the adventures of the starship Horizon, a vessel of human and alien cooperation, as it explores the uncharted edges of the universe. Captain Elara Vance, a stern yet secretly tender-hearted leader, finds herself drawn to her enigmatic alien medical officer, Dr. Kaelan Soren. As the crew encounters a mysterious distress signal, they are pulled into a whirlwind of danger, love, and conspiracy that will test their courage and resilience in the face of the vast cosmos."
   },
   "chapters": [
     {
@@ -171,9 +172,9 @@
     "prompt": "The Horizon sets off on its next adventure. The crew, stronger and more united, faces the future with courage and optimism. The promise of further adventures leaves the reader anticipating the next book in the series."
   },
   "state": {
-    "name": "prologue",
+    "name": "chapters",
     "chapter": 0,
     "scene": 0,
-    "changed": false
+    "changed": true
   }
 }
