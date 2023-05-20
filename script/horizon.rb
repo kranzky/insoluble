@@ -10,7 +10,7 @@ require 'json'
 
 def get_response(prompt)
   puts prompt
-  debugger
+  puts "---"
   OpenAI.configure do |config|
     config.access_token = ENV.fetch("OPENAI_SECRET_KEY")
     config.request_timeout = 300
@@ -26,6 +26,7 @@ def get_response(prompt)
   result = response.dig("choices", 0, "message", "content")
   raise "no response" if result.nil?
   puts result
+  puts "==="
   result
 end
 
@@ -122,7 +123,7 @@ def generate_scenes
 
     And here is a description of what needs to happen in this chapter: #{chapter[:prompt]}
     
-    Bearing in mind the rules of narrative, and making sure to be consistent with the genre and what has happened in the story so far, write a list of scenes which will make up this chapter. More scenes are better than fewer scenes. Make sure to cover only what needs to happen in this chapter, and stop before you reach anything that occurs in the next chapter. Create a cliffhanger at the end of this chapter if possible. The list of scenes should be presented a JSON array of objects, with each object containing name and prompt keys.
+    Bearing in mind the rules of narrative, and making sure to be consistent with the genre and what has happened in the story so far, write a list of scenes which will make up this chapter. More scenes are better than fewer scenes. Make sure to cover only what needs to happen in this chapter, and stop before you reach anything that occurs in the next chapter. Create a cliffhanger at the end of this chapter if possible. Make no mention of story, chapter or scene. The list of scenes should be presented a JSON array of objects, with each object containing name and prompt keys.
   PROMPT
   chapter[:scenes] = JSON.parse(get_response(prompt))
   $book[:state][:changed] = true
@@ -205,7 +206,7 @@ def generate_scene_beats
 
     And here is a description of what needs to happen in this scene: #{scene[:prompt]}
     
-    Bearing in mind the rules of narrative, and making sure to be consistent with the genre and what has happened in the chapter so far, write a list of story beats which will make up this scene. More story beats are better than fewer story beats. Make sure to cover only what needs to happen in this scene, and stop before you reach anything that occurs in the next scene. The list of story beats should be presented a JSON array of objects, with each object containing name and prompt keys.
+    Bearing in mind the rules of narrative, and making sure to be consistent with the genre and what has happened in the chapter so far, write a list of story beats which will make up this scene. More story beats are better than fewer story beats. Make sure to cover only what needs to happen in this scene, and stop before you reach anything that occurs in the next scene. Make no mention of story, chapter, scene or beat. The list of story beats should be presented a JSON array of objects, with each object containing name and prompt keys.
   PROMPT
   scene[:beats] = JSON.parse(get_response(prompt))
   $book[:state][:changed] = true
