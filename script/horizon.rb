@@ -52,6 +52,22 @@ end
 
 #-------------------------------------------------------------------------------
 
+def generate_chapters
+  chapter = $book[:chapters][$book[:state][:chapter][:index]]
+  case $book[:state][:chapter][:name]
+  when "context"
+    generate_chapter_context
+  when "scenes"
+    generate_scenes
+  when "scene"
+    generate_scene
+  when "summary"
+    raise "not implemented"
+  end
+end
+
+#-------------------------------------------------------------------------------
+
 def generate_chapter_context
   chapter = $book[:chapters][$book[:state][:chapter][:index]]
   return if chapter[:context]
@@ -71,18 +87,51 @@ end
 
 #-------------------------------------------------------------------------------
 
-def generate_chapters
+def generate_scenes
   chapter = $book[:chapters][$book[:state][:chapter][:index]]
-  case $book[:state][:chapter][:name]
-  when "context"
-    generate_chapter_context
-  when "scenes"
-    generate_scenes
-  when "scene"
-    generate_scene
-  when "summary"
-    raise "not implemented"
-  end
+  return if chapter[:scenes]
+  puts "Generating chapter scenes..."
+  prev_chapter =
+    if $book[:state][:chapter][:index] == 0
+      {
+        prompt: "There was no previous chapter! This is the first chapter of the book, so please take your time and make sure to set things up slowly."
+      }      
+    else
+      $book[:chapters][$book[:state][:chapter][:index]-1]
+    end
+  next_chapter =
+    if $book[:state][:chapter][:index] == $book[:chapters].count-1
+      {
+        prompt: "There is no next chapter! This is the last chapter of the book, so please make sure to wrap things up with a bang!"
+      }
+    else
+      $book[:chapters][$book[:state][:chapter][:index]+1]
+    end
+  prompt = <<~PROMPT
+    We are writing a novel together. #{$book[:genre]}
+    
+    Here is a list of characters:
+    #{characters}
+
+    Here is a list of locations:
+    #{locations}
+
+    #{chapter[:context]}
+
+    We are about to write a new chapter. Here's what needs to happen in this chapter: #{chapter[:prompt]}
+    
+    Here's what happened in the previous chapter: #{prev_chapter[:prompt]}
+
+    And here's what will happen in the next chapter: #{next_chapter[:prompt]}
+    
+    Bearing in mind the rules of narrative, and making sure to be consistent with the story so far, write a list of scenes which will make up this chapter. More scenes are better than fewer scenes. Make sure to resolve any loose ends from the previous chapter, and set things up for the next chapter without pre-empting anything that happens in the next chapter. Create a cliffhanger at the end of this chapter if possible. The list of scenes should be presented a JSON array of objects, with each object containing name and prompt keys.
+  PROMPT
+  chapter[:scenes] = JSON.parse(get_response(prompt))
+  $book[:state][:changed] = true
+ensure
+  $book[:state][:chapter][:name] = "scene"
+  $book[:state][:scene][:name] = "context"
+  $book[:state][:scene][:index] = 0
 end
 
 #-------------------------------------------------------------------------------
@@ -103,37 +152,23 @@ end
 
 #-------------------------------------------------------------------------------
 
-def generate_scenes
+def generate_scene_context
   chapter = $book[:chapters][$book[:state][:chapter][:index]]
-  return if chapter[:scenes]
-  puts "Generating chapter scenes..."
+  scene = chapter[:scenes][$book[:state][:scene][:index]]
+  return if scene[:context]
+  puts "Generating scene context..."
   prompt = <<~PROMPT
-    We are writing a novel together. Here is a list of characters:
-
-    #{characters}
-
-    Here is a list of locations:
-
-    #{locations}
-
-    Here is a summary of the story so far:
-
-    #{chapter[:context]}
-
-    We are about to write a new chapter. Here's what needs to happen in this chapter:
+    We are writing a novel together. Here is a summary of what you have written so far:
+      
+    # TODO: chapter summaries
     
-    #{chapter[:prompt]}
-    
-    Bearing in mind the rules of narrative, and making sure to be consistent with the story so far, write a list of scenes which will make up this chapter.
-    This should be presented as a list of prompts, one for each scene, which will be used to generate the scene.
-    Give your answer in the form of a JSON array of objects, with each object containing name and prompt keys.
+    Write a single paragraph which summarises the story so far.
   PROMPT
-  chapter[:scenes] = JSON.parse(get_response(prompt))
+  debugger
+  scene[:context] = get_response(prompt)
   $book[:state][:changed] = true
 ensure
-  $book[:state][:chapter][:name] = "scene"
-  $book[:state][:scene][:name] = "context"
-  $book[:state][:scene][:index] = 0
+  $book[:state][:scene][:name] = "beats"
 end
 
 #-------------------------------------------------------------------------------
@@ -143,10 +178,10 @@ def generate_scene
   scene = chapter[:scenes][$book[:state][:scene][:index]]
   case $book[:state][:scene][:name]
   when "context"
+    generate_scene_context
+  when "beats"
     raise "not implemented"
-  when "scenes"
-    raise "not implemented"
-  when "scene"
+  when "text"
     raise "not implemented"
   when "summary"
     raise "not implemented"
