@@ -1,5 +1,25 @@
 #!/usr/bin/env ruby
 
+#   {
+#     "name": "xxx",
+#     "prompt": "xxx",
+#     "context": "(summary of the story so far, based on other chapter summaries, or the prologue if this is the first chapter)",
+#     "summary": "(summary of this chapter)",
+#     "scenes": [
+#       {
+#         "name": "xxx",
+#         "prompt": "xxx",
+#         "context": "(summary of the chapter so far, based on other scene summaries; blank if this is the first scene)",
+#         "summary": "(summary of this scene)",
+#         "beats": [{
+#           "name": "xxx",
+#           "prompt": "xxx",
+#         }],
+#         "paragraphs": []
+#       }
+#     ]
+#   },
+
 require 'amazing_print'
 require 'byebug'
 require 'ruby-progressbar'
@@ -29,7 +49,9 @@ def get_response(messages)
   response.dig("choices", 0, "message", "content")
 end
 
-book = JSON.parse(File.read("book.json"), symbolize_names: true)
+book = JSON.parse(File.read("horizon.json"), symbolize_names: true)
+
+debugger
 
 prompt = [DATA.read.gsub(/TITLE/, book[:title]).gsub(/AUTHOR/, book[:author]).strip]
 

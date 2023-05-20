@@ -12,13 +12,17 @@
     "Alien Love Story",
     "Romantic Suspense in Space"
   ],
-  "blurb": [
-    "In the vastness of the cosmos, aboard the starship Horizon, a compelling love story unfolds against a backdrop of interstellar intrigue and danger.",
-    "Captain Elara Vance, a hardened spacefarer with a mysterious past, leads her diverse crew through the star-strewn void, responding to a distress signal from a remote colony. What appears to be a simple rescue mission spirals into a web of deception and danger, uncovering a conspiracy that reaches to the highest levels of interstellar power.",
-    "As Elara navigates the treacherous currents of intrigue, she finds herself drawn to the ship's enigmatic alien medical officer, Dr. Kaelan Soren. His calm demeanor and strange wisdom offer a haven amidst the chaos, kindling a bond that transcends species and challenges the confines of space and time.",
-    "From bustling starports to alien homeworlds, through treacherous void spaces and ethereal nebulae, \"Horizon's Heart\" weaves a rich tapestry of futuristic adventure, suspense, and romance. As the crew of the Horizon unravels the truth, they must confront their own demons, and discover that in the infinite expanse of the universe, the most powerful force may be the human heart.",
-    "Are you ready to embark on a journey across the stars? Brace for the unknown, as love, danger, and the undying spirit of exploration collide in this thrilling science fiction romance."
-  ],
+  "blurb": {
+    "prompt": "Write a blurb for the novel, being careful not to give away any spoilers.",  
+    "paragraphs": [
+      "In the vast expanse of the cosmos, love, danger, and secrets intertwine in a thrilling dance of fate. \"Star-Crossed: Echoes of the Horizon\" beckons you on an unforgettable journey.",
+      "Captain Elara Vance, a seasoned spacefarer, and her diverse crew aboard the starship Horizon respond to a distress signal from a remote human colony. Their mission: simple rescue. The reality: a cryptic puzzle that pulls them into a galaxy-spanning conspiracy.",
+      "As the Horizon traverses alien worlds and bustling starports, Elara finds herself inexplicably drawn to her enigmatic alien medical officer, Dr. Kaelan Soren. A connection sparks between them, a bond transcending species, treading the delicate line between professional duty and personal desire.",
+      "But as the veil of the conspiracy lifts, loyalties will be tested, and the crew of the Horizon must confront the echoes of their pasts. Amidst the star-strewn void, they'll discover that the most potent force in the universe isn't a dark secret or a looming threat - it's the human heart.",
+      "\"Star-Crossed: Echoes of the Horizon\" is a gripping tale of interstellar romance and suspense, where every turn reveals deeper layers of intrigue. As Elara and her crew unravel the mysteries of their universe, they'll learn that in the grand tapestry of the cosmos, their stories matter.",
+      "Buckle up for a riveting journey across the stars, where love, danger, and the indomitable spirit of exploration collide. Are you ready to venture beyond the horizon?"
+    ]
+  },
   "characters": [
     {
       "name": "Captain Elara Vance",
@@ -95,25 +99,6 @@
   },
   "chapters": [
     {
-      "name": "xxx",
-      "prompt": "xxx",
-      "context": "(summary of the story so far, based on other chapter summaries, or the prologue if this is the first chapter)",
-      "summary": "(summary of this chapter)",
-      "scenes": [
-        {
-          "name": "xxx",
-          "prompt": "xxx",
-          "context": "(summary of the chapter so far, based on other scene summaries; blank if this is the first scene)",
-          "summary": "(summary of this scene)",
-          "beats": [{
-            "name": "xxx",
-            "prompt": "xxx",
-          }],
-          "paragraphs": []
-        }
-      ]
-    },
-    {
       "name": "Distress Signal",
       "prompt": "The Horizon receives a distress signal from a remote human colony. Captain Elara Vance decides to respond, setting the plot into motion."
     },
@@ -180,12 +165,17 @@
     {
       "name": "Horizon's Heart",
       "prompt": "In the aftermath, the crew contemplates their journey and what they've discovered about themselves and each other. Elara and Soren reaffirm their love, looking forward to the future with hope."
-    },
+    }
   ],
   "epilogue": {
     "name": "Starlight's Promise",
     "prompt": "The Horizon sets off on its next adventure. The crew, stronger and more united, faces the future with courage and optimism. The promise of further adventures leaves the reader anticipating the next book in the series.",
     "summary": "(summary of the epilogue)",
     "paragraphs": []
+  },
+  "state": {
+    "name": "prologue",
+    "chapter": 0,
+    "scene": 0
   }
 }
