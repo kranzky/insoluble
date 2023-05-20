@@ -45,6 +45,59 @@ def generate_prologue_summary
   $book[:prologue][:summary] = get_response(prompt)
   $book[:state][:changed] = true
   $book[:state][:name] = "chapters"
+  $book[:state][:chapter][:name] = "context"
+  $book[:state][:chapter][:index] = 0
+end
+
+#-------------------------------------------------------------------------------
+
+def generate_chapter_context
+  chapter = $book[:chapters][$book[:state][:chapter][:index]]
+  return if chapter[:context]
+  puts "Generating chapter context..."
+  prompt = <<~PROMPT
+    We are writing a novel together.
+    #{$book[:genre]}
+    Here is a summary of what you have written so far:
+      
+    #{$book[:prologue][:summary]}
+    
+    Write a single paragraph which summarises the story so far.
+  PROMPT
+  chapter[:context] = get_response(prompt)
+  $book[:state][:changed] = true
+  $book[:state][:chapter][:name] = "scenes"
+end
+
+#-------------------------------------------------------------------------------
+
+def generate_chapters
+  chapter = $book[:chapters][$book[:state][:chapter][:index]]
+  case $book[:state][:chapter][:name]
+  when "context"
+    generate_chapter_context
+  when "scenes"
+    raise "not implemented"
+  when "scene"
+    raise "not implemented"
+  when "summary"
+    raise "not implemented"
+  end
+end
+
+#-------------------------------------------------------------------------------
+
+def generate_scenes
+  # generate context
+  # generate beats
+  # generate text
+  # generate summary
+end
+
+#-------------------------------------------------------------------------------
+
+def generate_epilogue
+  # generate text
 end
 
 #===============================================================================
@@ -57,9 +110,9 @@ while !$book[:state][:changed]
   when "prologue"
     generate_prologue_summary
   when "chapters"
-    raise "not implemented"
+    generate_chapters
   when "epilogue"
-    raise "not implemented"
+    generate_epilogue
   else
     raise "unknown state" 
   end

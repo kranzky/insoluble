@@ -100,7 +100,8 @@
   "chapters": [
     {
       "name": "Distress Signal",
-      "prompt": "The Horizon receives a distress signal from a remote human colony. Captain Elara Vance decides to respond, setting the plot into motion."
+      "prompt": "The Horizon receives a distress signal from a remote human colony. Captain Elara Vance decides to respond, setting the plot into motion.",
+      "context": "The story revolves around the adventures of the starship Horizon, captained by the strong-willed yet compassionate Elara Vance, as it navigates the uncharted reaches of the universe with its diverse human and alien crew. Amidst this exploration, Captain Vance finds herself increasingly drawn to the enigmatic alien medical officer, Dr. Kaelan Soren. As they stumble upon a mysterious distress signal, the crew is suddenly thrust into a perilous journey filled with danger, romance, and unforeseen conspiracies that will ultimately challenge their courage, loyalty, and the very fabric of their relationships."
     },
     {
       "name": "Approach Vector",
@@ -173,8 +174,14 @@
   },
   "state": {
     "name": "chapters",
-    "chapter": 0,
-    "scene": 0,
+    "chapter": {
+      "name": "scenes",
+      "index": 0
+    },
+    "scene": {
+      "name": "context",
+      "index": 0
+    },
     "changed": true
   }
 }
