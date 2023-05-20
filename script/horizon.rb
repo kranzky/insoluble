@@ -9,6 +9,8 @@ require 'json'
 #===============================================================================
 
 def get_response(prompt)
+  puts prompt
+  debugger
   OpenAI.configure do |config|
     config.access_token = ENV.fetch("OPENAI_SECRET_KEY")
     config.request_timeout = 300
@@ -37,11 +39,13 @@ def generate_prologue_summary
   return if $book[:prologue][:summary]
   puts "Generating prologue summary..."
   prompt = <<~PROMPT
-    We are writing a novel together. Here is the prologue that you wrote for it:
-    
+    We are writing a novel together. #{$book[:genre]}
+
+    Here is the prologue that you wrote for it:
+
     #{$book[:prologue][:paragraphs].join("\n\n")}
 
-    Write a single paragraph which summarises this prologue.
+    Write a single brief paragraph which summarises this prologue.
   PROMPT
   $book[:prologue][:summary] = get_response(prompt)
   $book[:state][:changed] = true
@@ -78,8 +82,11 @@ def generate_chapter_context
     chapter[:context] = "This is the first chapter of the novel."
   else
     prompt = <<~PROMPT
-      We are writing a novel together. We are about to start writing a new chapter. Here is what has happened in the previous chapters:
-      #{summaries.join("\n")}
+      We are writing a novel together. #{$book[:genre]}
+
+      We are about to start writing a new chapter. Here is what has happened in the previous chapters:
+
+      #{summaries.join("\n\n")}
       
       Write a single paragraph which summarises what has happened in the novel so far.
     PROMPT
@@ -168,8 +175,11 @@ def generate_scene_context
     scene[:context] = "This is the first scene of the chapter."
   else
     prompt = <<~PROMPT
-      We are writing a novel together. We are currently writing a chapter in the novel. We are about to write a new scene in the chapter. Here's what has happened in the previous scenes:
-      #{summaries.join("\n")}
+      We are writing a novel together. #{$book[:genre]}
+
+      We are currently writing a chapter in the novel. We are about to write a new scene in the chapter. Here's what has happened in the previous scenes:
+
+      #{summaries.join("\n\n")}
       
       Write a single paragraph which summarises what has happened in the chapter so far.
     PROMPT
@@ -229,9 +239,9 @@ def generate_scene_text
     Here are the story beats that make up this scene:
     #{scene[:beats].map { |beat| "#{beat[:name]}: #{beat[:prompt]}" }.join("\n")}
 
-    Write the full text of this scene using these story beats as a guideline. The scene should be a few pages long. Please write lengthy, descriptive paragraphs and compelling dialogue between characters. Introduce new minor characters if you like, and create dramatic tension where possible. The scene should be presented as a JSON array of strings, with each string making up a paragraph of text.
+    Write the full text of this scene using these story beats as a guideline. The scene should be at least a few pages long. Please write lengthy, descriptive paragraphs and compelling dialogue between characters. Introduce new minor characters if you like, and create dramatic tension where possible. Your response should be formatted suitable for printing in a book.
   PROMPT
-  scene[:text] = JSON.parse(get_response(prompt))
+  scene[:text] = get_response(prompt)
   $book[:state][:changed] = true
 ensure
   $book[:state][:scene][:name] = "summary"
@@ -245,10 +255,13 @@ def generate_scene_summary
   return if scene[:summary]
   puts "Generating scene summary..."
   prompt = <<~PROMPT
-    We are writing a novel together. Here is a scene within a chapter:
-    #{scene[:text].join("\n")}
+    We are writing a novel together. #{$book[:genre]}
+    
+    Here is a scene taken from a chapter of the novel:
 
-    Write a single paragraph which summarises this scene.
+    #{scene[:text]}
+
+    Write a single brief paragraph which summarises this scene.
   PROMPT
   scene[:summary] = get_response(prompt)
   $book[:state][:changed] = true
