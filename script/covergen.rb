@@ -12,7 +12,7 @@ end
 
 client = OpenAI::Client.new
 
-message = "Cover image for a sci-fi romance novel showing a futuristic starship in space near a nebula, with abstract silhouettes of a human woman and an alien man symbolizing a romantic connection."
+message = "Albert Einstein and Tony Abbott fighting over a Nintendo Switch in a photo realistic style."
 
 response = client.images.generate(parameters: { prompt: message, size: "1024x1024" })
 
