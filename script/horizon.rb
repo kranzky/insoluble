@@ -64,7 +64,7 @@ def generate_chapters
   when "scene"
     generate_scene
   when "summary"
-    raise "not implemented"
+    generate_summary
   end
 end
 
@@ -133,7 +133,7 @@ ensure
   $book[:state][:scene][:index] = 0
 end
 
-#------------------------------------------the genre and -------------------------------------
+#-------------------------------------------------------------------------------
 
 def characters
   $book[:characters].map do |character|
@@ -284,6 +284,35 @@ def generate_scene
     generate_scene_text
   when "summary"
     generate_scene_summary
+  end
+end
+
+#-------------------------------------------------------------------------------
+
+def generate_summary
+  chapter = $book[:chapters][$book[:state][:chapter][:index]]
+  return if chapter[:summary]
+  puts "Generating chapter summary..."
+  summaries = chapter[:scenes].map { |scene| scene[:summary] }.compact
+  prompt = <<~PROMPT
+    We are writing a novel together. #{$book[:genre]}
+
+    We have just finished writing a chapter. Here's what happened in the chapter: #{chapter[:prompt]}
+    
+    Here's a summary of the scenes that are in the chapter:
+
+    #{summaries.join("\n\n")}
+    
+    Write a single paragraph which briefly summarises the chapter. Be concise and don't preface your summary by mentioning story or chapter or scene.
+  PROMPT
+  chapter[:summary] = get_response(prompt)
+  $book[:state][:changed] = true
+ensure
+  if $book[:state][:chapter][:index] < $book[:chapters].count-1
+    $book[:state][:chapter][:name] = "context"
+    $book[:state][:chapter][:index] += 1
+  else
+    $book[:state][:name] = "epilogue"
   end
 end
 
