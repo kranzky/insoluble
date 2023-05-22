@@ -316,6 +316,27 @@ ensure
   end
 end
 
+#-------------------------------------------------------------------------------
+
+def generate_epilogue
+  return if $book[:epilogue][:paragraphs]
+  puts "Generating epilogue..."
+  summaries = $book[:chapters].map { |chapter| chapter[:summary] }.compact
+  prompt = <<~PROMPT
+    We are writing a novel together. #{$book[:genre]}
+    
+    We have finished writing the chapters. Here is what happened in each chapter:
+
+    #{summaries.join("\n\n")}
+
+    Write an epilogue to the story. Here's what should happen in the epilogue: #{$book[:epilogue][:prompt]} 
+
+    It should be at least a few pages long. Please write lengthy, descriptive paragraphs and compelling dialogue between characters. Your response should be formatted suitable for printing in a book, but please omit chapter and section headings, and don't mention story, chapter, scene or beat.
+  PROMPT
+  $book[:epilogue][:paragraphs] = get_response(prompt).split("\n\n")
+  $book[:state][:changed] = true
+end
+
 #===============================================================================
 
 $book = JSON.parse(File.read("horizon.json"), symbolize_names: true)
@@ -328,7 +349,7 @@ while !$book[:state][:changed]
   when "chapters"
     generate_chapters
   when "epilogue"
-    raise "not implemented"
+    generate_epilogue
   else
     raise "unknown state" 
   end
