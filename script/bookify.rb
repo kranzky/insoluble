@@ -24,7 +24,7 @@ book[:chapters].each.with_index do |chapter, chapter_index|
   chapter[:scenes].each.with_index do |scene, scene_index|
     if scene_index > 0
       output << ""
-      output << "---"
+      output << "XXX"
     end
     scene[:text] ||= ""
     scene[:text].split("\n").each.with_index do |line, line_index|

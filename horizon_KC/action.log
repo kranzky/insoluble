@@ -845,3 +845,134 @@
 [Mon May 22 02:22:28 UTC 2023][INFO] [Action] E ItemChanged - -1,1
 [Mon May 22 02:22:48 UTC 2023][INFO] [Action] E SaveBook - Save
 [Mon May 22 02:22:49 UTC 2023][INFO] Logger Terminated
+[Tue May 23 13:46:33 UTC 2023][INFO] [Action] EE OpenBook - horizon_KC.kcb
+[Tue May 23 13:46:55 UTC 2023][INFO] [Action] E ItemChanged - -1,314
+[Tue May 23 13:47:12 UTC 2023][INFO] [Action] E ItemChanged - -1,314
+[Tue May 23 13:47:27 UTC 2023][INFO] [Action] E AddTextContainer - (c,7493,2),0,0,0
+[Tue May 23 13:47:31 UTC 2023][INFO] [Action] E InsertSeparator - (c,7494,1)
+[Tue May 23 13:47:40 UTC 2023][INFO] [Action] E ApplyThemeBook - cosmos_theme
+[Tue May 23 13:47:42 UTC 2023][INFO] [Action] E SaveBook - Save
+[Tue May 23 13:47:45 UTC 2023][INFO] [Action] E ItemChanged - -1,1
+[Tue May 23 13:47:45 UTC 2023][INFO] [Action] E ItemChanged - -1,102
+[Tue May 23 13:47:47 UTC 2023][INFO] [Action] E ItemChanged - -1,314
+[Tue May 23 13:50:17 UTC 2023][INFO] [Action] E Cut - (r,2251,40531)
+[Tue May 23 13:50:19 UTC 2023][INFO] [Action] E Paste - (c,2251,1),39291
+[Tue May 23 13:50:23 UTC 2023][INFO] [Action] U Paste
+[Tue May 23 13:51:19 UTC 2023][INFO] [Action] E Paste - (c,2251,1),38600
+[Tue May 23 13:51:28 UTC 2023][INFO] [Action] E ApplySemantics - (r,2251,2251),first_para
+[Tue May 23 13:51:33 UTC 2023][INFO] [Action] E ItemChanged - -1,40847
+[Tue May 23 13:51:36 UTC 2023][INFO] [Action] E SaveBook - Save
+[Tue May 23 13:51:38 UTC 2023][INFO] [Action] E ItemChanged - -1,2227
+[Tue May 23 13:51:45 UTC 2023][INFO] [Action] U ApplySemantics
+[Tue May 23 13:51:45 UTC 2023][INFO] [Action] U Paste
+[Tue May 23 13:51:48 UTC 2023][INFO] [Action] U Cut
+[Tue May 23 13:51:52 UTC 2023][INFO] [Action] E ItemChanged - -1,2227
+[Tue May 23 13:51:55 UTC 2023][INFO] [Action] R Cut
+[Tue May 23 13:51:56 UTC 2023][INFO] [Action] R Paste
+[Tue May 23 13:51:57 UTC 2023][INFO] [Action] R ApplySemantics
+[Tue May 23 13:52:16 UTC 2023][INFO] [Action] E ItemChanged - -1,40847
+[Tue May 23 13:52:17 UTC 2023][INFO] [Action] E ItemChanged - -1,2227
+[Tue May 23 13:52:17 UTC 2023][INFO] [Action] E ItemChanged - -1,40847
+[Tue May 23 13:53:04 UTC 2023][INFO] [Action] E ItemChanged - -1,40847
+[Tue May 23 13:53:33 UTC 2023][INFO] [Action] E DeleteContent - (r,40871,76185),B
+[Tue May 23 13:53:38 UTC 2023][INFO] [Action] E ItemChanged - -1,628073
+[Tue May 23 13:53:41 UTC 2023][INFO] [Action] E ItemChanged - -1,628073
+[Tue May 23 13:53:46 UTC 2023][INFO] [Action] E ItemChanged - -1,40847
+[Tue May 23 13:53:47 UTC 2023][INFO] [Action] E ItemChanged - -1,40873
+[Tue May 23 13:54:16 UTC 2023][INFO] [Action] E DeleteContent - (r,40891,76759),B
+[Tue May 23 13:54:18 UTC 2023][INFO] [Action] E ItemChanged - -1,40873
+[Tue May 23 13:54:19 UTC 2023][INFO] [Action] E ItemChanged - -1,40893
+[Tue May 23 13:54:52 UTC 2023][INFO] [Action] E DeleteContent - (r,40921,80920),B
+[Tue May 23 13:55:12 UTC 2023][INFO] [Action] E AddTextContainer - (c,2225,2),0,0,0
+[Tue May 23 13:55:17 UTC 2023][INFO] [Action] E InsertSeparator - (c,2226,1)
+[Tue May 23 13:55:19 UTC 2023][INFO] [Action] U InsertSeparator
+[Tue May 23 13:55:19 UTC 2023][INFO] [Action] U AddTextContainer
+[Tue May 23 13:55:26 UTC 2023][INFO] [Action] E ApplySemantics - (r,1736,1736),block_quote
+[Tue May 23 13:55:29 UTC 2023][INFO] [Action] E ApplySemantics - (r,1736,1736),poem
+[Tue May 23 13:55:32 UTC 2023][INFO] [Action] E ApplySemantics - (r,1736,1736),block_quote
+[Tue May 23 13:55:36 UTC 2023][INFO] [Action] E ApplySemantics - (r,1736,1736),block_quote
+[Tue May 23 13:55:36 UTC 2023][INFO] [Action] EFail ApplySemantics - 4
+[Tue May 23 13:55:36 UTC 2023][INFO] [Action] E ApplySemantics - (r,1736,1736),block_quote
+[Tue May 23 13:55:36 UTC 2023][INFO] [Action] EFail ApplySemantics - 4
+[Tue May 23 13:55:39 UTC 2023][INFO] [Action] EE ClearFormatting - (c,1736,2)
+[Tue May 23 13:55:42 UTC 2023][INFO] [Action] U ClearFormatting
+[Tue May 23 13:55:42 UTC 2023][INFO] [Action] U ApplySemantics
+[Tue May 23 13:55:43 UTC 2023][INFO] [Action] U ApplySemantics
+[Tue May 23 13:55:43 UTC 2023][INFO] [Action] U ApplySemantics
+[Tue May 23 13:56:06 UTC 2023][INFO] [Action] E InsertSeparator - (r,7534,7536)
+[Tue May 23 13:56:12 UTC 2023][INFO] [Action] U InsertSeparator
+[Tue May 23 13:56:13 UTC 2023][INFO] [Action] U DeleteContent
+[Tue May 23 13:56:13 UTC 2023][INFO] [Action] U DeleteContent
+[Tue May 23 13:56:13 UTC 2023][INFO] [Action] U DeleteContent
+[Tue May 23 13:56:17 UTC 2023][INFO] [Action] R DeleteContent
+[Tue May 23 13:56:17 UTC 2023][INFO] [Action] R DeleteContent
+[Tue May 23 13:56:17 UTC 2023][INFO] [Action] R DeleteContent
+[Tue May 23 13:56:18 UTC 2023][INFO] [Action] E ItemChanged - -1,2227
+[Tue May 23 13:56:20 UTC 2023][INFO] [Action] E ItemChanged - -1,40847
+[Tue May 23 13:56:21 UTC 2023][INFO] [Action] E ItemChanged - -1,2227
+[Tue May 23 13:56:35 UTC 2023][INFO] [Action] E DeleteContent - (r,2251,12136),B
+[Tue May 23 13:56:40 UTC 2023][INFO] [Action] E DeleteContent - (c,2777,2),B
+[Tue May 23 13:56:52 UTC 2023][INFO] [Action] E DeleteContent - (r,2251,13690),B
+[Tue May 23 13:57:08 UTC 2023][INFO] [Action] E DeleteContent - (r,2251,19517),B
+[Tue May 23 13:57:16 UTC 2023][INFO] [Action] E MergeContainer - 2251,1
+[Tue May 23 13:57:18 UTC 2023][INFO] [Action] E MergeContainer - 2276,1
+[Tue May 23 13:57:20 UTC 2023][INFO] [Action] E MergeContainer - 2295,1
+[Tue May 23 13:57:21 UTC 2023][INFO] [Action] E MergeContainer - 2324,1
+[Tue May 23 13:57:30 UTC 2023][INFO] [Action] EE MovePage - 3,1,00
+[Tue May 23 13:57:34 UTC 2023][INFO] [Action] E ItemChanged - -1,2126
+[Tue May 23 13:57:34 UTC 2023][INFO] [Action] E ItemChanged - -1,2126
+[Tue May 23 13:57:35 UTC 2023][INFO] [Action] E ItemChanged - -1,213
+[Tue May 23 13:57:35 UTC 2023][INFO] [Action] E ItemChanged - -1,1
+[Tue May 23 13:57:36 UTC 2023][INFO] [Action] E ItemChanged - -1,2126
+[Tue May 23 13:57:37 UTC 2023][INFO] [Action] E ItemChanged - -1,2126
+[Tue May 23 13:57:38 UTC 2023][INFO] [Action] EE MovePage - 0,1,22
+[Tue May 23 13:57:39 UTC 2023][INFO] [Action] E ItemChanged - -1,102
+[Tue May 23 13:57:39 UTC 2023][INFO] [Action] E ItemChanged - -1,314
+[Tue May 23 13:57:42 UTC 2023][INFO] [Action] E ItemChanged - -1,518315
+[Tue May 23 13:58:01 UTC 2023][INFO] [Action] E ItemChanged - -1,2227
+[Tue May 23 13:58:02 UTC 2023][INFO] [Action] E ItemChanged - -1,2252
+[Tue May 23 13:58:03 UTC 2023][INFO] [Action] E ItemChanged - -1,2277
+[Tue May 23 13:58:03 UTC 2023][INFO] [Action] E ItemChanged - -1,2296
+[Tue May 23 13:58:04 UTC 2023][INFO] [Action] E ItemChanged - -1,2325
+[Tue May 23 13:59:21 UTC 2023][INFO] [Action] E SaveBook - Save
+[Tue May 23 13:59:23 UTC 2023][INFO] [Action] E SaveBook - Save
+[Tue May 23 13:59:23 UTC 2023][INFO] Logger Terminated
+[Tue May 23 14:01:42 UTC 2023][INFO] [Action] EE OpenBook - horizon_KC.kcb
+[Tue May 23 14:01:44 UTC 2023][INFO] [Action] E ItemChanged - -1,2227
+[Tue May 23 14:02:12 UTC 2023][INFO] [Action] E AddTextContainer - (c,2250,2),0,0,0
+[Tue May 23 14:02:13 UTC 2023][INFO] [Action] E Paste - (c,2251,1),39436
+[Tue May 23 14:02:16 UTC 2023][INFO] [Action] E DeleteContent - (c,40685,2),B
+[Tue May 23 14:02:17 UTC 2023][INFO] [Action] U DeleteContent
+[Tue May 23 14:02:17 UTC 2023][INFO] [Action] U Paste
+[Tue May 23 14:02:17 UTC 2023][INFO] [Action] U AddTextContainer
+[Tue May 23 14:02:23 UTC 2023][INFO] Logger Terminated
+[Tue May 23 14:05:37 UTC 2023][INFO] [Action] EE OpenBook - horizon_KC.kcb
+[Tue May 23 14:05:40 UTC 2023][INFO] [Action] E ItemChanged - -1,2227
+[Tue May 23 14:05:40 UTC 2023][INFO] [Action] E ItemChanged - -1,2252
+[Tue May 23 14:05:41 UTC 2023][INFO] [Action] E ItemChanged - -1,40604
+[Tue May 23 14:05:53 UTC 2023][INFO] [Action] E ItemChanged - -1,2227
+[Tue May 23 14:06:04 UTC 2023][INFO] [Action] E ItemChanged - -1,1
+[Tue May 23 14:06:07 UTC 2023][INFO] [Action] E ItemChanged - -1,2227
+[Tue May 23 14:06:08 UTC 2023][INFO] [Action] E ItemChanged - -1,2252
+[Tue May 23 14:06:09 UTC 2023][INFO] [Action] E ItemChanged - -1,2296
+[Tue May 23 14:06:10 UTC 2023][INFO] [Action] E ItemChanged - -1,2277
+[Tue May 23 14:06:10 UTC 2023][INFO] [Action] E ItemChanged - -1,2296
+[Tue May 23 14:06:11 UTC 2023][INFO] [Action] E ItemChanged - -1,2325
+[Tue May 23 14:06:12 UTC 2023][INFO] [Action] E ItemChanged - -1,40604
+[Tue May 23 14:06:12 UTC 2023][INFO] [Action] E ItemChanged - -1,120577
+[Tue May 23 14:06:13 UTC 2023][INFO] [Action] E ItemChanged - -1,478944
+[Tue May 23 14:06:14 UTC 2023][INFO] [Action] E ItemChanged - -1,513608
+[Tue May 23 14:06:16 UTC 2023][INFO] [Action] E ItemChanged - -1,518315
+[Tue May 23 14:06:19 UTC 2023][INFO] [Action] E ItemChanged - -1,2227
+[Tue May 23 14:06:20 UTC 2023][INFO] [Action] E ItemChanged - -1,2252
+[Tue May 23 14:06:20 UTC 2023][INFO] [Action] E ItemChanged - -1,2277
+[Tue May 23 14:06:21 UTC 2023][INFO] [Action] E ItemChanged - -1,2325
+[Tue May 23 14:06:24 UTC 2023][INFO] Logger Terminated
+[Tue May 23 14:27:07 UTC 2023][INFO] [Action] EE OpenBook - horizon_KC.kcb
+[Tue May 23 14:27:14 UTC 2023][INFO] [Action] E ItemChanged - -1,1
+[Tue May 23 14:27:15 UTC 2023][INFO] [Action] E ItemChanged - -1,102
+[Tue May 23 14:27:20 UTC 2023][INFO] [Action] E ItemChanged - -1,314
+[Tue May 23 14:27:27 UTC 2023][INFO] [Action] E ItemChanged - -1,513608
+[Tue May 23 14:27:29 UTC 2023][INFO] [Action] E ItemChanged - -1,518315
+[Tue May 23 14:27:33 UTC 2023][INFO] [Action] E Copy - (r,518315,518580)
+[Tue May 23 14:27:49 UTC 2023][INFO] Logger Terminated
