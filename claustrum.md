@@ -1,7 +1,7 @@
 # Angela's Claustrum
 ### by Salvatore
 
-![lorenz]([https://github.com/kranzky/insoluble/blob/master/lorenz.png](https://raw.githubusercontent.com/kranzky/insoluble/7c3c54915ef336f7071ceae96911bb9813316dcd/lorenz.png))
+![lorenz](https://raw.githubusercontent.com/kranzky/insoluble/7c3c54915ef336f7071ceae96911bb9813316dcd/lorenz.png)
 
 ## Chapter 1: The White Palace
 
